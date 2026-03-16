@@ -5,6 +5,10 @@ link: [https://diamondsword008.github.io/tb-epithets/](https://diamondsword008.g
 To-do list
 - make it look pretty
     - color code dirt and turf races
+    - color code races based on grade?
+    - new fonts
+- add dirt to names of dirt races
+- sort list of races by grade
 
 maybe at some point but probably not needed for purpose of the tool
 - make it look like the in-game agenda creator

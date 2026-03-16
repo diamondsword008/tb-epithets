@@ -70,7 +70,6 @@
             <button type="button" onclick="downloadAgenda()">Download Agenda</button>
             <button type="button" onclick="importAgenda()">Import Agenda</button>
             <button type="button" onclick="resetSelections()">Reset Current Agenda</button>
-            <!-- <input type="file" accept=".json"> -->
         </div>
         <!-- generated from python script -->
         <h1>
@@ -2005,16 +2004,6 @@
                 document.getElementById("dirt_g1").innerHTML = `Dirt G1s: ${dirt_g1}`
 
                 // update total stats
-                // let all_epithets = document.getElementById("epithets");
-                // let lines = all_epithets.innerText.split("\n");
-                
-                // // console.log("lines: " + lines);
-                // lines.forEach(line => {
-                //     // console.log("line: " + line);
-                //     // console.log("line.match: " + line.match(/\(\+(\d+)\)/));
-                //     stats_gained += Number(line.match(/\(\+(\d+)\)/)?.[1] || 0);
-                // });
-                // // console.log("stats_gained: " + stats_gained)
                 document.getElementById("total_stats").innerHTML = "Total stats gained: +" + stats_gained + "<br>";
             }
 
@@ -2091,8 +2080,9 @@
 
             function resetSelections() {
                 if(confirm("Are you sure you want to reset your entire agenda? This cannot be undone.")) {
-                    localStorage.removeItem("tb_agenda");
-                    location.reload();
+                    localStorage.setItem("tb_agenda", JSON.stringify(["none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none","none"]))
+                    loadSelections();
+                    checkEpithets();
                 }
             }
 
@@ -2100,7 +2090,6 @@
                 const input = document.createElement("input");
                 input.type = "file";
                 input.accept = ".json";
-
                 input.addEventListener("change", function() {
                     const file = input.files[0];
 
@@ -2118,8 +2107,9 @@
                             }
 
                             localStorage.setItem("tb_agenda", JSON.stringify(parsed));
-                            loadSelections()
-                            alert("Import successful.")
+                            loadSelections();
+                            checkEpithets();
+                            alert("Import successful.");
                         } catch(e) {
                             alert("Invalid JSON file. Please upload a valid file.")
                         }
