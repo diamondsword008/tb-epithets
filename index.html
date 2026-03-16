@@ -1774,21 +1774,21 @@
                 } else {document.getElementById("sprint_speedster").innerHTML = "";}
 
                 // spring/autumn route
-                spring = ["Osaka Hai", "Tenno Sho (Spring)", "Takarazuka Kinen"].every(element => all_races_list.includes(element))
-                fall = ["Tenno Sho (Autumn)", "Japan Cup", "Arima Kinen"].every(element => cl_races_list.includes(element))
+                spring = ["Osaka Hai", "Tenno Sho (Spring)", "Takarazuka Kinen"].every(element => all_races_list.includes(element));
+                fall = ["Tenno Sho (Autumn)", "Japan Cup", "Arima Kinen"].every(element => all_races_list.includes(element));
                 if (spring) {
                     document.getElementById("spring_champion").innerHTML = "Spring Champion (+20)<div class=\"indent\">Win the Osaka Hai, Tenno Sho (Spring), and Takarazuka Kinen.</div>";
-                    stats_gained += 30;
+                    stats_gained += 20;
                 } else {document.getElementById("spring_champion").innerHTML = "";}
 
                 if (fall) {
                     document.getElementById("fall_champion").innerHTML = "Fall Champion (+20)<div class=\"indent\">Win the Tenno Sho (Autumn), Japan Cup, and Arima Kinen.</div>";
-                    stats_gained += 30;
+                    stats_gained += 20;
                 } else {document.getElementById("fall_champion").innerHTML = "";}
 
                 if (["Tenno Sho (Spring)", "Tenno Sho (Autumn)"].every(item => all_races_list.includes(item))) {
                     document.getElementById("shield_bearer").innerHTML = "Shield Bearer (+20)<div class=\"indent\">Win the Tenno Sho (Spring) and Tenno Sho (Fall).</div>";
-                    stats_gained += 30;
+                    stats_gained += 20;
                 } else {document.getElementById("shield_bearer").innerHTML = "";}
 
                 if ((lady || stunning) && spring && fall) {
