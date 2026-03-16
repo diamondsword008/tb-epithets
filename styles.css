@@ -1,0 +1,41 @@
+body { 
+    padding-left: 1em;
+}
+.bold {
+    font-weight: bold;
+}
+aside {
+    float: right;
+    margin: 0.5em;
+    padding-right: 1em;
+    font-size: 24;
+    text-align: left;
+    width: 25%;
+}
+h3 {
+    margin-top: 0em;
+}
+.selector {
+    margin: 0.5em;
+    font-size: 12;
+}
+aside p {
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+#epithets {
+    white-space-collapse: collapse;
+}
+.racelist {
+    padding: 0px;
+}
+.contributing_races {
+    margin-left: 0.5em;
+}
+.indent {
+    margin-left: 0.5em;
+    margin-bottom: 0.5em;
+}
+.indent ul {
+    margin: 0em;
+}
