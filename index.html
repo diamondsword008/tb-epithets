@@ -1984,7 +1984,7 @@
                     document.getElementById("junior_jewel").innerHTML = "Junior Jewel (+10)<br>" + race_list;}
                 if (junior >= 3) {stats_gained += 10; document.getElementById("junior_jewel").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races with "Umamusume Stakes" in the name. (${junior}/3)<br><details><summary>Contributing Races:</summary><ul>`;
+                {let race_list = `<div class="indent">Win 3 Races with "Umamusume Stakes" in the name. (${uma}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     uma_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
@@ -1992,7 +1992,7 @@
                     document.getElementById("umatastic").innerHTML = "Umatastic (+10)<br>" + race_list;}
                 if (uma >= 3) {stats_gained += 10; document.getElementById("umatastic").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races that have a country in the name. (${junior}/3)<br><details><summary>Contributing Races:</summary><ul>`;
+                {let race_list = `<div class="indent">Win 3 Races that have a country in the name. (${globetrotter}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     globetrotter_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });

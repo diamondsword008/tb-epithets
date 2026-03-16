@@ -25,6 +25,7 @@ Changelog:
 - added "upload agenda" button
 - added "reset agenda" button
 - fixed duplicate ids across divs
+- fixed various display bugs
 
 3/15:
 - version 1 of the site is finished and uploaded to github pages. technically done on 3/16 at 3:30 am but I'm not counting that.
