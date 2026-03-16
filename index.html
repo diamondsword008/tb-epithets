@@ -9,7 +9,7 @@
     </head>
     <body>
         <aside>
-            <!-- <button type="button" onclick="checkEpithets()">test stuff</button> -->
+            <button type="button" onclick="resetSelections()">button that tests stuff</button>
             <h3>Epithets</h3>
             <p><span id="total_stats">Total stats gained: +0</span></p>
             <div id="epithets">
@@ -66,11 +66,17 @@
             <p>Senior Year</p>
             <div class="racelist" id="senior_races"></div>
         </aside>
+        <div class="buttons">
+            <button type="button" onclick="downloadAgenda()">Download Agenda</button>
+            <button type="button" onclick="importAgenda()">Import Agenda</button>
+            <button type="button" onclick="resetSelections()">Reset Current Agenda</button>
+            <!-- <input type="file" accept=".json"> -->
+        </div>
         <!-- generated from python script -->
         <h1>
             Junior C.
         </h1>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Late Jul
             <select>
                 <option value="none">
@@ -84,7 +90,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Early Aug
             <select>
                 <option value="none">
@@ -101,7 +107,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Late Aug
             <select>
                 <option value="none">
@@ -115,7 +121,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Early Sep
             <select>
                 <option value="none">
@@ -138,7 +144,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Late Sep
             <select>
                 <option value="none">
@@ -158,7 +164,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Early Oct
             <select>
                 <option value="none">
@@ -181,7 +187,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Late Oct
             <select>
                 <option value="none">
@@ -201,7 +207,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Early Nov
             <select>
                 <option value="none">
@@ -233,7 +239,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Late Nov
             <select>
                 <option value="none">
@@ -271,7 +277,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Early Dec
             <select>
                 <option value="none">
@@ -306,7 +312,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="junior">
+        <div class="selector junior">
             Late Dec
             <select>
                 <option value="none">
@@ -349,7 +355,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Jan
             <select>
                 <option value="none">
@@ -363,7 +369,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Feb
             <select>
                 <option value="none">
@@ -383,7 +389,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Feb
             <select>
                 <option value="none">
@@ -400,7 +406,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Mar
             <select>
                 <option value="none">
@@ -423,7 +429,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Mar
             <select>
                 <option value="none">
@@ -446,7 +452,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Apr
             <select>
                 <option value="none">
@@ -472,7 +478,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Apr
             <select>
                 <option value="none">
@@ -495,7 +501,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early May
             <select>
                 <option value="none">
@@ -515,7 +521,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late May
             <select>
                 <option value="none">
@@ -538,7 +544,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Jun
             <select>
                 <option value="none">
@@ -564,7 +570,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Jun
             <select>
                 <option value="none">
@@ -596,7 +602,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Jul
             <select>
                 <option value="none">
@@ -631,7 +637,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Jul
             <select>
                 <option value="none">
@@ -651,7 +657,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Aug
             <select>
                 <option value="none">
@@ -683,7 +689,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Aug
             <select>
                 <option value="none">
@@ -712,7 +718,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Sep
             <select>
                 <option value="none">
@@ -744,7 +750,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Sep
             <select>
                 <option value="none">
@@ -773,7 +779,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Oct
             <select>
                 <option value="none">
@@ -805,7 +811,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Oct
             <select>
                 <option value="none">
@@ -840,7 +846,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Nov
             <select>
                 <option value="none">
@@ -875,7 +881,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Nov
             <select>
                 <option value="none">
@@ -907,7 +913,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Early Dec
             <select>
                 <option value="none">
@@ -948,7 +954,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="classic">
+        <div class="selector classic">
             Late Dec
             <select>
                 <option value="none">
@@ -1012,7 +1018,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Jan
             <select>
                 <option value="none">
@@ -1038,7 +1044,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Feb
             <select>
                 <option value="none">
@@ -1064,7 +1070,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Feb
             <select>
                 <option value="none">
@@ -1096,7 +1102,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Mar
             <select>
                 <option value="none">
@@ -1125,7 +1131,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Mar
             <select>
                 <option value="none">
@@ -1154,7 +1160,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Apr
             <select>
                 <option value="none">
@@ -1186,7 +1192,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Apr
             <select>
                 <option value="none">
@@ -1209,7 +1215,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early May
             <select>
                 <option value="none">
@@ -1244,7 +1250,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late May
             <select>
                 <option value="none">
@@ -1270,7 +1276,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Jun
             <select>
                 <option value="none">
@@ -1296,7 +1302,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Jun
             <select>
                 <option value="none">
@@ -1328,7 +1334,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Jul
             <select>
                 <option value="none">
@@ -1357,7 +1363,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Jul
             <select>
                 <option value="none">
@@ -1377,7 +1383,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Aug
             <select>
                 <option value="none">
@@ -1406,7 +1412,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Aug
             <select>
                 <option value="none">
@@ -1435,7 +1441,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Sep
             <select>
                 <option value="none">
@@ -1461,7 +1467,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Sep
             <select>
                 <option value="none">
@@ -1484,7 +1490,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Oct
             <select>
                 <option value="none">
@@ -1516,7 +1522,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Oct
             <select>
                 <option value="none">
@@ -1545,7 +1551,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Nov
             <select>
                 <option value="none">
@@ -1580,7 +1586,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Nov
             <select>
                 <option value="none">
@@ -1612,7 +1618,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Early Dec
             <select>
                 <option value="none">
@@ -1653,7 +1659,7 @@
                 </option>
             </select>
         </div>
-        <div class="selector" id="senior">
+        <div class="selector senior">
             Late Dec
             <select>
                 <option value="none">
@@ -1847,7 +1853,7 @@
                 } else {document.getElementById("kicking_up_dust").innerHTML = "";}
 
                 // secondary routes
-                let op_better = 0; // not adding a list to ts. look at the race list
+                let op_better = 0; // not adding a list to ts. if you're running pre-op races then I can't help you
                 let std_dst = 0; // p much every race in the game is standard distance I am not adding a list to ts
                 let non_std_dst = 0;
                 let non_std_dst_list = [];
@@ -1923,75 +1929,75 @@
                 document.getElementById("std_dst").innerHTML = `Standard Distance Leader (+20)<br><div class="indent">Win 10 Standard Distance Races. (${std_dst}/10)</div>`;
                 if (std_dst >= 10) {stats_gained += 20; document.getElementById("std_dst").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 10 Non-standard Distance Races. (${non_std_dst}/10)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 10 Non-standard Distance Races. (${non_std_dst}/10)<br><details><summary>Contributing Races:</summary><ul>`;
                     non_std_dst_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("non_std_dst").innerHTML = "Non-Standard Distance Leader (+20)<br>" + race_list;}
                 if (non_std_dst >= 10) {stats_gained += 20; document.getElementById("non_std_dst").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races at Tokyo, Nakayama, or Ooi. (${kanto}/3)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 3 Races at Tokyo, Nakayama, or Ooi. (${kanto}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     kanto_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("kanto").innerHTML = "Kanto Conquerer (+10)" + race_list;}
                 if (kanto >= 3) {stats_gained += 10; document.getElementById("kanto").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races at Chukyo, Hanshin, or Kyoto. (${kansai}/3)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 3 Races at Chukyo, Hanshin, or Kyoto. (${kansai}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     kansai_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("kansai").innerHTML = "West Japan Whiz (+10)<br>" + race_list;}
                 if (kansai >= 3) {stats_gained += 10; document.getElementById("kansai").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races at Sapporo or Hakodate. (${hokkaido}/3)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 3 Races at Sapporo or Hakodate. (${hokkaido}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     hokkaido_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("hokkaido").innerHTML = "Hokkaido Hotshot (+10)<br>" + race_list;}
                 if (hokkaido >= 3) {stats_gained += 10; document.getElementById("hokkaido").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races at Fukushima or Niigata. (${tohoku}/3)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 3 Races at Fukushima or Niigata. (${tohoku}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     tohoku_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("tohoku").innerHTML = "Tohoku Top Dog (+10)<br>" + race_list;}
                 if (tohoku >= 3) {stats_gained += 10; document.getElementById("tohoku").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 2 Races at Kokura. (${kokura}/2)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 2 Races at Kokura. (${kokura}/2)<br><details><summary>Contributing Races:</summary><ul>`;
                     kokura_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("kokura").innerHTML = "Kokura Constable (+10)<br>" + race_list;}
                 if (kokura >= 2) {stats_gained += 10; document.getElementById("kokura").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races with "Junior Stakes" in the name. (${junior}/3)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 3 Races with "Junior Stakes" in the name. (${junior}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     junior_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("junior_jewel").innerHTML = "Junior Jewel (+10)<br>" + race_list;}
                 if (junior >= 3) {stats_gained += 10; document.getElementById("junior_jewel").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races with "Umamusume Stakes" in the name. (${junior}/3)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 3 Races with "Umamusume Stakes" in the name. (${junior}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     uma_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("umatastic").innerHTML = "Umatastic (+10)<br>" + race_list;}
                 if (uma >= 3) {stats_gained += 10; document.getElementById("umatastic").classList.add("bold");}
 
-                {let race_list = `<div class="indent">Win 3 Races that have a country in the name. (${junior}/3)<br>Contributing Races:<ul>`;
+                {let race_list = `<div class="indent">Win 3 Races that have a country in the name. (${junior}/3)<br><details><summary>Contributing Races:</summary><ul>`;
                     globetrotter_list.forEach(item => {
                         race_list += `<li>${item}</li>`
                     });
-                    race_list += "</ul></div>";
+                    race_list += "</ul></details></div>";
                     document.getElementById("globe-trotter").innerHTML = "Globe-Trotter (+10)<br>" + race_list;}
                 if (globetrotter >= 3) {stats_gained += 10; document.getElementById("globe-trotter").classList.add("bold");}
 
@@ -2013,9 +2019,9 @@
             }
 
             // Function to update races for a given year
-            function updateRaces(yearId) {
-                const selectors = document.querySelectorAll(`.selector#${yearId}`);
-                const targetDiv = document.getElementById(`${yearId}_races`);
+            function updateRaces(yearClass) {
+                const selectors = document.querySelectorAll(`.selector.${yearClass}`);
+                const targetDiv = document.getElementById(`${yearClass}_races`);
 
                 // Collect all selected values that aren't "none"
                 const selectedTexts = [];
@@ -2034,16 +2040,104 @@
             const allSelects = document.querySelectorAll(".selector select");
             allSelects.forEach(select => {
                 select.addEventListener("change", () => {
-                    const parentId = select.closest(".selector").id;
-                    updateRaces(parentId);
+                    updateRaces("junior");
+                    updateRaces("classic");
+                    updateRaces("senior");
                     checkEpithets();
+                    saveSelections();
                 });
             });
 
+            // Function to save all selections to localStorage
+            function saveSelections() {
+                const allSelects = document.querySelectorAll(".selector select");
+                const selections = Array.from(allSelects).map(select => select.value);
+                localStorage.setItem("tb_agenda", JSON.stringify(selections));
+            }
+
+            // Function to load all selections from localStorage
+            function loadSelections() {
+                const saved = localStorage.getItem("tb_agenda");
+                if (saved) {
+                    const selections = JSON.parse(saved);
+                    const allSelects = document.querySelectorAll(".selector select");
+                    allSelects.forEach((select, index) => {
+                        if (selections[index]) {
+                            select.value = selections[index];
+                        }
+                    });
+                    
+                    // Update the UI for all years
+                    updateRaces("junior");
+                    updateRaces("classic");
+                    updateRaces("senior");
+                }
+            }
+
+            function downloadAgenda() {
+                saveSelections()
+                const agenda_selections = localStorage.getItem("tb_agenda");
+                
+                const blob = new Blob([agenda_selections], { type: "application/json" });
+                const url = URL.createObjectURL(blob);
+
+                const a = document.createElement("a");
+                a.href = url;
+                a.download = "agenda.json";
+                a.click();
+
+                URL.revokeObjectURL(url);
+            }
+
+            function resetSelections() {
+                if(confirm("Are you sure you want to reset your entire agenda? This cannot be undone.")) {
+                    localStorage.removeItem("tb_agenda");
+                    location.reload();
+                }
+            }
+
+            function importAgenda() {
+                const input = document.createElement("input");
+                input.type = "file";
+                input.accept = ".json";
+
+                input.addEventListener("change", function() {
+                    const file = input.files[0];
+
+                    if (!file) return;
+
+                    const reader = new FileReader();
+                    reader.readAsText(file);
+                    reader.onload = function() {
+                        try {
+                            const parsed = JSON.parse(reader.result);
+
+                            if (!Array.isArray(parsed) || parsed.length === 58) {
+                                alert("Invalid JSON file. Please upload a valid file.");
+                                return;
+                            }
+
+                            localStorage.setItem("tb_agenda", JSON.stringify(parsed));
+                            loadSelections()
+                            alert("Import successful.")
+                        } catch(e) {
+                            alert("Invalid JSON file. Please upload a valid file.")
+                        }
+                    };
+                });
+
+                input.click();
+            }
+
             let data;
 
+            loadSelections()
+
             fetch("race_list.csv")
-                .then(res => res.text())
+                .then(res => {
+                    if (!res.ok) throw new Error("Could not load race_list.csv");
+                    return res.text();
+                })
                 .then(csv => {
                     const lines = csv.trim().split("\n");
                     const headers = lines[0].split(",");
@@ -2058,10 +2152,14 @@
 
                         return obj;
                     });
-                    checkEpithets()
-                    // console.log(data)
-                    // const result = data.find(row => row.name === "Takarazuka Kinen" && row.year === "Senior C.");
-                    // console.log(result.grade);
+                    
+                    checkEpithets();
+                })
+                .catch(err => {
+                    console.warn(err.message);
+                    // Ensure checkEpithets can still run (though dirt/distance checks will be limited)
+                    if (!data) data = [];
+                    checkEpithets();
                 });
         </script>
     </body>

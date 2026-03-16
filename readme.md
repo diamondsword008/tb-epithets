@@ -1,19 +1,24 @@
 Website for tracking epithets gained in the Trackblazer scenario of Umamusume.
 
-To-do list
-rn:
-- make list of contributing races collapsable
+link: [https://diamondsword008.github.io/tb-epithets/](https://diamondsword008.github.io/tb-epithets/)
 
-for the future:
-- save agenda across sessions
-- export agenda
+To-do list
 - make it look pretty
     - color code dirt and turf races
 
-maybe at some point but probably not needed for use of the tool
-- import agenda
+maybe at some point but probably not needed for purpose of the tool
 - make it look like the in-game agenda creator
 - multiple agendas saved in browser
 
 changelog:
-3/15 - version 1 of the site is finished and uploaded to github pages. technically done on 3/16 at 3:00 am but I'm not counting that.
+3/16:
+- updated readme.md to include link to site
+- added .gitignore
+- made contributing races section collapsable
+- made selections save across reloads
+- added "download agenda" button
+- added "upload agenda" button
+- added "reset agenda" button
+- fixed duplicate ids across divs
+3/15:
+- version 1 of the site is finished and uploaded to github pages. technically done on 3/16 at 3:30 am but I'm not counting that.

@@ -12,6 +12,9 @@ aside {
     text-align: left;
     width: 25%;
 }
+.buttons {
+    padding-top: 1em;
+}
 h3 {
     margin-top: 0em;
 }
