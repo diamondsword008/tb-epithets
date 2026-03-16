@@ -9,6 +9,7 @@ To-do list
     - new fonts
 - add dirt to names of dirt races
 - sort list of races by grade
+- add information about whole agenda (no of g3,2,1, etc)
 
 maybe at some point but probably not needed for purpose of the tool
 - make it look like the in-game agenda creator
