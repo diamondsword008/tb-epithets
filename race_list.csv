@@ -1,386 +1,377 @@
-name,year,turn,surface,location,distance,distance_m,ignore,grade
-Junior Make Debut,Junior C.,Late Jun,Varies,Varies,Varies,Varies,Details,Debut
-Junior Maiden Race,Junior C.,Early Jul,Varies,Varies,Varies,Varies,Details,Maiden
-Chukyo Junior Stakes,Junior C.,Late Jul,Turf,Chukyo,Mile,1600 m,Details,OP
-Hakodate Junior Stakes,Junior C.,Late Jul,Turf,Hakodate,Short,1200 m,Details,G3
-Cosmos Sho,Junior C.,Early Aug,Turf,Sapporo,Mile,1800 m,Details,OP
-Dahlia Sho,Junior C.,Early Aug,Turf,Niigata,Short,1400 m,Details,OP
-Phoenix Sho,Junior C.,Early Aug,Turf,Kokura,Short,1200 m,Details,OP
-Clover Sho,Junior C.,Late Aug,Turf,Sapporo,Mile,1500 m,Details,OP
-Niigata Junior Stakes,Junior C.,Late Aug,Turf,Niigata,Mile,1600 m,Details,G3
-Aster Sho,Junior C.,Early Sep,Turf,Nakayama,Mile,1600 m,Details,Pre-OP
-Kokura Junior Stakes,Junior C.,Early Sep,Turf,Kokura,Short,1200 m,Details,G3
-Nojigiku Stakes,Junior C.,Early Sep,Turf,Hanshin,Mile,1800 m,Details,OP
-Sapporo Junior Stakes,Junior C.,Early Sep,Turf,Sapporo,Mile,1800 m,Details,G3
-Suzuran Sho,Junior C.,Early Sep,Turf,Sapporo,Short,1200 m,Details,OP
-Canna Stakes,Junior C.,Late Sep,Turf,Nakayama,Short,1200 m,Details,OP
-Fuyo Stakes,Junior C.,Late Sep,Turf,Nakayama,Medium,2000 m,Details,OP
-Kikyo Stakes,Junior C.,Late Sep,Turf,Hanshin,Short,1400 m,Details,OP
-Saffron Sho,Junior C.,Late Sep,Turf,Nakayama,Mile,1600 m,Details,Pre-OP
-Momiji Stakes,Junior C.,Early Oct,Turf,Kyoto,Short,1400 m,Details,OP
-Platanus Sho,Junior C.,Early Oct,Dirt,Tokyo,Mile,1600 m,Details,Pre-OP
-Rindo Sho,Junior C.,Early Oct,Turf,Kyoto,Short,1400 m,Details,Pre-OP
-Saudi Arabia Royal Cup,Junior C.,Early Oct,Turf,Tokyo,Mile,1600 m,Details,G3
-Shigiku Sho,Junior C.,Early Oct,Turf,Kyoto,Medium,2000 m,Details,Pre-OP
-Artemis Stakes,Junior C.,Late Oct,Turf,Tokyo,Mile,1600 m,Details,G3
-Hagi Stakes,Junior C.,Late Oct,Turf,Kyoto,Mile,1800 m,Details,OP
-Ivy Stakes,Junior C.,Late Oct,Turf,Tokyo,Mile,1800 m,Details,OP
-Nadeshiko Sho,Junior C.,Late Oct,Dirt,Kyoto,Short,1400 m,Details,Pre-OP
-Daily Hai Junior Stakes,Junior C.,Early Nov,Turf,Kyoto,Mile,1600 m,Details,G2
-Fantasy Stakes,Junior C.,Early Nov,Turf,Kyoto,Short,1400 m,Details,G3
-Fukushima Junior Stakes,Junior C.,Early Nov,Turf,Fukushima,Short,1200 m,Details,OP
-Hyakunichiso Tokubetsu,Junior C.,Early Nov,Turf,Tokyo,Medium,2000 m,Details,Pre-OP
-Keio Hai Junior Stakes,Junior C.,Early Nov,Turf,Tokyo,Short,1400 m,Details,G2
-Kigiku Sho,Junior C.,Early Nov,Turf,Kyoto,Medium,2000 m,Details,Pre-OP
-Kimmokusei Tokubetsu,Junior C.,Early Nov,Turf,Fukushima,Mile,1800 m,Details,Pre-OP
-Oxalis Sho,Junior C.,Early Nov,Dirt,Tokyo,Short,1400 m,Details,Pre-OP
-Akamatsu Sho,Junior C.,Late Nov,Turf,Tokyo,Mile,1600 m,Details,Pre-OP
-Begonia Sho,Junior C.,Late Nov,Turf,Tokyo,Mile,1600 m,Details,Pre-OP
-Cattleya Sho,Junior C.,Late Nov,Dirt,Tokyo,Mile,1600 m,Details,Pre-OP
-Habotan Sho,Junior C.,Late Nov,Turf,Nakayama,Medium,2000 m,Details,Pre-OP
-Koyamaki Sho,Junior C.,Late Nov,Turf,Chukyo,Mile,1600 m,Details,Pre-OP
-Kyoto Junior Stakes,Junior C.,Late Nov,Turf,Kyoto,Medium,2000 m,Details,G3
-Mochinoki Sho,Junior C.,Late Nov,Dirt,Kyoto,Mile,1800 m,Details,Pre-OP
-Shiragiku Sho,Junior C.,Late Nov,Turf,Kyoto,Mile,1600 m,Details,Pre-OP
-Shumeigiku Sho,Junior C.,Late Nov,Turf,Kyoto,Short,1400 m,Details,Pre-OP
-Tokyo Sports Hai Junior Stakes,Junior C.,Late Nov,Turf,Tokyo,Mile,1800 m,Details,G3
-Asahi Hai Futurity Stakes,Junior C.,Early Dec,Turf,Hanshin,Mile,1600 m,Details,G1
-Erica Sho,Junior C.,Early Dec,Turf,Hanshin,Medium,2000 m,Details,Pre-OP
-Hanshin Juvenile Fillies,Junior C.,Early Dec,Turf,Hanshin,Mile,1600 m,Details,G1
-Hiiragi Sho,Junior C.,Early Dec,Turf,Nakayama,Mile,1600 m,Details,Pre-OP
-Kantsubaki Sho,Junior C.,Early Dec,Dirt,Chukyo,Short,1400 m,Details,Pre-OP
-Kuromatsu Sho,Junior C.,Early Dec,Turf,Nakayama,Short,1200 m,Details,Pre-OP
-Manryo Sho,Junior C.,Early Dec,Turf,Hanshin,Short,1400 m,Details,Pre-OP
-Sazanka Sho,Junior C.,Early Dec,Turf,Hanshin,Short,1200 m,Details,Pre-OP
-Tsuwabuki Sho,Junior C.,Early Dec,Turf,Chukyo,Short,1400 m,Details,Pre-OP
-Christmas Rose Stakes,Junior C.,Late Dec,Turf,Nakayama,Short,1200 m,Details,OP
-Hopeful Stakes,Junior C.,Late Dec,Turf,Nakayama,Medium,2000 m,Details,G1
-Senryo Sho,Junior C.,Late Dec,Turf,Hanshin,Mile,1600 m,Details,Pre-OP
-Fairy Stakes,Classic C.,Early Jan,Turf,Nakayama,Mile,1600 m,Details,G3
-Junior Cup,Classic C.,Early Jan,Turf,Nakayama,Mile,1600 m,Details,OP
-Keisei Hai,Classic C.,Early Jan,Turf,Nakayama,Medium,2000 m,Details,G3
-Kobai Stakes,Classic C.,Early Jan,Turf,Kyoto,Short,1400 m,Details,OP
-Shinzan Kinen,Classic C.,Early Jan,Turf,Kyoto,Mile,1600 m,Details,G3
-Crocus Stakes,Classic C.,Late Jan,Turf,Tokyo,Short,1400 m,Details,OP
-Wakagoma Stakes,Classic C.,Late Jan,Turf,Kyoto,Medium,2000 m,Details,OP
-Elfin Stakes,Classic C.,Early Feb,Turf,Kyoto,Mile,1600 m,Details,OP
-Kisaragi Sho,Classic C.,Early Feb,Turf,Kyoto,Mile,1800 m,Details,G3
-Kyodo News Hai,Classic C.,Early Feb,Turf,Tokyo,Mile,1800 m,Details,G3
-Queen Cup,Classic C.,Early Feb,Turf,Tokyo,Mile,1600 m,Details,G3
-Hyacinth Stakes,Classic C.,Late Feb,Dirt,Tokyo,Mile,1600 m,Details,OP
-Marguerite Stakes,Classic C.,Late Feb,Turf,Hanshin,Short,1200 m,Details,OP
-Sumire Stakes,Classic C.,Late Feb,Turf,Hanshin,Medium,2200 m,Details,OP
-Anemone Stakes,Classic C.,Early Mar,Turf,Nakayama,Mile,1600 m,Details,OP
-Fillies' Revue,Classic C.,Early Mar,Turf,Hanshin,Short,1400 m,Details,G2
-Shoryu Stakes,Classic C.,Early Mar,Dirt,Chukyo,Short,1400 m,Details,OP
-Tulip Sho,Classic C.,Early Mar,Turf,Hanshin,Mile,1600 m,Details,G2
-Yayoi Sho,Classic C.,Early Mar,Turf,Nakayama,Medium,2000 m,Details,G2
-Falcon Stakes,Classic C.,Late Mar,Turf,Chukyo,Short,1400 m,Details,G3
-Flower Cup,Classic C.,Late Mar,Turf,Nakayama,Mile,1800 m,Details,G3
-Mainichi Hai,Classic C.,Late Mar,Turf,Hanshin,Mile,1800 m,Details,G3
-Spring Stakes,Classic C.,Late Mar,Turf,Nakayama,Mile,1800 m,Details,G2
-Wakaba Stakes,Classic C.,Late Mar,Turf,Hanshin,Medium,2000 m,Details,OP
-Arlington Cup,Classic C.,Early Apr,Turf,Hanshin,Mile,1600 m,Details,G3
-Fukuryu Stakes,Classic C.,Early Apr,Dirt,Nakayama,Mile,1800 m,Details,OP
-New Zealand Trophy,Classic C.,Early Apr,Turf,Nakayama,Mile,1600 m,Details,G2
-Oka Sho,Classic C.,Early Apr,Turf,Hanshin,Mile,1600 m,Details,G1
-Satsuki Sho,Classic C.,Early Apr,Turf,Nakayama,Medium,2000 m,Details,G1
-Wasurenagusa Sho,Classic C.,Early Apr,Turf,Hanshin,Medium,2000 m,Details,OP
-Aoba Sho,Classic C.,Late Apr,Turf,Tokyo,Medium,2400 m,Details,G2
-Flora Stakes,Classic C.,Late Apr,Turf,Tokyo,Medium,2000 m,Details,G2
-Sweetpea Stakes,Classic C.,Late Apr,Turf,Tokyo,Mile,1800 m,Details,OP
-Tachibana Stakes,Classic C.,Late Apr,Turf,Kyoto,Short,1400 m,Details,OP
-Tango Stakes,Classic C.,Late Apr,Dirt,Kyoto,Short,1400 m,Details,OP
-Kyoto Shimbun Hai,Classic C.,Early May,Turf,Kyoto,Medium,2200 m,Details,G2
-NHK Mile Cup,Classic C.,Early May,Turf,Tokyo,Mile,1600 m,Details,G1
-Principal Stakes,Classic C.,Early May,Turf,Tokyo,Medium,2000 m,Details,OP
-Seiryu Stakes,Classic C.,Early May,Dirt,Tokyo,Mile,1600 m,Details,OP
-Aoi Stakes,Classic C.,Late May,Turf,Kyoto,Short,1200 m,Details,G3
-Hosu Stakes,Classic C.,Late May,Dirt,Kyoto,Mile,1800 m,Details,OP
-Japanese Oaks,Classic C.,Late May,Turf,Tokyo,Medium,2400 m,Details,G1
-Shirayuri Stakes,Classic C.,Late May,Turf,Kyoto,Mile,1800 m,Details,OP
-Tokyo Yushun (Japanese Derby),Classic C.,Late May,Turf,Tokyo,Medium,2400 m,Details,G1
-Epsom Cup,Classic C.,Early Jun,Turf,Tokyo,Mile,1800 m,Details,G3
-Mermaid Stakes,Classic C.,Early Jun,Turf,Hanshin,Medium,2000 m,Details,G3
-Naruo Kinen,Classic C.,Early Jun,Turf,Hanshin,Medium,2000 m,Details,G3
-Sleipnir Stakes,Classic C.,Early Jun,Dirt,Tokyo,Medium,2100 m,Details,OP
-Tempozan Stakes,Classic C.,Early Jun,Dirt,Hanshin,Short,1400 m,Details,OP
-Yasuda Kinen,Classic C.,Early Jun,Turf,Tokyo,Mile,1600 m,Details,G1
-Akhalteke Stakes,Classic C.,Late Jun,Dirt,Tokyo,Mile,1600 m,Details,OP
-Hakodate Sprint Stakes,Classic C.,Late Jun,Turf,Hakodate,Short,1200 m,Details,G3
-Onuma Stakes,Classic C.,Late Jun,Dirt,Hakodate,Mile,1700 m,Details,OP
-Paradise Stakes,Classic C.,Late Jun,Turf,Tokyo,Short,1400 m,Details,OP
-Sannomiya Stakes,Classic C.,Late Jun,Dirt,Hanshin,Mile,1800 m,Details,OP
-Takarazuka Kinen,Classic C.,Late Jun,Turf,Hanshin,Medium,2200 m,Details,G1
-Unicorn Stakes,Classic C.,Late Jun,Dirt,Tokyo,Mile,1600 m,Details,G3
-Yonago Stakes,Classic C.,Late Jun,Turf,Hanshin,Mile,1600 m,Details,OP
-CBC Sho,Classic C.,Early Jul,Turf,Chukyo,Short,1200 m,Details,G3
-Hakodate Kinen,Classic C.,Early Jul,Turf,Hakodate,Medium,2000 m,Details,G3
-Japan Dirt Derby,Classic C.,Early Jul,Dirt,Ooi,Medium,2000 m,Details,G1
-Marine Stakes,Classic C.,Early Jul,Dirt,Hakodate,Mile,1700 m,Details,OP
-Meitetsu Hai,Classic C.,Early Jul,Dirt,Chukyo,Mile,1800 m,Details,OP
-Procyon Stakes,Classic C.,Early Jul,Dirt,Chukyo,Short,1400 m,Details,G3
-Radio Nikkei Sho,Classic C.,Early Jul,Turf,Fukushima,Mile,1800 m,Details,G3
-Tanabata Sho,Classic C.,Early Jul,Turf,Fukushima,Medium,2000 m,Details,G3
-Tomoe Sho,Classic C.,Early Jul,Turf,Hakodate,Mile,1800 m,Details,OP
-Chukyo Kinen,Classic C.,Late Jul,Turf,Chukyo,Mile,1600 m,Details,G3
-Fukushima TV Open,Classic C.,Late Jul,Turf,Fukushima,Short,1200 m,Details,OP
-Ibis Summer Dash,Classic C.,Late Jul,Turf,Niigata,Short,1000 m,Details,G3
-Queen Stakes,Classic C.,Late Jul,Turf,Sapporo,Mile,1800 m,Details,G3
-Aso Stakes,Classic C.,Early Aug,Dirt,Kokura,Mile,1700 m,Details,OP
-Elm Stakes,Classic C.,Early Aug,Dirt,Sapporo,Mile,1700 m,Details,G3
-Kanetsu Stakes,Classic C.,Early Aug,Turf,Niigata,Mile,1800 m,Details,OP
-Kokura Kinen,Classic C.,Early Aug,Turf,Kokura,Medium,2000 m,Details,G3
-Leopard Stakes,Classic C.,Early Aug,Dirt,Niigata,Mile,1800 m,Details,G3
-Sapporo Nikkei Open,Classic C.,Early Aug,Turf,Sapporo,Long,2600 m,Details,OP
-Sekiya Kinen,Classic C.,Early Aug,Turf,Niigata,Mile,1600 m,Details,G3
-UHB Sho,Classic C.,Early Aug,Turf,Sapporo,Short,1200 m,Details,OP
-BSN Sho,Classic C.,Late Aug,Dirt,Niigata,Mile,1800 m,Details,OP
-Keeneland Cup,Classic C.,Late Aug,Turf,Sapporo,Short,1200 m,Details,G3
-Kitakyushu Kinen,Classic C.,Late Aug,Turf,Kokura,Short,1200 m,Details,G3
-Kokura Nikkei Open,Classic C.,Late Aug,Turf,Kokura,Mile,1800 m,Details,OP
-NST Sho,Classic C.,Late Aug,Dirt,Niigata,Short,1200 m,Details,OP
-Sapporo Kinen,Classic C.,Late Aug,Turf,Sapporo,Medium,2000 m,Details,G2
-Toki Stakes,Classic C.,Late Aug,Turf,Niigata,Short,1400 m,Details,OP
-Centaur Stakes,Classic C.,Early Sep,Turf,Hanshin,Short,1200 m,Details,G2
-Enif Stakes,Classic C.,Early Sep,Dirt,Hanshin,Short,1400 m,Details,OP
-Keisei Hai Autumn Handicap,Classic C.,Early Sep,Turf,Nakayama,Mile,1600 m,Details,G3
-Niigata Kinen,Classic C.,Early Sep,Turf,Niigata,Medium,2000 m,Details,G3
-Radio Nippon Sho,Classic C.,Early Sep,Dirt,Nakayama,Mile,1800 m,Details,OP
-Rose Stakes,Classic C.,Early Sep,Turf,Hanshin,Mile,1800 m,Details,G2
-Shion Stakes,Classic C.,Early Sep,Turf,Nakayama,Medium,2000 m,Details,G3
-Tancho Stakes,Classic C.,Early Sep,Turf,Sapporo,Long,2600 m,Details,OP
-All Comers,Classic C.,Late Sep,Turf,Nakayama,Medium,2200 m,Details,G2
-Kobe Shimbun Hai,Classic C.,Late Sep,Turf,Hanshin,Medium,2400 m,Details,G2
-Nagatsuki Stakes,Classic C.,Late Sep,Dirt,Nakayama,Short,1200 m,Details,OP
-Port Island Stakes,Classic C.,Late Sep,Turf,Hanshin,Mile,1600 m,Details,OP
-Sirius Stakes,Classic C.,Late Sep,Dirt,Hanshin,Medium,2000 m,Details,G3
-Sprinters Stakes,Classic C.,Late Sep,Turf,Nakayama,Short,1200 m,Details,G1
-St. Lite Kinen,Classic C.,Late Sep,Turf,Nakayama,Medium,2200 m,Details,G2
-Fuchu Umamusume Stakes,Classic C.,Early Oct,Turf,Tokyo,Mile,1800 m,Details,G2
-Green Channel Cup,Classic C.,Early Oct,Dirt,Tokyo,Short,1400 m,Details,OP
-Kyoto Daishoten,Classic C.,Early Oct,Turf,Kyoto,Medium,2400 m,Details,G2
-Mainichi Okan,Classic C.,Early Oct,Turf,Tokyo,Mile,1800 m,Details,G2
-October Stakes,Classic C.,Early Oct,Turf,Tokyo,Medium,2000 m,Details,OP
-Opal Stakes,Classic C.,Early Oct,Turf,Kyoto,Short,1200 m,Details,OP
-Shinetsu Stakes,Classic C.,Early Oct,Turf,Niigata,Short,1400 m,Details,OP
-Uzumasa Stakes,Classic C.,Early Oct,Dirt,Kyoto,Mile,1800 m,Details,OP
-Brazil Cup,Classic C.,Late Oct,Dirt,Tokyo,Medium,2100 m,Details,OP
-Cassiopeia Stakes,Classic C.,Late Oct,Turf,Kyoto,Mile,1800 m,Details,OP
-Fuji Stakes,Classic C.,Late Oct,Turf,Tokyo,Mile,1600 m,Details,G2
-Kikuka Sho,Classic C.,Late Oct,Turf,Kyoto,Long,3000 m,Details,G1
-Lumiere Autumn Dash,Classic C.,Late Oct,Turf,Niigata,Short,1000 m,Details,OP
-Muromachi Stakes,Classic C.,Late Oct,Dirt,Kyoto,Short,1200 m,Details,OP
-Shuka Sho,Classic C.,Late Oct,Turf,Kyoto,Medium,2000 m,Details,G1
-Swan Stakes,Classic C.,Late Oct,Turf,Kyoto,Short,1400 m,Details,G2
-Tenno Sho (Autumn),Classic C.,Late Oct,Turf,Tokyo,Medium,2000 m,Details,G1
-Copa Republica Argentina,Classic C.,Early Nov,Turf,Tokyo,Long,2500 m,Details,G2
-Fukushima Kinen,Classic C.,Early Nov,Turf,Fukushima,Medium,2000 m,Details,G3
-JBC Classic,Classic C.,Early Nov,Dirt,Varies,Varies,Varies,Details,G1
-JBC Ladies’ Classic,Classic C.,Early Nov,Dirt,Varies,Mile,Varies,Details,G1
-JBC Sprint,Classic C.,Early Nov,Dirt,Varies,Short,Varies,Details,G1
-Miyako Stakes,Classic C.,Early Nov,Dirt,Kyoto,Mile,1800 m,Details,G3
-Musashino Stakes,Classic C.,Early Nov,Dirt,Tokyo,Mile,1600 m,Details,G3
-Oro Cup,Classic C.,Early Nov,Turf,Tokyo,Short,1400 m,Details,OP
-Queen Elizabeth II Cup,Classic C.,Early Nov,Turf,Kyoto,Medium,2200 m,Details,G1
-Andromeda Stakes,Classic C.,Late Nov,Turf,Kyoto,Medium,2000 m,Details,OP
-Autumn Leaf Stakes,Classic C.,Late Nov,Dirt,Kyoto,Short,1200 m,Details,OP
-Capital Stakes,Classic C.,Late Nov,Turf,Tokyo,Mile,1600 m,Details,OP
-Fukushima Minyu Cup,Classic C.,Late Nov,Dirt,Fukushima,Mile,1700 m,Details,OP
-Japan Cup,Classic C.,Late Nov,Turf,Tokyo,Medium,2400 m,Details,G1
-Keihan Hai,Classic C.,Late Nov,Turf,Kyoto,Short,1200 m,Details,G3
-Mile Championship,Classic C.,Late Nov,Turf,Kyoto,Mile,1600 m,Details,G1
-Shimotsuki Stakes,Classic C.,Late Nov,Dirt,Tokyo,Short,1400 m,Details,OP
-Capella Stakes,Classic C.,Early Dec,Dirt,Nakayama,Short,1200 m,Details,G3
-Challenge Cup,Classic C.,Early Dec,Turf,Hanshin,Medium,2000 m,Details,G3
-Champions Cup,Classic C.,Early Dec,Dirt,Chukyo,Mile,1800 m,Details,G1
-Chunichi Shimbun Hai,Classic C.,Early Dec,Turf,Chukyo,Medium,2000 m,Details,G3
-December Stakes,Classic C.,Early Dec,Turf,Nakayama,Mile,1800 m,Details,OP
-Lapis Lazuli Stakes,Classic C.,Early Dec,Turf,Nakayama,Short,1200 m,Details,OP
-Rigel Stakes,Classic C.,Early Dec,Turf,Hanshin,Mile,1600 m,Details,OP
-Shiwasu Stakes,Classic C.,Early Dec,Dirt,Nakayama,Mile,1800 m,Details,OP
-Stayers Stakes,Classic C.,Early Dec,Turf,Nakayama,Long,3600 m,Details,G2
-Tanzanite Stakes,Classic C.,Early Dec,Turf,Hanshin,Short,1200 m,Details,OP
-Turquoise Stakes,Classic C.,Early Dec,Turf,Nakayama,Mile,1600 m,Details,G3
-Arima Kinen,Classic C.,Late Dec,Turf,Nakayama,Long,2500 m,Details,G1
-Betelgeuse Stakes,Classic C.,Late Dec,Dirt,Hanshin,Mile,1800 m,Details,OP
-Galaxy Stakes,Classic C.,Late Dec,Dirt,Hanshin,Short,1400 m,Details,OP
-Hanshin Cup,Classic C.,Late Dec,Turf,Hanshin,Short,1400 m,Details,G2
-Tokyo Daishoten,Classic C.,Late Dec,Dirt,Ooi,Medium,2000 m,Details,G1
-Aichi Hai,Senior C.,Early Jan,Turf,Chukyo,Medium,2000 m,Details,G3
-Carbuncle Stakes,Senior C.,Early Jan,Turf,Nakayama,Short,1200 m,Details,OP
-January Stakes,Senior C.,Early Jan,Dirt,Nakayama,Short,1200 m,Details,OP
-Kyoto Kimpai,Senior C.,Early Jan,Turf,Kyoto,Mile,1600 m,Details,G3
-Manyo Stakes,Senior C.,Early Jan,Turf,Kyoto,Long,3000 m,Details,OP
-Nakayama Kimpai,Senior C.,Early Jan,Turf,Nakayama,Medium,2000 m,Details,G3
-New Year Stakes,Senior C.,Early Jan,Turf,Nakayama,Mile,1600 m,Details,OP
-Nikkei Shinshun Hai,Senior C.,Early Jan,Turf,Kyoto,Medium,2400 m,Details,G2
-Pollux Stakes,Senior C.,Early Jan,Dirt,Nakayama,Mile,1800 m,Details,OP
-Yodo Tankyori Stakes,Senior C.,Early Jan,Turf,Kyoto,Short,1200 m,Details,OP
-American JCC,Senior C.,Late Jan,Turf,Nakayama,Medium,2200 m,Details,G2
-Negishi Stakes,Senior C.,Late Jan,Dirt,Tokyo,Short,1400 m,Details,G3
-Shirafuji Stakes,Senior C.,Late Jan,Turf,Tokyo,Medium,2000 m,Details,OP
-Silk Road Stakes,Senior C.,Late Jan,Turf,Kyoto,Short,1200 m,Details,G3
-Subaru Stakes,Senior C.,Late Jan,Dirt,Kyoto,Short,1400 m,Details,OP
-Tokai Stakes,Senior C.,Late Jan,Dirt,Chukyo,Mile,1800 m,Details,G2
-Aldebaran Stakes,Senior C.,Early Feb,Dirt,Kyoto,Medium,1900 m,Details,OP
-Kyoto Kinen,Senior C.,Early Feb,Turf,Kyoto,Medium,2200 m,Details,G2
-Rakuyo Stakes,Senior C.,Early Feb,Turf,Kyoto,Mile,1600 m,Details,OP
-Tokyo Shimbun Hai,Senior C.,Early Feb,Turf,Tokyo,Mile,1600 m,Details,G3
-Valentine Stakes,Senior C.,Early Feb,Dirt,Tokyo,Short,1400 m,Details,OP
-Yamato Stakes,Senior C.,Early Feb,Dirt,Kyoto,Short,1200 m,Details,OP
-Diamond Stakes,Senior C.,Late Feb,Turf,Tokyo,Long,3400 m,Details,G3
-February Stakes,Senior C.,Late Feb,Dirt,Tokyo,Mile,1600 m,Details,G1
-Hankyu Hai,Senior C.,Late Feb,Turf,Hanshin,Short,1400 m,Details,G3
-Kitakyushu Tankyori Stakes,Senior C.,Late Feb,Turf,Kokura,Short,1200 m,Details,OP
-Kokura Daishoten,Senior C.,Late Feb,Turf,Kokura,Mile,1800 m,Details,G3
-Kyoto Umamusume Stakes,Senior C.,Late Feb,Turf,Kyoto,Short,1400 m,Details,G3
-Nakayama Kinen,Senior C.,Late Feb,Turf,Nakayama,Mile,1800 m,Details,G2
-Sobu Stakes,Senior C.,Late Feb,Dirt,Nakayama,Mile,1800 m,Details,OP
-Kinko Sho,Senior C.,Early Mar,Turf,Chukyo,Medium,2000 m,Details,G2
-Kochi Stakes,Senior C.,Early Mar,Turf,Nakayama,Mile,1600 m,Details,OP
-Nakayama Umamusume Stakes,Senior C.,Early Mar,Turf,Nakayama,Mile,1800 m,Details,G3
-Nigawa Stakes,Senior C.,Early Mar,Dirt,Hanshin,Medium,2000 m,Details,OP
-Ocean Stakes,Senior C.,Early Mar,Turf,Nakayama,Short,1200 m,Details,G3
-Osakajo Stakes,Senior C.,Early Mar,Turf,Hanshin,Mile,1800 m,Details,OP
-Polaris Stakes,Senior C.,Early Mar,Dirt,Hanshin,Short,1400 m,Details,OP
-Chiba Stakes,Senior C.,Late Mar,Dirt,Nakayama,Short,1200 m,Details,OP
-Hanshin Daishoten,Senior C.,Late Mar,Turf,Hanshin,Long,3000 m,Details,G2
-March Stakes,Senior C.,Late Mar,Dirt,Nakayama,Mile,1800 m,Details,G3
-Nikkei Sho,Senior C.,Late Mar,Turf,Nakayama,Long,2500 m,Details,G2
-Osaka Hai,Senior C.,Late Mar,Turf,Hanshin,Medium,2000 m,Details,G1
-Rokko Stakes,Senior C.,Late Mar,Turf,Hanshin,Mile,1600 m,Details,OP
-Takamatsunomiya Kinen,Senior C.,Late Mar,Turf,Chukyo,Short,1200 m,Details,G1
-Antares Stakes,Senior C.,Early Apr,Dirt,Hanshin,Mile,1800 m,Details,G3
-Azumakofuji Stakes,Senior C.,Early Apr,Dirt,Fukushima,Mile,1700 m,Details,OP
-Coral Stakes,Senior C.,Early Apr,Dirt,Hanshin,Short,1400 m,Details,OP
-Fukushima Mimpo Hai,Senior C.,Early Apr,Turf,Fukushima,Medium,2000 m,Details,OP
-Hanshin Umamusume Stakes,Senior C.,Early Apr,Turf,Hanshin,Mile,1600 m,Details,G2
-Keiyo Stakes,Senior C.,Early Apr,Dirt,Nakayama,Short,1200 m,Details,OP
-Lord Derby Challenge Trophy,Senior C.,Early Apr,Turf,Nakayama,Mile,1600 m,Details,G3
-Shunrai Stakes,Senior C.,Early Apr,Turf,Nakayama,Short,1200 m,Details,OP
-Fukushima Umamusume Stakes,Senior C.,Late Apr,Turf,Fukushima,Mile,1800 m,Details,G3
-Milers Cup,Senior C.,Late Apr,Turf,Kyoto,Mile,1600 m,Details,G2
-Oasis Stakes,Senior C.,Late Apr,Dirt,Tokyo,Mile,1600 m,Details,OP
-Tenno Sho (Spring),Senior C.,Late Apr,Turf,Kyoto,Long,3200 m,Details,G1
-Tennozan Stakes,Senior C.,Late Apr,Dirt,Kyoto,Short,1200 m,Details,OP
-Brilliant Stakes,Senior C.,Early May,Dirt,Tokyo,Medium,2100 m,Details,OP
-Keio Hai Spring Cup,Senior C.,Early May,Turf,Tokyo,Short,1400 m,Details,G2
-Kurama Stakes,Senior C.,Early May,Turf,Kyoto,Short,1200 m,Details,OP
-Metropolitan Stakes,Senior C.,Early May,Turf,Tokyo,Medium,2400 m,Details,OP
-Miyakooji Stakes,Senior C.,Early May,Turf,Kyoto,Mile,1800 m,Details,OP
-Niigata Daishoten,Senior C.,Early May,Turf,Niigata,Medium,2000 m,Details,G3
-Ritto Stakes,Senior C.,Early May,Dirt,Kyoto,Short,1400 m,Details,OP
-Tanigawadake Stakes,Senior C.,Early May,Turf,Niigata,Mile,1600 m,Details,OP
-Victoria Mile,Senior C.,Early May,Turf,Tokyo,Mile,1600 m,Details,G1
-Azuchijo Stakes,Senior C.,Late May,Turf,Kyoto,Short,1400 m,Details,OP
-Heian Stakes,Senior C.,Late May,Dirt,Kyoto,Medium,1900 m,Details,G3
-Idaten Stakes,Senior C.,Late May,Turf,Niigata,Short,1000 m,Details,OP
-Keyaki Stakes,Senior C.,Late May,Dirt,Tokyo,Short,1400 m,Details,OP
-May Stakes,Senior C.,Late May,Turf,Tokyo,Mile,1800 m,Details,OP
-Meguro Kinen,Senior C.,Late May,Turf,Tokyo,Long,2500 m,Details,G2
-Epsom Cup,Senior C.,Early Jun,Turf,Tokyo,Mile,1800 m,Details,G3
-Mermaid Stakes,Senior C.,Early Jun,Turf,Hanshin,Medium,2000 m,Details,G3
-Naruo Kinen,Senior C.,Early Jun,Turf,Hanshin,Medium,2000 m,Details,G3
-Sleipnir Stakes,Senior C.,Early Jun,Dirt,Tokyo,Medium,2100 m,Details,OP
-Tempozan Stakes,Senior C.,Early Jun,Dirt,Hanshin,Short,1400 m,Details,OP
-Yasuda Kinen,Senior C.,Early Jun,Turf,Tokyo,Mile,1600 m,Details,G1
-Akhalteke Stakes,Senior C.,Late Jun,Dirt,Tokyo,Mile,1600 m,Details,OP
-Hakodate Sprint Stakes,Senior C.,Late Jun,Turf,Hakodate,Short,1200 m,Details,G3
-Onuma Stakes,Senior C.,Late Jun,Dirt,Hakodate,Mile,1700 m,Details,OP
-Paradise Stakes,Senior C.,Late Jun,Turf,Tokyo,Short,1400 m,Details,OP
-Sannomiya Stakes,Senior C.,Late Jun,Dirt,Hanshin,Mile,1800 m,Details,OP
-Takarazuka Kinen,Senior C.,Late Jun,Turf,Hanshin,Medium,2200 m,Details,G1
-Teio Sho,Senior C.,Late Jun,Dirt,Ooi,Medium,2000 m,Details,G1
-Yonago Stakes,Senior C.,Late Jun,Turf,Hanshin,Mile,1600 m,Details,OP
-CBC Sho,Senior C.,Early Jul,Turf,Chukyo,Short,1200 m,Details,G3
-Hakodate Kinen,Senior C.,Early Jul,Turf,Hakodate,Medium,2000 m,Details,G3
-Marine Stakes,Senior C.,Early Jul,Dirt,Hakodate,Mile,1700 m,Details,OP
-Meitetsu Hai,Senior C.,Early Jul,Dirt,Chukyo,Mile,1800 m,Details,OP
-Procyon Stakes,Senior C.,Early Jul,Dirt,Chukyo,Short,1400 m,Details,G3
-Tanabata Sho,Senior C.,Early Jul,Turf,Fukushima,Medium,2000 m,Details,G3
-Tomoe Sho,Senior C.,Early Jul,Turf,Hakodate,Mile,1800 m,Details,OP
-Chukyo Kinen,Senior C.,Late Jul,Turf,Chukyo,Mile,1600 m,Details,G3
-Fukushima TV Open,Senior C.,Late Jul,Turf,Fukushima,Short,1200 m,Details,OP
-Ibis Summer Dash,Senior C.,Late Jul,Turf,Niigata,Short,1000 m,Details,G3
-Queen Stakes,Senior C.,Late Jul,Turf,Sapporo,Mile,1800 m,Details,G3
-Aso Stakes,Senior C.,Early Aug,Dirt,Kokura,Mile,1700 m,Details,OP
-Elm Stakes,Senior C.,Early Aug,Dirt,Sapporo,Mile,1700 m,Details,G3
-Kanetsu Stakes,Senior C.,Early Aug,Turf,Niigata,Mile,1800 m,Details,OP
-Kokura Kinen,Senior C.,Early Aug,Turf,Kokura,Medium,2000 m,Details,G3
-Sapporo Nikkei Open,Senior C.,Early Aug,Turf,Sapporo,Long,2600 m,Details,OP
-Sekiya Kinen,Senior C.,Early Aug,Turf,Niigata,Mile,1600 m,Details,G3
-UHB Sho,Senior C.,Early Aug,Turf,Sapporo,Short,1200 m,Details,OP
-BSN Sho,Senior C.,Late Aug,Dirt,Niigata,Mile,1800 m,Details,OP
-Keeneland Cup,Senior C.,Late Aug,Turf,Sapporo,Short,1200 m,Details,G3
-Kitakyushu Kinen,Senior C.,Late Aug,Turf,Kokura,Short,1200 m,Details,G3
-Kokura Nikkei Open,Senior C.,Late Aug,Turf,Kokura,Mile,1800 m,Details,OP
-NST Sho,Senior C.,Late Aug,Dirt,Niigata,Short,1200 m,Details,OP
-Sapporo Kinen,Senior C.,Late Aug,Turf,Sapporo,Medium,2000 m,Details,G2
-Toki Stakes,Senior C.,Late Aug,Turf,Niigata,Short,1400 m,Details,OP
-Centaur Stakes,Senior C.,Early Sep,Turf,Hanshin,Short,1200 m,Details,G2
-Enif Stakes,Senior C.,Early Sep,Dirt,Hanshin,Short,1400 m,Details,OP
-Keisei Hai Autumn Handicap,Senior C.,Early Sep,Turf,Nakayama,Mile,1600 m,Details,G3
-Niigata Kinen,Senior C.,Early Sep,Turf,Niigata,Medium,2000 m,Details,G3
-Radio Nippon Sho,Senior C.,Early Sep,Dirt,Nakayama,Mile,1800 m,Details,OP
-Tancho Stakes,Senior C.,Early Sep,Turf,Sapporo,Long,2600 m,Details,OP
-All Comers,Senior C.,Late Sep,Turf,Nakayama,Medium,2200 m,Details,G2
-Nagatsuki Stakes,Senior C.,Late Sep,Dirt,Nakayama,Short,1200 m,Details,OP
-Port Island Stakes,Senior C.,Late Sep,Turf,Hanshin,Mile,1600 m,Details,OP
-Sirius Stakes,Senior C.,Late Sep,Dirt,Hanshin,Medium,2000 m,Details,G3
-Sprinters Stakes,Senior C.,Late Sep,Turf,Nakayama,Short,1200 m,Details,G1
-Fuchu Umamusume Stakes,Senior C.,Early Oct,Turf,Tokyo,Mile,1800 m,Details,G2
-Green Channel Cup,Senior C.,Early Oct,Dirt,Tokyo,Short,1400 m,Details,OP
-Kyoto Daishoten,Senior C.,Early Oct,Turf,Kyoto,Medium,2400 m,Details,G2
-Mainichi Okan,Senior C.,Early Oct,Turf,Tokyo,Mile,1800 m,Details,G2
-October Stakes,Senior C.,Early Oct,Turf,Tokyo,Medium,2000 m,Details,OP
-Opal Stakes,Senior C.,Early Oct,Turf,Kyoto,Short,1200 m,Details,OP
-Shinetsu Stakes,Senior C.,Early Oct,Turf,Niigata,Short,1400 m,Details,OP
-Uzumasa Stakes,Senior C.,Early Oct,Dirt,Kyoto,Mile,1800 m,Details,OP
-Brazil Cup,Senior C.,Late Oct,Dirt,Tokyo,Medium,2100 m,Details,OP
-Cassiopeia Stakes,Senior C.,Late Oct,Turf,Kyoto,Mile,1800 m,Details,OP
-Fuji Stakes,Senior C.,Late Oct,Turf,Tokyo,Mile,1600 m,Details,G2
-Lumiere Autumn Dash,Senior C.,Late Oct,Turf,Niigata,Short,1000 m,Details,OP
-Muromachi Stakes,Senior C.,Late Oct,Dirt,Kyoto,Short,1200 m,Details,OP
-Swan Stakes,Senior C.,Late Oct,Turf,Kyoto,Short,1400 m,Details,G2
-Tenno Sho (Autumn),Senior C.,Late Oct,Turf,Tokyo,Medium,2000 m,Details,G1
-Copa Republica Argentina,Senior C.,Early Nov,Turf,Tokyo,Long,2500 m,Details,G2
-Fukushima Kinen,Senior C.,Early Nov,Turf,Fukushima,Medium,2000 m,Details,G3
-JBC Classic,Senior C.,Early Nov,Dirt,Varies,Varies,Varies,Details,G1
-JBC Ladies’ Classic,Senior C.,Early Nov,Dirt,Varies,Mile,Varies,Details,G1
-JBC Sprint,Senior C.,Early Nov,Dirt,Varies,Short,Varies,Details,G1
-Miyako Stakes,Senior C.,Early Nov,Dirt,Kyoto,Mile,1800 m,Details,G3
-Musashino Stakes,Senior C.,Early Nov,Dirt,Tokyo,Mile,1600 m,Details,G3
-Oro Cup,Senior C.,Early Nov,Turf,Tokyo,Short,1400 m,Details,OP
-Queen Elizabeth II Cup,Senior C.,Early Nov,Turf,Kyoto,Medium,2200 m,Details,G1
-Andromeda Stakes,Senior C.,Late Nov,Turf,Kyoto,Medium,2000 m,Details,OP
-Autumn Leaf Stakes,Senior C.,Late Nov,Dirt,Kyoto,Short,1200 m,Details,OP
-Capital Stakes,Senior C.,Late Nov,Turf,Tokyo,Mile,1600 m,Details,OP
-Fukushima Minyu Cup,Senior C.,Late Nov,Dirt,Fukushima,Mile,1700 m,Details,OP
-Japan Cup,Senior C.,Late Nov,Turf,Tokyo,Medium,2400 m,Details,G1
-Keihan Hai,Senior C.,Late Nov,Turf,Kyoto,Short,1200 m,Details,G3
-Mile Championship,Senior C.,Late Nov,Turf,Kyoto,Mile,1600 m,Details,G1
-Shimotsuki Stakes,Senior C.,Late Nov,Dirt,Tokyo,Short,1400 m,Details,OP
-Capella Stakes,Senior C.,Early Dec,Dirt,Nakayama,Short,1200 m,Details,G3
-Challenge Cup,Senior C.,Early Dec,Turf,Hanshin,Medium,2000 m,Details,G3
-Champions Cup,Senior C.,Early Dec,Dirt,Chukyo,Mile,1800 m,Details,G1
-Chunichi Shimbun Hai,Senior C.,Early Dec,Turf,Chukyo,Medium,2000 m,Details,G3
-December Stakes,Senior C.,Early Dec,Turf,Nakayama,Mile,1800 m,Details,OP
-Lapis Lazuli Stakes,Senior C.,Early Dec,Turf,Nakayama,Short,1200 m,Details,OP
-Rigel Stakes,Senior C.,Early Dec,Turf,Hanshin,Mile,1600 m,Details,OP
-Shiwasu Stakes,Senior C.,Early Dec,Dirt,Nakayama,Mile,1800 m,Details,OP
-Stayers Stakes,Senior C.,Early Dec,Turf,Nakayama,Long,3600 m,Details,G2
-Tanzanite Stakes,Senior C.,Early Dec,Turf,Hanshin,Short,1200 m,Details,OP
-Turquoise Stakes,Senior C.,Early Dec,Turf,Nakayama,Mile,1600 m,Details,G3
-Arima Kinen,Senior C.,Late Dec,Turf,Nakayama,Long,2500 m,Details,G1
-Betelgeuse Stakes,Senior C.,Late Dec,Dirt,Hanshin,Mile,1800 m,Details,OP
-Galaxy Stakes,Senior C.,Late Dec,Dirt,Hanshin,Short,1400 m,Details,OP
-Hanshin Cup,Senior C.,Late Dec,Turf,Hanshin,Short,1400 m,Details,G2
-Tokyo Daishoten,Senior C.,Late Dec,Dirt,Ooi,Medium,2000 m,Details,G1
-URA Finals Qualifier,Finals,???,Varies,Varies,Varies,Varies,Details,EX
-URA Finals Semifinal,Finals,???,Varies,Varies,Varies,Varies,Details,EX
-Grand Masters,Finals,???,Varies,Varies,Varies,Varies,Details,EX
-Twinkle Star Climax,Finals,???,Varies,Varies,Varies,Varies,Details,EX
-URA Finals Final (Aoharu),Finals,???,Varies,Varies,Varies,Varies,Details,EX
-URA Finals Final (Grand Live),Finals,???,Varies,Varies,Varies,Varies,Details,EX
-URA Finals Final (URA),Finals,???,Varies,Varies,Varies,Varies,Details,EX
+name,year,turn,surface,location,distance,distance_m,grade
+Hakodate Junior Stakes,Junior Year,Late Jul,Turf,Hakodate,Sprint,1200m,G3
+Chukyo Junior Stakes,Junior Year,Late Jul,Turf,Chukyo,Mile,1600m,OP
+Dahlia Sho,Junior Year,Early Aug,Turf,Niigata,Sprint,1400m,OP
+Phoenix Sho,Junior Year,Early Aug,Turf,Kokura,Sprint,1200m,OP
+Cosmos Sho,Junior Year,Early Aug,Turf,Sapporo,Mile,1800m,OP
+Niigata Junior Stakes,Junior Year,Late Aug,Turf,Niigata,Mile,1600m,G3
+Clover Sho,Junior Year,Late Aug,Turf,Sapporo,Mile,1500m,OP
+Kokura Junior Stakes,Junior Year,Early Sep,Turf,Kokura,Sprint,1200m,G3
+Sapporo Junior Stakes,Junior Year,Early Sep,Turf,Sapporo,Mile,1800m,G3
+Suzuran Sho,Junior Year,Early Sep,Turf,Sapporo,Sprint,1200m,OP
+Nojigiku Stakes,Junior Year,Early Sep,Turf,Hanshin,Mile,1800m,OP
+Aster Sho,Junior Year,Early Sep,Turf,Nakayama,Mile,1600m,Pre-OP
+Canna Stakes,Junior Year,Late Sep,Turf,Nakayama,Sprint,1200m,OP
+Kikyo Stakes,Junior Year,Late Sep,Turf,Hanshin,Sprint,1400m,OP
+Fuyo Stakes,Junior Year,Late Sep,Turf,Nakayama,Medium,2000m,OP
+Saffron Sho,Junior Year,Late Sep,Turf,Nakayama,Mile,1600m,Pre-OP
+Saudi Arabia Royal Cup,Junior Year,Early Oct,Turf,Tokyo,Mile,1600m,G3
+Momiji Stakes,Junior Year,Early Oct,Turf,Kyoto,Sprint,1400m,OP
+Rindo Sho,Junior Year,Early Oct,Turf,Kyoto,Sprint,1400m,Pre-OP
+Platanus Sho,Junior Year,Early Oct,Dirt,Tokyo,Mile,1600m,Pre-OP
+Shigiku Sho,Junior Year,Early Oct,Turf,Kyoto,Medium,2000m,Pre-OP
+Artemis Stakes,Junior Year,Late Oct,Turf,Tokyo,Mile,1600m,G3
+Hagi Stakes,Junior Year,Late Oct,Turf,Kyoto,Mile,1800m,OP
+Ivy Stakes,Junior Year,Late Oct,Turf,Tokyo,Mile,1800m,OP
+Nadeshiko Sho,Junior Year,Late Oct,Dirt,Kyoto,Sprint,1400m,Pre-OP
+Keio Hai Junior Stakes,Junior Year,Early Nov,Turf,Tokyo,Sprint,1400m,G2
+Daily Hai Junior Stakes,Junior Year,Early Nov,Turf,Kyoto,Mile,1600m,G2
+Fantasy Stakes,Junior Year,Early Nov,Turf,Kyoto,Sprint,1400m,G3
+Fukushima Junior Stakes,Junior Year,Early Nov,Turf,Fukushima,Sprint,1200m,OP
+Oxalis Sho,Junior Year,Early Nov,Dirt,Tokyo,Sprint,1400m,Pre-OP
+Kimmokusei Tokubetsu,Junior Year,Early Nov,Turf,Fukushima,Mile,1800m,Pre-OP
+Hyakunichiso Tokubetsu,Junior Year,Early Nov,Turf,Tokyo,Medium,2000m,Pre-OP
+Kigiku Sho,Junior Year,Early Nov,Turf,Kyoto,Medium,2000m,Pre-OP
+Tokyo Sports Hai Junior Stakes,Junior Year,Late Nov,Turf,Tokyo,Mile,1800m,G3
+Kyoto Junior Stakes,Junior Year,Late Nov,Turf,Kyoto,Medium,2000m,G3
+Shumeigiku Sho,Junior Year,Late Nov,Turf,Kyoto,Sprint,1400m,Pre-OP
+Akamatsu Sho,Junior Year,Late Nov,Turf,Tokyo,Mile,1600m,Pre-OP
+Begonia Sho,Junior Year,Late Nov,Turf,Tokyo,Mile,1600m,Pre-OP
+Cattleya Sho,Junior Year,Late Nov,Dirt,Tokyo,Mile,1600m,Pre-OP
+Koyamaki Sho,Junior Year,Late Nov,Turf,Chukyo,Mile,1600m,Pre-OP
+Mochinoki Sho,Junior Year,Late Nov,Dirt,Kyoto,Mile,1800m,Pre-OP
+Shiragiku Sho,Junior Year,Late Nov,Turf,Kyoto,Mile,1600m,Pre-OP
+Habotan Sho,Junior Year,Late Nov,Turf,Nakayama,Medium,2000m,Pre-OP
+Asahi Hai Futurity Stakes,Junior Year,Early Dec,Turf,Hanshin,Mile,1600m,G1
+Hanshin Juvenile Fillies,Junior Year,Early Dec,Turf,Hanshin,Mile,1600m,G1
+Kantsubaki Sho,Junior Year,Early Dec,Dirt,Chukyo,Sprint,1400m,Pre-OP
+Kuromatsu Sho,Junior Year,Early Dec,Turf,Nakayama,Sprint,1200m,Pre-OP
+Manryo Sho,Junior Year,Early Dec,Turf,Hanshin,Sprint,1400m,Pre-OP
+Sazanka Sho,Junior Year,Early Dec,Turf,Hanshin,Sprint,1200m,Pre-OP
+Tsuwabuki Sho,Junior Year,Early Dec,Turf,Chukyo,Sprint,1400m,Pre-OP
+Hiiragi Sho,Junior Year,Early Dec,Turf,Nakayama,Mile,1600m,Pre-OP
+Erica Sho,Junior Year,Early Dec,Turf,Hanshin,Medium,2000m,Pre-OP
+Hopeful Stakes,Junior Year,Late Dec,Turf,Nakayama,Medium,2000m,G1
+Christmas Rose Stakes,Junior Year,Late Dec,Turf,Nakayama,Sprint,1200m,OP
+Senryo Sho,Junior Year,Late Dec,Turf,Hanshin,Mile,1600m,Pre-OP
+Fairy Stakes,Classic Year,Early Jan,Turf,Nakayama,Mile,1600m,G3
+Shinzan Kinen,Classic Year,Early Jan,Turf,Kyoto,Mile,1600m,G3
+Keisei Hai,Classic Year,Early Jan,Turf,Nakayama,Medium,2000m,G3
+Kobai Stakes,Classic Year,Early Jan,Turf,Kyoto,Sprint,1400m,OP
+Junior Cup,Classic Year,Early Jan,Turf,Nakayama,Mile,1600m,OP
+Crocus Stakes,Classic Year,Late Jan,Turf,Tokyo,Sprint,1400m,OP
+Wakagoma Stakes,Classic Year,Late Jan,Turf,Kyoto,Medium,2000m,OP
+Kisaragi Sho,Classic Year,Early Feb,Turf,Kyoto,Mile,1800m,G3
+Kyodo News Hai,Classic Year,Early Feb,Turf,Tokyo,Mile,1800m,G3
+Queen Cup,Classic Year,Early Feb,Turf,Tokyo,Mile,1600m,G3
+Elfin Stakes,Classic Year,Early Feb,Turf,Kyoto,Mile,1600m,OP
+Marguerite Stakes,Classic Year,Late Feb,Turf,Hanshin,Sprint,1200m,OP
+Hyacinth Stakes,Classic Year,Late Feb,Dirt,Tokyo,Mile,1600m,OP
+Sumire Stakes,Classic Year,Late Feb,Turf,Hanshin,Medium,2200m,OP
+Fillies' Revue,Classic Year,Early Mar,Turf,Hanshin,Sprint,1400m,G2
+Tulip Sho,Classic Year,Early Mar,Turf,Hanshin,Mile,1600m,G2
+Yayoi Sho,Classic Year,Early Mar,Turf,Nakayama,Medium,2000m,G2
+Shoryu Stakes,Classic Year,Early Mar,Dirt,Chukyo,Sprint,1400m,OP
+Anemone Stakes,Classic Year,Early Mar,Turf,Nakayama,Mile,1600m,OP
+Spring Stakes,Classic Year,Late Mar,Turf,Nakayama,Mile,1800m,G2
+Falcon Stakes,Classic Year,Late Mar,Turf,Chukyo,Sprint,1400m,G3
+Flower Cup,Classic Year,Late Mar,Turf,Nakayama,Mile,1800m,G3
+Mainichi Hai,Classic Year,Late Mar,Turf,Hanshin,Mile,1800m,G3
+Wakaba Stakes,Classic Year,Late Mar,Turf,Hanshin,Medium,2000m,OP
+Oka Sho,Classic Year,Early Apr,Turf,Hanshin,Mile,1600m,G1
+Satsuki Sho,Classic Year,Early Apr,Turf,Nakayama,Medium,2000m,G1
+New Zealand Trophy,Classic Year,Early Apr,Turf,Nakayama,Mile,1600m,G2
+Arlington Cup,Classic Year,Early Apr,Turf,Hanshin,Mile,1600m,G3
+Fukuryu Stakes,Classic Year,Early Apr,Dirt,Nakayama,Mile,1800m,OP
+Wasurenagusa Sho,Classic Year,Early Apr,Turf,Hanshin,Medium,2000m,OP
+Aoba Sho,Classic Year,Late Apr,Turf,Tokyo,Medium,2400m,G2
+Flora Stakes,Classic Year,Late Apr,Turf,Tokyo,Medium,2000m,G2
+Tachibana Stakes,Classic Year,Late Apr,Turf,Kyoto,Sprint,1400m,OP
+Tango Stakes,Classic Year,Late Apr,Dirt,Kyoto,Sprint,1400m,OP
+Sweetpea Stakes,Classic Year,Late Apr,Turf,Tokyo,Mile,1800m,OP
+NHK Mile Cup,Classic Year,Early May,Turf,Tokyo,Mile,1600m,G1
+Kyoto Shimbun Hai,Classic Year,Early May,Turf,Kyoto,Medium,2200m,G2
+Seiryu Stakes,Classic Year,Early May,Dirt,Tokyo,Mile,1600m,OP
+Principal Stakes,Classic Year,Early May,Turf,Tokyo,Medium,2000m,OP
+Japanese Oaks,Classic Year,Late May,Turf,Tokyo,Medium,2400m,G1
+Tokyo Yushun (Japanese Derby),Classic Year,Late May,Turf,Tokyo,Medium,2400m,G1
+Aoi Stakes,Classic Year,Late May,Turf,Kyoto,Sprint,1200m,G3
+Hosu Stakes,Classic Year,Late May,Dirt,Kyoto,Mile,1800m,OP
+Shirayuri Stakes,Classic Year,Late May,Turf,Kyoto,Mile,1800m,OP
+Yasuda Kinen,Classic Year,Early Jun,Turf,Tokyo,Mile,1600m,G1
+Epsom Cup,Classic Year,Early Jun,Turf,Tokyo,Mile,1800m,G3
+Mermaid Stakes,Classic Year,Early Jun,Turf,Hanshin,Medium,2000m,G3
+Naruo Kinen,Classic Year,Early Jun,Turf,Hanshin,Medium,2000m,G3
+Tempozan Stakes,Classic Year,Early Jun,Dirt,Hanshin,Sprint,1400m,OP
+Sleipnir Stakes,Classic Year,Early Jun,Dirt,Tokyo,Medium,2100m,OP
+Takarazuka Kinen,Classic Year,Late Jun,Turf,Hanshin,Medium,2200m,G1
+Hakodate Sprint Stakes,Classic Year,Late Jun,Turf,Hakodate,Sprint,1200m,G3
+Unicorn Stakes,Classic Year,Late Jun,Dirt,Tokyo,Mile,1600m,G3
+Paradise Stakes,Classic Year,Late Jun,Turf,Tokyo,Sprint,1400m,OP
+Akhalteke Stakes,Classic Year,Late Jun,Dirt,Tokyo,Mile,1600m,OP
+Onuma Stakes,Classic Year,Late Jun,Dirt,Hakodate,Mile,1700m,OP
+Sannomiya Stakes,Classic Year,Late Jun,Dirt,Hanshin,Mile,1800m,OP
+Yonago Stakes,Classic Year,Late Jun,Turf,Hanshin,Mile,1600m,OP
+Japan Dirt Derby,Classic Year,Early Jul,Dirt,Ooi,Medium,2000m,G1
+CBC Sho,Classic Year,Early Jul,Turf,Chukyo,Sprint,1200m,G3
+Procyon Stakes,Classic Year,Early Jul,Dirt,Chukyo,Sprint,1400m,G3
+Radio Nikkei Sho,Classic Year,Early Jul,Turf,Fukushima,Mile,1800m,G3
+Hakodate Kinen,Classic Year,Early Jul,Turf,Hakodate,Medium,2000m,G3
+Tanabata Sho,Classic Year,Early Jul,Turf,Fukushima,Medium,2000m,G3
+Marine Stakes,Classic Year,Early Jul,Dirt,Hakodate,Mile,1700m,OP
+Meitetsu Hai,Classic Year,Early Jul,Dirt,Chukyo,Mile,1800m,OP
+Tomoe Sho,Classic Year,Early Jul,Turf,Hakodate,Mile,1800m,OP
+Ibis Summer Dash,Classic Year,Late Jul,Turf,Niigata,Sprint,1000m,G3
+Chukyo Kinen,Classic Year,Late Jul,Turf,Chukyo,Mile,1600m,G3
+Queen Stakes,Classic Year,Late Jul,Turf,Sapporo,Mile,1800m,G3
+Fukushima TV Open,Classic Year,Late Jul,Turf,Fukushima,Sprint,1200m,OP
+Elm Stakes,Classic Year,Early Aug,Dirt,Sapporo,Mile,1700m,G3
+Leopard Stakes,Classic Year,Early Aug,Dirt,Niigata,Mile,1800m,G3
+Sekiya Kinen,Classic Year,Early Aug,Turf,Niigata,Mile,1600m,G3
+Kokura Kinen,Classic Year,Early Aug,Turf,Kokura,Medium,2000m,G3
+UHB Sho,Classic Year,Early Aug,Turf,Sapporo,Sprint,1200m,OP
+Aso Stakes,Classic Year,Early Aug,Dirt,Kokura,Mile,1700m,OP
+Kanetsu Stakes,Classic Year,Early Aug,Turf,Niigata,Mile,1800m,OP
+Sapporo Nikkei Open,Classic Year,Early Aug,Turf,Sapporo,Long,2600m,OP
+Sapporo Kinen,Classic Year,Late Aug,Turf,Sapporo,Medium,2000m,G2
+Keeneland Cup,Classic Year,Late Aug,Turf,Sapporo,Sprint,1200m,G3
+Kitakyushu Kinen,Classic Year,Late Aug,Turf,Kokura,Sprint,1200m,G3
+NST Sho,Classic Year,Late Aug,Dirt,Niigata,Sprint,1200m,OP
+Toki Stakes,Classic Year,Late Aug,Turf,Niigata,Sprint,1400m,OP
+BSN Sho,Classic Year,Late Aug,Dirt,Niigata,Mile,1800m,OP
+Kokura Nikkei Open,Classic Year,Late Aug,Turf,Kokura,Mile,1800m,OP
+Centaur Stakes,Classic Year,Early Sep,Turf,Hanshin,Sprint,1200m,G2
+Rose Stakes,Classic Year,Early Sep,Turf,Hanshin,Mile,1800m,G2
+Keisei Hai Autumn Handicap,Classic Year,Early Sep,Turf,Nakayama,Mile,1600m,G3
+Niigata Kinen,Classic Year,Early Sep,Turf,Niigata,Medium,2000m,G3
+Shion Stakes,Classic Year,Early Sep,Turf,Nakayama,Medium,2000m,G3
+Enif Stakes,Classic Year,Early Sep,Dirt,Hanshin,Sprint,1400m,OP
+Radio Nippon Sho,Classic Year,Early Sep,Dirt,Nakayama,Mile,1800m,OP
+Tancho Stakes,Classic Year,Early Sep,Turf,Sapporo,Long,2600m,OP
+Sprinters Stakes,Classic Year,Late Sep,Turf,Nakayama,Sprint,1200m,G1
+All Comers,Classic Year,Late Sep,Turf,Nakayama,Medium,2200m,G2
+Kobe Shimbun Hai,Classic Year,Late Sep,Turf,Hanshin,Medium,2400m,G2
+St. Lite Kinen,Classic Year,Late Sep,Turf,Nakayama,Medium,2200m,G2
+Sirius Stakes,Classic Year,Late Sep,Dirt,Hanshin,Medium,2000m,G3
+Nagatsuki Stakes,Classic Year,Late Sep,Dirt,Nakayama,Sprint,1200m,OP
+Port Island Stakes,Classic Year,Late Sep,Turf,Hanshin,Mile,1600m,OP
+Fuchu Umamusume Stakes,Classic Year,Early Oct,Turf,Tokyo,Mile,1800m,G2
+Mainichi Okan,Classic Year,Early Oct,Turf,Tokyo,Mile,1800m,G2
+Kyoto Daishoten,Classic Year,Early Oct,Turf,Kyoto,Medium,2400m,G2
+Green Channel Cup,Classic Year,Early Oct,Dirt,Tokyo,Sprint,1400m,OP
+Opal Stakes,Classic Year,Early Oct,Turf,Kyoto,Sprint,1200m,OP
+Shinetsu Stakes,Classic Year,Early Oct,Turf,Niigata,Sprint,1400m,OP
+Uzumasa Stakes,Classic Year,Early Oct,Dirt,Kyoto,Mile,1800m,OP
+October Stakes,Classic Year,Early Oct,Turf,Tokyo,Medium,2000m,OP
+Shuka Sho,Classic Year,Late Oct,Turf,Kyoto,Medium,2000m,G1
+Tenno Sho (Autumn),Classic Year,Late Oct,Turf,Tokyo,Medium,2000m,G1
+Kikuka Sho,Classic Year,Late Oct,Turf,Kyoto,Long,3000m,G1
+Swan Stakes,Classic Year,Late Oct,Turf,Kyoto,Sprint,1400m,G2
+Fuji Stakes,Classic Year,Late Oct,Turf,Tokyo,Mile,1600m,G2
+Lumiere Autumn Dash,Classic Year,Late Oct,Turf,Niigata,Sprint,1000m,OP
+Muromachi Stakes,Classic Year,Late Oct,Dirt,Kyoto,Sprint,1200m,OP
+Cassiopeia Stakes,Classic Year,Late Oct,Turf,Kyoto,Mile,1800m,OP
+Brazil Cup,Classic Year,Late Oct,Dirt,Tokyo,Medium,2100m,OP
+JBC Sprint,Classic Year,Early Nov,Dirt,Varies,Sprint,Varies,G1
+JBC Ladies’ Classic,Classic Year,Early Nov,Dirt,Varies,Mile,Varies,G1
+Queen Elizabeth II Cup,Classic Year,Early Nov,Turf,Kyoto,Medium,2200m,G1
+JBC Classic,Classic Year,Early Nov,Dirt,Varies,,Varies,G1
+Copa Republica Argentina,Classic Year,Early Nov,Turf,Tokyo,Long,2500m,G2
+Miyako Stakes,Classic Year,Early Nov,Dirt,Kyoto,Mile,1800m,G3
+Musashino Stakes,Classic Year,Early Nov,Dirt,Tokyo,Mile,1600m,G3
+Fukushima Kinen,Classic Year,Early Nov,Turf,Fukushima,Medium,2000m,G3
+Oro Cup,Classic Year,Early Nov,Turf,Tokyo,Sprint,1400m,OP
+Mile Championship,Classic Year,Late Nov,Turf,Kyoto,Mile,1600m,G1
+Japan Cup,Classic Year,Late Nov,Turf,Tokyo,Medium,2400m,G1
+Keihan Hai,Classic Year,Late Nov,Turf,Kyoto,Sprint,1200m,G3
+Autumn Leaf Stakes,Classic Year,Late Nov,Dirt,Kyoto,Sprint,1200m,OP
+Shimotsuki Stakes,Classic Year,Late Nov,Dirt,Tokyo,Sprint,1400m,OP
+Capital Stakes,Classic Year,Late Nov,Turf,Tokyo,Mile,1600m,OP
+Fukushima Minyu Cup,Classic Year,Late Nov,Dirt,Fukushima,Mile,1700m,OP
+Andromeda Stakes,Classic Year,Late Nov,Turf,Kyoto,Medium,2000m,OP
+Champions Cup,Classic Year,Early Dec,Dirt,Chukyo,Mile,1800m,G1
+Stayers Stakes,Classic Year,Early Dec,Turf,Nakayama,Long,3600m,G2
+Capella Stakes,Classic Year,Early Dec,Dirt,Nakayama,Sprint,1200m,G3
+Turquoise Stakes,Classic Year,Early Dec,Turf,Nakayama,Mile,1600m,G3
+Challenge Cup,Classic Year,Early Dec,Turf,Hanshin,Medium,2000m,G3
+Chunichi Shimbun Hai,Classic Year,Early Dec,Turf,Chukyo,Medium,2000m,G3
+Lapis Lazuli Stakes,Classic Year,Early Dec,Turf,Nakayama,Sprint,1200m,OP
+Tanzanite Stakes,Classic Year,Early Dec,Turf,Hanshin,Sprint,1200m,OP
+December Stakes,Classic Year,Early Dec,Turf,Nakayama,Mile,1800m,OP
+Rigel Stakes,Classic Year,Early Dec,Turf,Hanshin,Mile,1600m,OP
+Shiwasu Stakes,Classic Year,Early Dec,Dirt,Nakayama,Mile,1800m,OP
+Tokyo Daishoten,Classic Year,Late Dec,Dirt,Ooi,Medium,2000m,G1
+Arima Kinen,Classic Year,Late Dec,Turf,Nakayama,Long,2500m,G1
+Hanshin Cup,Classic Year,Late Dec,Turf,Hanshin,Sprint,1400m,G2
+Galaxy Stakes,Classic Year,Late Dec,Dirt,Hanshin,Sprint,1400m,OP
+Betelgeuse Stakes,Classic Year,Late Dec,Dirt,Hanshin,Mile,1800m,OP
+Nikkei Shinshun Hai,Senior Year,Early Jan,Turf,Kyoto,Medium,2400m,G2
+Kyoto Kimpai,Senior Year,Early Jan,Turf,Kyoto,Mile,1600m,G3
+Aichi Hai,Senior Year,Early Jan,Turf,Chukyo,Medium,2000m,G3
+Nakayama Kimpai,Senior Year,Early Jan,Turf,Nakayama,Medium,2000m,G3
+Carbuncle Stakes,Senior Year,Early Jan,Turf,Nakayama,Sprint,1200m,OP
+January Stakes,Senior Year,Early Jan,Dirt,Nakayama,Sprint,1200m,OP
+Yodo Tankyori Stakes,Senior Year,Early Jan,Turf,Kyoto,Sprint,1200m,OP
+New Year Stakes,Senior Year,Early Jan,Turf,Nakayama,Mile,1600m,OP
+Pollux Stakes,Senior Year,Early Jan,Dirt,Nakayama,Mile,1800m,OP
+Manyo Stakes,Senior Year,Early Jan,Turf,Kyoto,Long,3000m,OP
+Tokai Stakes,Senior Year,Late Jan,Dirt,Chukyo,Mile,1800m,G2
+American JCC,Senior Year,Late Jan,Turf,Nakayama,Medium,2200m,G2
+Negishi Stakes,Senior Year,Late Jan,Dirt,Tokyo,Sprint,1400m,G3
+Silk Road Stakes,Senior Year,Late Jan,Turf,Kyoto,Sprint,1200m,G3
+Subaru Stakes,Senior Year,Late Jan,Dirt,Kyoto,Sprint,1400m,OP
+Shirafuji Stakes,Senior Year,Late Jan,Turf,Tokyo,Medium,2000m,OP
+Kyoto Kinen,Senior Year,Early Feb,Turf,Kyoto,Medium,2200m,G2
+Tokyo Shimbun Hai,Senior Year,Early Feb,Turf,Tokyo,Mile,1600m,G3
+Valentine Stakes,Senior Year,Early Feb,Dirt,Tokyo,Sprint,1400m,OP
+Yamato Stakes,Senior Year,Early Feb,Dirt,Kyoto,Sprint,1200m,OP
+Rakuyo Stakes,Senior Year,Early Feb,Turf,Kyoto,Mile,1600m,OP
+Aldebaran Stakes,Senior Year,Early Feb,Dirt,Kyoto,Medium,1900m,OP
+February Stakes,Senior Year,Late Feb,Dirt,Tokyo,Mile,1600m,G1
+Nakayama Kinen,Senior Year,Late Feb,Turf,Nakayama,Mile,1800m,G2
+Hankyu Hai,Senior Year,Late Feb,Turf,Hanshin,Sprint,1400m,G3
+Kyoto Umamusume Stakes,Senior Year,Late Feb,Turf,Kyoto,Sprint,1400m,G3
+Kokura Daishoten,Senior Year,Late Feb,Turf,Kokura,Mile,1800m,G3
+Diamond Stakes,Senior Year,Late Feb,Turf,Tokyo,Long,3400m,G3
+Kitakyushu Tankyori Stakes,Senior Year,Late Feb,Turf,Kokura,Sprint,1200m,OP
+Sobu Stakes,Senior Year,Late Feb,Dirt,Nakayama,Mile,1800m,OP
+Kinko Sho,Senior Year,Early Mar,Turf,Chukyo,Medium,2000m,G2
+Ocean Stakes,Senior Year,Early Mar,Turf,Nakayama,Sprint,1200m,G3
+Nakayama Umamusume Stakes,Senior Year,Early Mar,Turf,Nakayama,Mile,1800m,G3
+Polaris Stakes,Senior Year,Early Mar,Dirt,Hanshin,Sprint,1400m,OP
+Kochi Stakes,Senior Year,Early Mar,Turf,Nakayama,Mile,1600m,OP
+Osakajo Stakes,Senior Year,Early Mar,Turf,Hanshin,Mile,1800m,OP
+Nigawa Stakes,Senior Year,Early Mar,Dirt,Hanshin,Medium,2000m,OP
+Takamatsunomiya Kinen,Senior Year,Late Mar,Turf,Chukyo,Sprint,1200m,G1
+Osaka Hai,Senior Year,Late Mar,Turf,Hanshin,Medium,2000m,G1
+Hanshin Daishoten,Senior Year,Late Mar,Turf,Hanshin,Long,3000m,G2
+Nikkei Sho,Senior Year,Late Mar,Turf,Nakayama,Long,2500m,G2
+March Stakes,Senior Year,Late Mar,Dirt,Nakayama,Mile,1800m,G3
+Chiba Stakes,Senior Year,Late Mar,Dirt,Nakayama,Sprint,1200m,OP
+Rokko Stakes,Senior Year,Late Mar,Turf,Hanshin,Mile,1600m,OP
+Hanshin Umamusume Stakes,Senior Year,Early Apr,Turf,Hanshin,Mile,1600m,G2
+Antares Stakes,Senior Year,Early Apr,Dirt,Hanshin,Mile,1800m,G3
+Lord Derby Challenge Trophy,Senior Year,Early Apr,Turf,Nakayama,Mile,1600m,G3
+Coral Stakes,Senior Year,Early Apr,Dirt,Hanshin,Sprint,1400m,OP
+Keiyo Stakes,Senior Year,Early Apr,Dirt,Nakayama,Sprint,1200m,OP
+Shunrai Stakes,Senior Year,Early Apr,Turf,Nakayama,Sprint,1200m,OP
+Azumakofuji Stakes,Senior Year,Early Apr,Dirt,Fukushima,Mile,1700m,OP
+Fukushima Mimpo Hai,Senior Year,Early Apr,Turf,Fukushima,Medium,2000m,OP
+Tenno Sho (Spring),Senior Year,Late Apr,Turf,Kyoto,Long,3200m,G1
+Milers Cup,Senior Year,Late Apr,Turf,Kyoto,Mile,1600m,G2
+Fukushima Umamusume Stakes,Senior Year,Late Apr,Turf,Fukushima,Mile,1800m,G3
+Tennozan Stakes,Senior Year,Late Apr,Dirt,Kyoto,Sprint,1200m,OP
+Oasis Stakes,Senior Year,Late Apr,Dirt,Tokyo,Mile,1600m,OP
+Victoria Mile,Senior Year,Early May,Turf,Tokyo,Mile,1600m,G1
+Keio Hai Spring Cup,Senior Year,Early May,Turf,Tokyo,Sprint,1400m,G2
+Niigata Daishoten,Senior Year,Early May,Turf,Niigata,Medium,2000m,G3
+Kurama Stakes,Senior Year,Early May,Turf,Kyoto,Sprint,1200m,OP
+Ritto Stakes,Senior Year,Early May,Dirt,Kyoto,Sprint,1400m,OP
+Miyakooji Stakes,Senior Year,Early May,Turf,Kyoto,Mile,1800m,OP
+Tanigawadake Stakes,Senior Year,Early May,Turf,Niigata,Mile,1600m,OP
+Brilliant Stakes,Senior Year,Early May,Dirt,Tokyo,Medium,2100m,OP
+Metropolitan Stakes,Senior Year,Early May,Turf,Tokyo,Medium,2400m,OP
+Meguro Kinen,Senior Year,Late May,Turf,Tokyo,Long,2500m,G2
+Heian Stakes,Senior Year,Late May,Dirt,Kyoto,Medium,1900m,G3
+Azuchijo Stakes,Senior Year,Late May,Turf,Kyoto,Sprint,1400m,OP
+Idaten Stakes,Senior Year,Late May,Turf,Niigata,Sprint,1000m,OP
+Keyaki Stakes,Senior Year,Late May,Dirt,Tokyo,Sprint,1400m,OP
+May Stakes,Senior Year,Late May,Turf,Tokyo,Mile,1800m,OP
+Yasuda Kinen,Senior Year,Early Jun,Turf,Tokyo,Mile,1600m,G1
+Epsom Cup,Senior Year,Early Jun,Turf,Tokyo,Mile,1800m,G3
+Mermaid Stakes,Senior Year,Early Jun,Turf,Hanshin,Medium,2000m,G3
+Naruo Kinen,Senior Year,Early Jun,Turf,Hanshin,Medium,2000m,G3
+Tempozan Stakes,Senior Year,Early Jun,Dirt,Hanshin,Sprint,1400m,OP
+Sleipnir Stakes,Senior Year,Early Jun,Dirt,Tokyo,Medium,2100m,OP
+Takarazuka Kinen,Senior Year,Late Jun,Turf,Hanshin,Medium,2200m,G1
+Teio Sho,Senior Year,Late Jun,Dirt,Ooi,Medium,2000m,G1
+Hakodate Sprint Stakes,Senior Year,Late Jun,Turf,Hakodate,Sprint,1200m,G3
+Paradise Stakes,Senior Year,Late Jun,Turf,Tokyo,Sprint,1400m,OP
+Akhalteke Stakes,Senior Year,Late Jun,Dirt,Tokyo,Mile,1600m,OP
+Onuma Stakes,Senior Year,Late Jun,Dirt,Hakodate,Mile,1700m,OP
+Sannomiya Stakes,Senior Year,Late Jun,Dirt,Hanshin,Mile,1800m,OP
+Yonago Stakes,Senior Year,Late Jun,Turf,Hanshin,Mile,1600m,OP
+CBC Sho,Senior Year,Early Jul,Turf,Chukyo,Sprint,1200m,G3
+Procyon Stakes,Senior Year,Early Jul,Dirt,Chukyo,Sprint,1400m,G3
+Hakodate Kinen,Senior Year,Early Jul,Turf,Hakodate,Medium,2000m,G3
+Tanabata Sho,Senior Year,Early Jul,Turf,Fukushima,Medium,2000m,G3
+Marine Stakes,Senior Year,Early Jul,Dirt,Hakodate,Mile,1700m,OP
+Meitetsu Hai,Senior Year,Early Jul,Dirt,Chukyo,Mile,1800m,OP
+Tomoe Sho,Senior Year,Early Jul,Turf,Hakodate,Mile,1800m,OP
+Ibis Summer Dash,Senior Year,Late Jul,Turf,Niigata,Sprint,1000m,G3
+Chukyo Kinen,Senior Year,Late Jul,Turf,Chukyo,Mile,1600m,G3
+Queen Stakes,Senior Year,Late Jul,Turf,Sapporo,Mile,1800m,G3
+Fukushima TV Open,Senior Year,Late Jul,Turf,Fukushima,Sprint,1200m,OP
+Elm Stakes,Senior Year,Early Aug,Dirt,Sapporo,Mile,1700m,G3
+Sekiya Kinen,Senior Year,Early Aug,Turf,Niigata,Mile,1600m,G3
+Kokura Kinen,Senior Year,Early Aug,Turf,Kokura,Medium,2000m,G3
+UHB Sho,Senior Year,Early Aug,Turf,Sapporo,Sprint,1200m,OP
+Aso Stakes,Senior Year,Early Aug,Dirt,Kokura,Mile,1700m,OP
+Kanetsu Stakes,Senior Year,Early Aug,Turf,Niigata,Mile,1800m,OP
+Sapporo Nikkei Open,Senior Year,Early Aug,Turf,Sapporo,Long,2600m,OP
+Sapporo Kinen,Senior Year,Late Aug,Turf,Sapporo,Medium,2000m,G2
+Keeneland Cup,Senior Year,Late Aug,Turf,Sapporo,Sprint,1200m,G3
+Kitakyushu Kinen,Senior Year,Late Aug,Turf,Kokura,Sprint,1200m,G3
+NST Sho,Senior Year,Late Aug,Dirt,Niigata,Sprint,1200m,OP
+Toki Stakes,Senior Year,Late Aug,Turf,Niigata,Sprint,1400m,OP
+BSN Sho,Senior Year,Late Aug,Dirt,Niigata,Mile,1800m,OP
+Kokura Nikkei Open,Senior Year,Late Aug,Turf,Kokura,Mile,1800m,OP
+Centaur Stakes,Senior Year,Early Sep,Turf,Hanshin,Sprint,1200m,G2
+Keisei Hai Autumn Handicap,Senior Year,Early Sep,Turf,Nakayama,Mile,1600m,G3
+Niigata Kinen,Senior Year,Early Sep,Turf,Niigata,Medium,2000m,G3
+Enif Stakes,Senior Year,Early Sep,Dirt,Hanshin,Sprint,1400m,OP
+Radio Nippon Sho,Senior Year,Early Sep,Dirt,Nakayama,Mile,1800m,OP
+Tancho Stakes,Senior Year,Early Sep,Turf,Sapporo,Long,2600m,OP
+Sprinters Stakes,Senior Year,Late Sep,Turf,Nakayama,Sprint,1200m,G1
+All Comers,Senior Year,Late Sep,Turf,Nakayama,Medium,2200m,G2
+Sirius Stakes,Senior Year,Late Sep,Dirt,Hanshin,Medium,2000m,G3
+Nagatsuki Stakes,Senior Year,Late Sep,Dirt,Nakayama,Sprint,1200m,OP
+Port Island Stakes,Senior Year,Late Sep,Turf,Hanshin,Mile,1600m,OP
+Fuchu Umamusume Stakes,Senior Year,Early Oct,Turf,Tokyo,Mile,1800m,G2
+Mainichi Okan,Senior Year,Early Oct,Turf,Tokyo,Mile,1800m,G2
+Kyoto Daishoten,Senior Year,Early Oct,Turf,Kyoto,Medium,2400m,G2
+Green Channel Cup,Senior Year,Early Oct,Dirt,Tokyo,Sprint,1400m,OP
+Opal Stakes,Senior Year,Early Oct,Turf,Kyoto,Sprint,1200m,OP
+Shinetsu Stakes,Senior Year,Early Oct,Turf,Niigata,Sprint,1400m,OP
+Uzumasa Stakes,Senior Year,Early Oct,Dirt,Kyoto,Mile,1800m,OP
+October Stakes,Senior Year,Early Oct,Turf,Tokyo,Medium,2000m,OP
+Tenno Sho (Autumn),Senior Year,Late Oct,Turf,Tokyo,Medium,2000m,G1
+Swan Stakes,Senior Year,Late Oct,Turf,Kyoto,Sprint,1400m,G2
+Fuji Stakes,Senior Year,Late Oct,Turf,Tokyo,Mile,1600m,G2
+Lumiere Autumn Dash,Senior Year,Late Oct,Turf,Niigata,Sprint,1000m,OP
+Muromachi Stakes,Senior Year,Late Oct,Dirt,Kyoto,Sprint,1200m,OP
+Cassiopeia Stakes,Senior Year,Late Oct,Turf,Kyoto,Mile,1800m,OP
+Brazil Cup,Senior Year,Late Oct,Dirt,Tokyo,Medium,2100m,OP
+JBC Sprint,Senior Year,Early Nov,Dirt,Varies,Sprint,Varies,G1
+JBC Ladies’ Classic,Senior Year,Early Nov,Dirt,Varies,Mile,Varies,G1
+Queen Elizabeth II Cup,Senior Year,Early Nov,Turf,Kyoto,Medium,2200m,G1
+JBC Classic,Senior Year,Early Nov,Dirt,Varies,,Varies,G1
+Copa Republica Argentina,Senior Year,Early Nov,Turf,Tokyo,Long,2500m,G2
+Miyako Stakes,Senior Year,Early Nov,Dirt,Kyoto,Mile,1800m,G3
+Musashino Stakes,Senior Year,Early Nov,Dirt,Tokyo,Mile,1600m,G3
+Fukushima Kinen,Senior Year,Early Nov,Turf,Fukushima,Medium,2000m,G3
+Oro Cup,Senior Year,Early Nov,Turf,Tokyo,Sprint,1400m,OP
+Mile Championship,Senior Year,Late Nov,Turf,Kyoto,Mile,1600m,G1
+Japan Cup,Senior Year,Late Nov,Turf,Tokyo,Medium,2400m,G1
+Keihan Hai,Senior Year,Late Nov,Turf,Kyoto,Sprint,1200m,G3
+Autumn Leaf Stakes,Senior Year,Late Nov,Dirt,Kyoto,Sprint,1200m,OP
+Shimotsuki Stakes,Senior Year,Late Nov,Dirt,Tokyo,Sprint,1400m,OP
+Capital Stakes,Senior Year,Late Nov,Turf,Tokyo,Mile,1600m,OP
+Fukushima Minyu Cup,Senior Year,Late Nov,Dirt,Fukushima,Mile,1700m,OP
+Andromeda Stakes,Senior Year,Late Nov,Turf,Kyoto,Medium,2000m,OP
+Champions Cup,Senior Year,Early Dec,Dirt,Chukyo,Mile,1800m,G1
+Stayers Stakes,Senior Year,Early Dec,Turf,Nakayama,Long,3600m,G2
+Capella Stakes,Senior Year,Early Dec,Dirt,Nakayama,Sprint,1200m,G3
+Turquoise Stakes,Senior Year,Early Dec,Turf,Nakayama,Mile,1600m,G3
+Challenge Cup,Senior Year,Early Dec,Turf,Hanshin,Medium,2000m,G3
+Chunichi Shimbun Hai,Senior Year,Early Dec,Turf,Chukyo,Medium,2000m,G3
+Lapis Lazuli Stakes,Senior Year,Early Dec,Turf,Nakayama,Sprint,1200m,OP
+Tanzanite Stakes,Senior Year,Early Dec,Turf,Hanshin,Sprint,1200m,OP
+December Stakes,Senior Year,Early Dec,Turf,Nakayama,Mile,1800m,OP
+Rigel Stakes,Senior Year,Early Dec,Turf,Hanshin,Mile,1600m,OP
+Shiwasu Stakes,Senior Year,Early Dec,Dirt,Nakayama,Mile,1800m,OP
+Tokyo Daishoten,Senior Year,Late Dec,Dirt,Ooi,Medium,2000m,G1
+Arima Kinen,Senior Year,Late Dec,Turf,Nakayama,Long,2500m,G1
+Hanshin Cup,Senior Year,Late Dec,Turf,Hanshin,Sprint,1400m,G2
+Galaxy Stakes,Senior Year,Late Dec,Dirt,Hanshin,Sprint,1400m,OP
+Betelgeuse Stakes,Senior Year,Late Dec,Dirt,Hanshin,Mile,1800m,OP

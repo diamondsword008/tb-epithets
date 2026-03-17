@@ -11,69 +11,66 @@
         <aside>
             <!-- <button type="button" onclick="resetSelections()">button that tests stuff</button> -->
             <h3>Epithets</h3>
-            <p><span id="total_stats">Total stats gained: +0</span></p>
-            <div id="epithets">
-                <p>Main Epithets</p>
-                <span id="lady"></span>
-                <span id="heroine"></span>
-                <span id="goddess"></span>
+            <p id="total_stats"></p>
+            <p>Main Epithets</p>
+            <span id="lady"></span>
+            <span id="heroine"></span>
+            <span id="goddess"></span>
 
-                <span id="mile_a_minute"></span>
-                <span id="stunning"></span>
-                <span id="incredible"></span>
-                <span id="phenomenal"></span>
+            <span id="mile_a_minute"></span>
+            <span id="stunning"></span>
+            <span id="incredible"></span>
+            <span id="phenomenal"></span>
 
-                <span id="breakneck_miler"></span>
-                <span id="sprint_go-getter"></span>
-                <span id="sprint_speedster"></span>
+            <span id="breakneck_miler"></span>
+            <span id="sprint_go-getter"></span>
+            <span id="sprint_speedster"></span>
 
-                <span id="spring_champion"></span>
-                <span id="fall_champion"></span>
-                <span id="shield_bearer"></span>
-                <span id="legendary"></span>
+            <span id="spring_champion"></span>
+            <span id="fall_champion"></span>
+            <span id="shield_bearer"></span>
+            <span id="legendary"></span>
 
-                <span id="dirty_work"></span>
-                <span id="playing_dirty"></span>
-                <span id="eat_my_dust"></span>
-                <span id="dirt_g1_achiever"></span>
-                <span id="dirt_g1_star"></span>
-                <span id="dirt_g1_powerhouse"></span>
-                <span id="dirt_g1_dominator"></span>
-                <span id="dirt_sprinter"></span>
-                <span id="kicking_up_dust"></span>
-                
-                <p>Misc Epithets</p>
-                <span id="pro_racer"></span>
-                <span id="std_dst"></span>
-                <span id="non_std_dst"></span>
-                <span id="kanto"></span>
-                <span id="kansai"></span>
-                <span id="hokkaido"></span>
-                <span id="tohoku"></span>
-                <span id="kokura"></span>
-                <span id="junior_jewel"></span>
-                <span id="umatastic"></span>
-                <span id="globe-trotter"></span>
-                <span id="dirt_races"></span>
-                <span id="dirt_g1"></span>
-            </div>
-            <br>
+            <span id="dirty_work"></span>
+            <span id="playing_dirty"></span>
+            <span id="eat_my_dust"></span>
+            <span id="dirt_g1_achiever"></span>
+            <span id="dirt_g1_star"></span>
+            <span id="dirt_g1_powerhouse"></span>
+            <span id="dirt_g1_dominator"></span>
+            <span id="dirt_sprinter"></span>
+            <span id="kicking_up_dust"></span>
+            
+            <p>Misc Epithets</p>
+            <span id="pro_racer"></span>
+            <span id="std_dst"></span>
+            <span id="non_std_dst"></span>
+            <span id="kanto"></span>
+            <span id="kansai"></span>
+            <span id="hokkaido"></span>
+            <span id="tohoku"></span>
+            <span id="kokura"></span>
+            <span id="junior_jewel"></span>
+            <span id="umatastic"></span>
+            <span id="globe-trotter"></span>
+            <h3>Agenda Info</h3>
+            <span id="race_info"></span>
             <h3>Races</h3>
-            <p>Junior Year</p>
+            <p id="jr_ct"></p>
             <div class="racelist" id="junior_races"></div>
-            <p>Classic Year</p>
+            <p id="cl_ct"></p>
             <div class="racelist" id="classic_races"></div>
-            <p>Senior Year</p>
+            <p id="sr_ct"></p>
             <div class="racelist" id="senior_races"></div>
         </aside>
         <div class="buttons">
-            <button type="button" onclick="downloadAgenda()">Download Agenda</button>
+            <button type="button" onclick="downloadAgenda()">Export Agenda</button>
             <button type="button" onclick="importAgenda()">Import Agenda</button>
             <button type="button" onclick="resetSelections()">Reset Current Agenda</button>
         </div>
         <!-- generated from python script -->
         <h1>
-            Junior C.
+            Junior Year
         </h1>
         <div class="selector junior">
             Late Jul
@@ -81,11 +78,11 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="chukyo_junior_stakes">
-                    Chukyo Junior Stakes 1600m (OP)
-                </option>
                 <option value="hakodate_junior_stakes">
                     Hakodate Junior Stakes 1200m (G3)
+                </option>
+                <option value="chukyo_junior_stakes">
+                    Chukyo Junior Stakes 1600m (OP)
                 </option>
             </select>
         </div>
@@ -95,14 +92,14 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="cosmos_sho">
-                    Cosmos Sho 1800m (OP)
-                </option>
                 <option value="dahlia_sho">
                     Dahlia Sho 1400m (OP)
                 </option>
                 <option value="phoenix_sho">
                     Phoenix Sho 1200m (OP)
+                </option>
+                <option value="cosmos_sho">
+                    Cosmos Sho 1800m (OP)
                 </option>
             </select>
         </div>
@@ -112,11 +109,11 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="clover_sho">
-                    Clover Sho 1500m (OP)
-                </option>
                 <option value="niigata_junior_stakes">
                     Niigata Junior Stakes 1600m (G3)
+                </option>
+                <option value="clover_sho">
+                    Clover Sho 1500m (OP)
                 </option>
             </select>
         </div>
@@ -126,20 +123,20 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="aster_sho">
-                    Aster Sho 1600m (Pre-OP)
-                </option>
                 <option value="kokura_junior_stakes">
                     Kokura Junior Stakes 1200m (G3)
-                </option>
-                <option value="nojigiku_stakes">
-                    Nojigiku Stakes 1800m (OP)
                 </option>
                 <option value="sapporo_junior_stakes">
                     Sapporo Junior Stakes 1800m (G3)
                 </option>
                 <option value="suzuran_sho">
                     Suzuran Sho 1200m (OP)
+                </option>
+                <option value="nojigiku_stakes">
+                    Nojigiku Stakes 1800m (OP)
+                </option>
+                <option value="aster_sho">
+                    Aster Sho 1600m (Pre-OP)
                 </option>
             </select>
         </div>
@@ -152,11 +149,11 @@
                 <option value="canna_stakes">
                     Canna Stakes 1200m (OP)
                 </option>
-                <option value="fuyo_stakes">
-                    Fuyo Stakes 2000m (OP)
-                </option>
                 <option value="kikyo_stakes">
                     Kikyo Stakes 1400m (OP)
+                </option>
+                <option value="fuyo_stakes">
+                    Fuyo Stakes 2000m (OP)
                 </option>
                 <option value="saffron_sho">
                     Saffron Sho 1600m (Pre-OP)
@@ -169,17 +166,17 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="saudi_arabia_royal_cup">
+                    Saudi Arabia Royal Cup 1600m (G3)
+                </option>
                 <option value="momiji_stakes">
                     Momiji Stakes 1400m (OP)
-                </option>
-                <option value="platanus_sho">
-                    Platanus Sho 1600m (Pre-OP)
                 </option>
                 <option value="rindo_sho">
                     Rindo Sho 1400m (Pre-OP)
                 </option>
-                <option value="saudi_arabia_royal_cup">
-                    Saudi Arabia Royal Cup 1600m (G3)
+                <option value="platanus_sho">
+                    Platanus Sho 1600m Dirt (Pre-OP)
                 </option>
                 <option value="shigiku_sho">
                     Shigiku Sho 2000m (Pre-OP)
@@ -202,7 +199,7 @@
                     Ivy Stakes 1800m (OP)
                 </option>
                 <option value="nadeshiko_sho">
-                    Nadeshiko Sho 1400m (Pre-OP)
+                    Nadeshiko Sho 1400m Dirt (Pre-OP)
                 </option>
             </select>
         </div>
@@ -211,6 +208,9 @@
             <select>
                 <option value="none">
                     ---
+                </option>
+                <option value="keio_hai_junior_stakes">
+                    Keio Hai Junior Stakes 1400m (G2)
                 </option>
                 <option value="daily_hai_junior_stakes">
                     Daily Hai Junior Stakes 1600m (G2)
@@ -221,20 +221,17 @@
                 <option value="fukushima_junior_stakes">
                     Fukushima Junior Stakes 1200m (OP)
                 </option>
-                <option value="hyakunichiso_tokubetsu">
-                    Hyakunichiso Tokubetsu 2000m (Pre-OP)
-                </option>
-                <option value="keio_hai_junior_stakes">
-                    Keio Hai Junior Stakes 1400m (G2)
-                </option>
-                <option value="kigiku_sho">
-                    Kigiku Sho 2000m (Pre-OP)
+                <option value="oxalis_sho">
+                    Oxalis Sho 1400m Dirt (Pre-OP)
                 </option>
                 <option value="kimmokusei_tokubetsu">
                     Kimmokusei Tokubetsu 1800m (Pre-OP)
                 </option>
-                <option value="oxalis_sho">
-                    Oxalis Sho 1400m (Pre-OP)
+                <option value="hyakunichiso_tokubetsu">
+                    Hyakunichiso Tokubetsu 2000m (Pre-OP)
+                </option>
+                <option value="kigiku_sho">
+                    Kigiku Sho 2000m (Pre-OP)
                 </option>
             </select>
         </div>
@@ -244,6 +241,15 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="tokyo_sports_hai_junior_stakes">
+                    Tokyo Sports Hai Junior Stakes 1800m (G3)
+                </option>
+                <option value="kyoto_junior_stakes">
+                    Kyoto Junior Stakes 2000m (G3)
+                </option>
+                <option value="shumeigiku_sho">
+                    Shumeigiku Sho 1400m (Pre-OP)
+                </option>
                 <option value="akamatsu_sho">
                     Akamatsu Sho 1600m (Pre-OP)
                 </option>
@@ -251,28 +257,19 @@
                     Begonia Sho 1600m (Pre-OP)
                 </option>
                 <option value="cattleya_sho">
-                    Cattleya Sho 1600m (Pre-OP)
-                </option>
-                <option value="habotan_sho">
-                    Habotan Sho 2000m (Pre-OP)
+                    Cattleya Sho 1600m Dirt (Pre-OP)
                 </option>
                 <option value="koyamaki_sho">
                     Koyamaki Sho 1600m (Pre-OP)
                 </option>
-                <option value="kyoto_junior_stakes">
-                    Kyoto Junior Stakes 2000m (G3)
-                </option>
                 <option value="mochinoki_sho">
-                    Mochinoki Sho 1800m (Pre-OP)
+                    Mochinoki Sho 1800m Dirt (Pre-OP)
                 </option>
                 <option value="shiragiku_sho">
                     Shiragiku Sho 1600m (Pre-OP)
                 </option>
-                <option value="shumeigiku_sho">
-                    Shumeigiku Sho 1400m (Pre-OP)
-                </option>
-                <option value="tokyo_sports_hai_junior_stakes">
-                    Tokyo Sports Hai Junior Stakes 1800m (G3)
+                <option value="habotan_sho">
+                    Habotan Sho 2000m (Pre-OP)
                 </option>
             </select>
         </div>
@@ -285,17 +282,11 @@
                 <option value="asahi_hai_futurity_stakes">
                     Asahi Hai Futurity Stakes 1600m (G1)
                 </option>
-                <option value="erica_sho">
-                    Erica Sho 2000m (Pre-OP)
-                </option>
                 <option value="hanshin_juvenile_fillies">
                     Hanshin Juvenile Fillies 1600m (G1)
                 </option>
-                <option value="hiiragi_sho">
-                    Hiiragi Sho 1600m (Pre-OP)
-                </option>
                 <option value="kantsubaki_sho">
-                    Kantsubaki Sho 1400m (Pre-OP)
+                    Kantsubaki Sho 1400m Dirt (Pre-OP)
                 </option>
                 <option value="kuromatsu_sho">
                     Kuromatsu Sho 1200m (Pre-OP)
@@ -309,6 +300,12 @@
                 <option value="tsuwabuki_sho">
                     Tsuwabuki Sho 1400m (Pre-OP)
                 </option>
+                <option value="hiiragi_sho">
+                    Hiiragi Sho 1600m (Pre-OP)
+                </option>
+                <option value="erica_sho">
+                    Erica Sho 2000m (Pre-OP)
+                </option>
             </select>
         </div>
         <div class="selector junior">
@@ -317,11 +314,11 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="christmas_rose_stakes">
-                    Christmas Rose Stakes 1200m (OP)
-                </option>
                 <option value="hopeful_stakes">
                     Hopeful Stakes 2000m (G1)
+                </option>
+                <option value="christmas_rose_stakes">
+                    Christmas Rose Stakes 1200m (OP)
                 </option>
                 <option value="senryo_sho">
                     Senryo Sho 1600m (Pre-OP)
@@ -329,7 +326,7 @@
             </select>
         </div>
         <h1>
-            Classic C.
+            Classic Year
         </h1>
         <div class="selector classic">
             Early Jan
@@ -340,8 +337,8 @@
                 <option value="fairy_stakes">
                     Fairy Stakes 1600m (G3)
                 </option>
-                <option value="junior_cup">
-                    Junior Cup 1600m (OP)
+                <option value="shinzan_kinen">
+                    Shinzan Kinen 1600m (G3)
                 </option>
                 <option value="keisei_hai">
                     Keisei Hai 2000m (G3)
@@ -349,8 +346,8 @@
                 <option value="kobai_stakes">
                     Kobai Stakes 1400m (OP)
                 </option>
-                <option value="shinzan_kinen">
-                    Shinzan Kinen 1600m (G3)
+                <option value="junior_cup">
+                    Junior Cup 1600m (OP)
                 </option>
             </select>
         </div>
@@ -374,9 +371,6 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="elfin_stakes">
-                    Elfin Stakes 1600m (OP)
-                </option>
                 <option value="kisaragi_sho">
                     Kisaragi Sho 1800m (G3)
                 </option>
@@ -386,6 +380,9 @@
                 <option value="queen_cup">
                     Queen Cup 1600m (G3)
                 </option>
+                <option value="elfin_stakes">
+                    Elfin Stakes 1600m (OP)
+                </option>
             </select>
         </div>
         <div class="selector classic">
@@ -394,11 +391,11 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="hyacinth_stakes">
-                    Hyacinth Stakes 1600m (OP)
-                </option>
                 <option value="marguerite_stakes">
                     Marguerite Stakes 1200m (OP)
+                </option>
+                <option value="hyacinth_stakes">
+                    Hyacinth Stakes 1600m Dirt (OP)
                 </option>
                 <option value="sumire_stakes">
                     Sumire Stakes 2200m (OP)
@@ -411,20 +408,20 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="anemone_stakes">
-                    Anemone Stakes 1600m (OP)
-                </option>
                 <option value="fillies'_revue">
                     Fillies' Revue 1400m (G2)
-                </option>
-                <option value="shoryu_stakes">
-                    Shoryu Stakes 1400m (OP)
                 </option>
                 <option value="tulip_sho">
                     Tulip Sho 1600m (G2)
                 </option>
                 <option value="yayoi_sho">
                     Yayoi Sho 2000m (G2)
+                </option>
+                <option value="shoryu_stakes">
+                    Shoryu Stakes 1400m Dirt (OP)
+                </option>
+                <option value="anemone_stakes">
+                    Anemone Stakes 1600m (OP)
                 </option>
             </select>
         </div>
@@ -434,6 +431,9 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="spring_stakes">
+                    Spring Stakes 1800m (G2)
+                </option>
                 <option value="falcon_stakes">
                     Falcon Stakes 1400m (G3)
                 </option>
@@ -442,9 +442,6 @@
                 </option>
                 <option value="mainichi_hai">
                     Mainichi Hai 1800m (G3)
-                </option>
-                <option value="spring_stakes">
-                    Spring Stakes 1800m (G2)
                 </option>
                 <option value="wakaba_stakes">
                     Wakaba Stakes 2000m (OP)
@@ -457,20 +454,20 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="arlington_cup">
-                    Arlington Cup 1600m (G3)
-                </option>
-                <option value="fukuryu_stakes">
-                    Fukuryu Stakes 1800m (OP)
-                </option>
-                <option value="new_zealand_trophy">
-                    New Zealand Trophy 1600m (G2)
-                </option>
                 <option value="oka_sho">
                     Oka Sho 1600m (G1)
                 </option>
                 <option value="satsuki_sho">
                     Satsuki Sho 2000m (G1)
+                </option>
+                <option value="new_zealand_trophy">
+                    New Zealand Trophy 1600m (G2)
+                </option>
+                <option value="arlington_cup">
+                    Arlington Cup 1600m (G3)
+                </option>
+                <option value="fukuryu_stakes">
+                    Fukuryu Stakes 1800m Dirt (OP)
                 </option>
                 <option value="wasurenagusa_sho">
                     Wasurenagusa Sho 2000m (OP)
@@ -489,14 +486,14 @@
                 <option value="flora_stakes">
                     Flora Stakes 2000m (G2)
                 </option>
-                <option value="sweetpea_stakes">
-                    Sweetpea Stakes 1800m (OP)
-                </option>
                 <option value="tachibana_stakes">
                     Tachibana Stakes 1400m (OP)
                 </option>
                 <option value="tango_stakes">
-                    Tango Stakes 1400m (OP)
+                    Tango Stakes 1400m Dirt (OP)
+                </option>
+                <option value="sweetpea_stakes">
+                    Sweetpea Stakes 1800m (OP)
                 </option>
             </select>
         </div>
@@ -506,17 +503,17 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="kyoto_shimbun_hai">
-                    Kyoto Shimbun Hai 2200m (G2)
-                </option>
                 <option value="nhk_mile_cup">
                     NHK Mile Cup 1600m (G1)
                 </option>
-                <option value="principal_stakes">
-                    Principal Stakes 2000m (OP)
+                <option value="kyoto_shimbun_hai">
+                    Kyoto Shimbun Hai 2200m (G2)
                 </option>
                 <option value="seiryu_stakes">
-                    Seiryu Stakes 1600m (OP)
+                    Seiryu Stakes 1600m Dirt (OP)
+                </option>
+                <option value="principal_stakes">
+                    Principal Stakes 2000m (OP)
                 </option>
             </select>
         </div>
@@ -526,20 +523,20 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="japanese_oaks">
+                    Japanese Oaks 2400m (G1)
+                </option>
+                <option value="tokyo_yushun_(japanese_derby)">
+                    Tokyo Yushun (Japanese Derby) 2400m (G1)
+                </option>
                 <option value="aoi_stakes">
                     Aoi Stakes 1200m (G3)
                 </option>
                 <option value="hosu_stakes">
-                    Hosu Stakes 1800m (OP)
-                </option>
-                <option value="japanese_oaks">
-                    Japanese Oaks 2400m (G1)
+                    Hosu Stakes 1800m Dirt (OP)
                 </option>
                 <option value="shirayuri_stakes">
                     Shirayuri Stakes 1800m (OP)
-                </option>
-                <option value="tokyo_yushun_(japanese_derby)">
-                    Tokyo Yushun (Japanese Derby) 2400m (G1)
                 </option>
             </select>
         </div>
@@ -548,6 +545,9 @@
             <select>
                 <option value="none">
                     ---
+                </option>
+                <option value="yasuda_kinen">
+                    Yasuda Kinen 1600m (G1)
                 </option>
                 <option value="epsom_cup">
                     Epsom Cup 1800m (G3)
@@ -558,14 +558,11 @@
                 <option value="naruo_kinen">
                     Naruo Kinen 2000m (G3)
                 </option>
-                <option value="sleipnir_stakes">
-                    Sleipnir Stakes 2100m (OP)
-                </option>
                 <option value="tempozan_stakes">
-                    Tempozan Stakes 1400m (OP)
+                    Tempozan Stakes 1400m Dirt (OP)
                 </option>
-                <option value="yasuda_kinen">
-                    Yasuda Kinen 1600m (G1)
+                <option value="sleipnir_stakes">
+                    Sleipnir Stakes 2100m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -575,26 +572,26 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="akhalteke_stakes">
-                    Akhalteke Stakes 1600m (OP)
+                <option value="takarazuka_kinen">
+                    Takarazuka Kinen 2200m (G1)
                 </option>
                 <option value="hakodate_sprint_stakes">
                     Hakodate Sprint Stakes 1200m (G3)
                 </option>
-                <option value="onuma_stakes">
-                    Onuma Stakes 1700m (OP)
+                <option value="unicorn_stakes">
+                    Unicorn Stakes 1600m Dirt (G3)
                 </option>
                 <option value="paradise_stakes">
                     Paradise Stakes 1400m (OP)
                 </option>
+                <option value="akhalteke_stakes">
+                    Akhalteke Stakes 1600m Dirt (OP)
+                </option>
+                <option value="onuma_stakes">
+                    Onuma Stakes 1700m Dirt (OP)
+                </option>
                 <option value="sannomiya_stakes">
-                    Sannomiya Stakes 1800m (OP)
-                </option>
-                <option value="takarazuka_kinen">
-                    Takarazuka Kinen 2200m (G1)
-                </option>
-                <option value="unicorn_stakes">
-                    Unicorn Stakes 1600m (G3)
+                    Sannomiya Stakes 1800m Dirt (OP)
                 </option>
                 <option value="yonago_stakes">
                     Yonago Stakes 1600m (OP)
@@ -607,29 +604,29 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="japan_dirt_derby">
+                    Japan Dirt Derby 2000m Dirt (G1)
+                </option>
                 <option value="cbc_sho">
                     CBC Sho 1200m (G3)
                 </option>
-                <option value="hakodate_kinen">
-                    Hakodate Kinen 2000m (G3)
-                </option>
-                <option value="japan_dirt_derby">
-                    Japan Dirt Derby 2000m (G1)
-                </option>
-                <option value="marine_stakes">
-                    Marine Stakes 1700m (OP)
-                </option>
-                <option value="meitetsu_hai">
-                    Meitetsu Hai 1800m (OP)
-                </option>
                 <option value="procyon_stakes">
-                    Procyon Stakes 1400m (G3)
+                    Procyon Stakes 1400m Dirt (G3)
                 </option>
                 <option value="radio_nikkei_sho">
                     Radio Nikkei Sho 1800m (G3)
                 </option>
+                <option value="hakodate_kinen">
+                    Hakodate Kinen 2000m (G3)
+                </option>
                 <option value="tanabata_sho">
                     Tanabata Sho 2000m (G3)
+                </option>
+                <option value="marine_stakes">
+                    Marine Stakes 1700m Dirt (OP)
+                </option>
+                <option value="meitetsu_hai">
+                    Meitetsu Hai 1800m Dirt (OP)
                 </option>
                 <option value="tomoe_sho">
                     Tomoe Sho 1800m (OP)
@@ -642,17 +639,17 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="chukyo_kinen">
-                    Chukyo Kinen 1600m (G3)
-                </option>
-                <option value="fukushima_tv_open">
-                    Fukushima TV Open 1200m (OP)
-                </option>
                 <option value="ibis_summer_dash">
                     Ibis Summer Dash 1000m (G3)
                 </option>
+                <option value="chukyo_kinen">
+                    Chukyo Kinen 1600m (G3)
+                </option>
                 <option value="queen_stakes">
                     Queen Stakes 1800m (G3)
+                </option>
+                <option value="fukushima_tv_open">
+                    Fukushima TV Open 1200m (OP)
                 </option>
             </select>
         </div>
@@ -662,29 +659,29 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="aso_stakes">
-                    Aso Stakes 1700m (OP)
-                </option>
                 <option value="elm_stakes">
-                    Elm Stakes 1700m (G3)
-                </option>
-                <option value="kanetsu_stakes">
-                    Kanetsu Stakes 1800m (OP)
-                </option>
-                <option value="kokura_kinen">
-                    Kokura Kinen 2000m (G3)
+                    Elm Stakes 1700m Dirt (G3)
                 </option>
                 <option value="leopard_stakes">
-                    Leopard Stakes 1800m (G3)
-                </option>
-                <option value="sapporo_nikkei_open">
-                    Sapporo Nikkei Open 2600m (OP)
+                    Leopard Stakes 1800m Dirt (G3)
                 </option>
                 <option value="sekiya_kinen">
                     Sekiya Kinen 1600m (G3)
                 </option>
+                <option value="kokura_kinen">
+                    Kokura Kinen 2000m (G3)
+                </option>
                 <option value="uhb_sho">
                     UHB Sho 1200m (OP)
+                </option>
+                <option value="aso_stakes">
+                    Aso Stakes 1700m Dirt (OP)
+                </option>
+                <option value="kanetsu_stakes">
+                    Kanetsu Stakes 1800m (OP)
+                </option>
+                <option value="sapporo_nikkei_open">
+                    Sapporo Nikkei Open 2600m (OP)
                 </option>
             </select>
         </div>
@@ -694,8 +691,8 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="bsn_sho">
-                    BSN Sho 1800m (OP)
+                <option value="sapporo_kinen">
+                    Sapporo Kinen 2000m (G2)
                 </option>
                 <option value="keeneland_cup">
                     Keeneland Cup 1200m (G3)
@@ -703,17 +700,17 @@
                 <option value="kitakyushu_kinen">
                     Kitakyushu Kinen 1200m (G3)
                 </option>
-                <option value="kokura_nikkei_open">
-                    Kokura Nikkei Open 1800m (OP)
-                </option>
                 <option value="nst_sho">
-                    NST Sho 1200m (OP)
-                </option>
-                <option value="sapporo_kinen">
-                    Sapporo Kinen 2000m (G2)
+                    NST Sho 1200m Dirt (OP)
                 </option>
                 <option value="toki_stakes">
                     Toki Stakes 1400m (OP)
+                </option>
+                <option value="bsn_sho">
+                    BSN Sho 1800m Dirt (OP)
+                </option>
+                <option value="kokura_nikkei_open">
+                    Kokura Nikkei Open 1800m (OP)
                 </option>
             </select>
         </div>
@@ -726,8 +723,8 @@
                 <option value="centaur_stakes">
                     Centaur Stakes 1200m (G2)
                 </option>
-                <option value="enif_stakes">
-                    Enif Stakes 1400m (OP)
+                <option value="rose_stakes">
+                    Rose Stakes 1800m (G2)
                 </option>
                 <option value="keisei_hai_autumn_handicap">
                     Keisei Hai Autumn Handicap 1600m (G3)
@@ -735,14 +732,14 @@
                 <option value="niigata_kinen">
                     Niigata Kinen 2000m (G3)
                 </option>
-                <option value="radio_nippon_sho">
-                    Radio Nippon Sho 1800m (OP)
-                </option>
-                <option value="rose_stakes">
-                    Rose Stakes 1800m (G2)
-                </option>
                 <option value="shion_stakes">
                     Shion Stakes 2000m (G3)
+                </option>
+                <option value="enif_stakes">
+                    Enif Stakes 1400m Dirt (OP)
+                </option>
+                <option value="radio_nippon_sho">
+                    Radio Nippon Sho 1800m Dirt (OP)
                 </option>
                 <option value="tancho_stakes">
                     Tancho Stakes 2600m (OP)
@@ -755,26 +752,26 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="sprinters_stakes">
+                    Sprinters Stakes 1200m (G1)
+                </option>
                 <option value="all_comers">
                     All Comers 2200m (G2)
                 </option>
                 <option value="kobe_shimbun_hai">
                     Kobe Shimbun Hai 2400m (G2)
                 </option>
+                <option value="st._lite_kinen">
+                    St. Lite Kinen 2200m (G2)
+                </option>
+                <option value="sirius_stakes">
+                    Sirius Stakes 2000m Dirt (G3)
+                </option>
                 <option value="nagatsuki_stakes">
-                    Nagatsuki Stakes 1200m (OP)
+                    Nagatsuki Stakes 1200m Dirt (OP)
                 </option>
                 <option value="port_island_stakes">
                     Port Island Stakes 1600m (OP)
-                </option>
-                <option value="sirius_stakes">
-                    Sirius Stakes 2000m (G3)
-                </option>
-                <option value="sprinters_stakes">
-                    Sprinters Stakes 1200m (G1)
-                </option>
-                <option value="st._lite_kinen">
-                    St. Lite Kinen 2200m (G2)
                 </option>
             </select>
         </div>
@@ -787,17 +784,14 @@
                 <option value="fuchu_umamusume_stakes">
                     Fuchu Umamusume Stakes 1800m (G2)
                 </option>
-                <option value="green_channel_cup">
-                    Green Channel Cup 1400m (OP)
+                <option value="mainichi_okan">
+                    Mainichi Okan 1800m (G2)
                 </option>
                 <option value="kyoto_daishoten">
                     Kyoto Daishoten 2400m (G2)
                 </option>
-                <option value="mainichi_okan">
-                    Mainichi Okan 1800m (G2)
-                </option>
-                <option value="october_stakes">
-                    October Stakes 2000m (OP)
+                <option value="green_channel_cup">
+                    Green Channel Cup 1400m Dirt (OP)
                 </option>
                 <option value="opal_stakes">
                     Opal Stakes 1200m (OP)
@@ -806,7 +800,10 @@
                     Shinetsu Stakes 1400m (OP)
                 </option>
                 <option value="uzumasa_stakes">
-                    Uzumasa Stakes 1800m (OP)
+                    Uzumasa Stakes 1800m Dirt (OP)
+                </option>
+                <option value="october_stakes">
+                    October Stakes 2000m (OP)
                 </option>
             </select>
         </div>
@@ -816,32 +813,32 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="brazil_cup">
-                    Brazil Cup 2100m (OP)
+                <option value="shuka_sho">
+                    Shuka Sho 2000m (G1)
                 </option>
-                <option value="cassiopeia_stakes">
-                    Cassiopeia Stakes 1800m (OP)
-                </option>
-                <option value="fuji_stakes">
-                    Fuji Stakes 1600m (G2)
+                <option value="tenno_sho_(autumn)">
+                    Tenno Sho (Autumn) 2000m (G1)
                 </option>
                 <option value="kikuka_sho">
                     Kikuka Sho 3000m (G1)
+                </option>
+                <option value="swan_stakes">
+                    Swan Stakes 1400m (G2)
+                </option>
+                <option value="fuji_stakes">
+                    Fuji Stakes 1600m (G2)
                 </option>
                 <option value="lumiere_autumn_dash">
                     Lumiere Autumn Dash 1000m (OP)
                 </option>
                 <option value="muromachi_stakes">
-                    Muromachi Stakes 1200m (OP)
+                    Muromachi Stakes 1200m Dirt (OP)
                 </option>
-                <option value="shuka_sho">
-                    Shuka Sho 2000m (G1)
+                <option value="cassiopeia_stakes">
+                    Cassiopeia Stakes 1800m (OP)
                 </option>
-                <option value="swan_stakes">
-                    Swan Stakes 1400m (G2)
-                </option>
-                <option value="tenno_sho_(autumn)">
-                    Tenno Sho (Autumn) 2000m (G1)
+                <option value="brazil_cup">
+                    Brazil Cup 2100m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -851,32 +848,32 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="jbc_sprint">
+                    JBC Sprint Varies Dirt (G1)
+                </option>
+                <option value="jbc_ladies’_classic">
+                    JBC Ladies’ Classic Varies Dirt (G1)
+                </option>
+                <option value="queen_elizabeth_ii_cup">
+                    Queen Elizabeth II Cup 2200m (G1)
+                </option>
+                <option value="jbc_classic">
+                    JBC Classic Varies Dirt (G1)
+                </option>
                 <option value="copa_republica_argentina">
                     Copa Republica Argentina 2500m (G2)
+                </option>
+                <option value="miyako_stakes">
+                    Miyako Stakes 1800m Dirt (G3)
+                </option>
+                <option value="musashino_stakes">
+                    Musashino Stakes 1600m Dirt (G3)
                 </option>
                 <option value="fukushima_kinen">
                     Fukushima Kinen 2000m (G3)
                 </option>
-                <option value="jbc_classic">
-                    JBC Classic Varies (G1)
-                </option>
-                <option value="jbc_ladies’_classic">
-                    JBC Ladies’ Classic Varies (G1)
-                </option>
-                <option value="jbc_sprint">
-                    JBC Sprint Varies (G1)
-                </option>
-                <option value="miyako_stakes">
-                    Miyako Stakes 1800m (G3)
-                </option>
-                <option value="musashino_stakes">
-                    Musashino Stakes 1600m (G3)
-                </option>
                 <option value="oro_cup">
                     Oro Cup 1400m (OP)
-                </option>
-                <option value="queen_elizabeth_ii_cup">
-                    Queen Elizabeth II Cup 2200m (G1)
                 </option>
             </select>
         </div>
@@ -886,17 +883,8 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="andromeda_stakes">
-                    Andromeda Stakes 2000m (OP)
-                </option>
-                <option value="autumn_leaf_stakes">
-                    Autumn Leaf Stakes 1200m (OP)
-                </option>
-                <option value="capital_stakes">
-                    Capital Stakes 1600m (OP)
-                </option>
-                <option value="fukushima_minyu_cup">
-                    Fukushima Minyu Cup 1700m (OP)
+                <option value="mile_championship">
+                    Mile Championship 1600m (G1)
                 </option>
                 <option value="japan_cup">
                     Japan Cup 2400m (G1)
@@ -904,11 +892,20 @@
                 <option value="keihan_hai">
                     Keihan Hai 1200m (G3)
                 </option>
-                <option value="mile_championship">
-                    Mile Championship 1600m (G1)
+                <option value="autumn_leaf_stakes">
+                    Autumn Leaf Stakes 1200m Dirt (OP)
                 </option>
                 <option value="shimotsuki_stakes">
-                    Shimotsuki Stakes 1400m (OP)
+                    Shimotsuki Stakes 1400m Dirt (OP)
+                </option>
+                <option value="capital_stakes">
+                    Capital Stakes 1600m (OP)
+                </option>
+                <option value="fukushima_minyu_cup">
+                    Fukushima Minyu Cup 1700m Dirt (OP)
+                </option>
+                <option value="andromeda_stakes">
+                    Andromeda Stakes 2000m (OP)
                 </option>
             </select>
         </div>
@@ -918,38 +915,38 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="champions_cup">
+                    Champions Cup 1800m Dirt (G1)
+                </option>
+                <option value="stayers_stakes">
+                    Stayers Stakes 3600m (G2)
+                </option>
                 <option value="capella_stakes">
-                    Capella Stakes 1200m (G3)
+                    Capella Stakes 1200m Dirt (G3)
+                </option>
+                <option value="turquoise_stakes">
+                    Turquoise Stakes 1600m (G3)
                 </option>
                 <option value="challenge_cup">
                     Challenge Cup 2000m (G3)
                 </option>
-                <option value="champions_cup">
-                    Champions Cup 1800m (G1)
-                </option>
                 <option value="chunichi_shimbun_hai">
                     Chunichi Shimbun Hai 2000m (G3)
                 </option>
-                <option value="december_stakes">
-                    December Stakes 1800m (OP)
-                </option>
                 <option value="lapis_lazuli_stakes">
                     Lapis Lazuli Stakes 1200m (OP)
+                </option>
+                <option value="tanzanite_stakes">
+                    Tanzanite Stakes 1200m (OP)
+                </option>
+                <option value="december_stakes">
+                    December Stakes 1800m (OP)
                 </option>
                 <option value="rigel_stakes">
                     Rigel Stakes 1600m (OP)
                 </option>
                 <option value="shiwasu_stakes">
-                    Shiwasu Stakes 1800m (OP)
-                </option>
-                <option value="stayers_stakes">
-                    Stayers Stakes 3600m (G2)
-                </option>
-                <option value="tanzanite_stakes">
-                    Tanzanite Stakes 1200m (OP)
-                </option>
-                <option value="turquoise_stakes">
-                    Turquoise Stakes 1600m (G3)
+                    Shiwasu Stakes 1800m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -959,25 +956,25 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="tokyo_daishoten">
+                    Tokyo Daishoten 2000m Dirt (G1)
+                </option>
                 <option value="arima_kinen">
                     Arima Kinen 2500m (G1)
-                </option>
-                <option value="betelgeuse_stakes">
-                    Betelgeuse Stakes 1800m (OP)
-                </option>
-                <option value="galaxy_stakes">
-                    Galaxy Stakes 1400m (OP)
                 </option>
                 <option value="hanshin_cup">
                     Hanshin Cup 1400m (G2)
                 </option>
-                <option value="tokyo_daishoten">
-                    Tokyo Daishoten 2000m (G1)
+                <option value="galaxy_stakes">
+                    Galaxy Stakes 1400m Dirt (OP)
+                </option>
+                <option value="betelgeuse_stakes">
+                    Betelgeuse Stakes 1800m Dirt (OP)
                 </option>
             </select>
         </div>
         <h1>
-            Senior C.
+            Senior Year
         </h1>
         <div class="selector senior">
             Early Jan
@@ -985,35 +982,35 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="nikkei_shinshun_hai">
+                    Nikkei Shinshun Hai 2400m (G2)
+                </option>
+                <option value="kyoto_kimpai">
+                    Kyoto Kimpai 1600m (G3)
+                </option>
                 <option value="aichi_hai">
                     Aichi Hai 2000m (G3)
+                </option>
+                <option value="nakayama_kimpai">
+                    Nakayama Kimpai 2000m (G3)
                 </option>
                 <option value="carbuncle_stakes">
                     Carbuncle Stakes 1200m (OP)
                 </option>
                 <option value="january_stakes">
-                    January Stakes 1200m (OP)
+                    January Stakes 1200m Dirt (OP)
                 </option>
-                <option value="kyoto_kimpai">
-                    Kyoto Kimpai 1600m (G3)
-                </option>
-                <option value="manyo_stakes">
-                    Manyo Stakes 3000m (OP)
-                </option>
-                <option value="nakayama_kimpai">
-                    Nakayama Kimpai 2000m (G3)
+                <option value="yodo_tankyori_stakes">
+                    Yodo Tankyori Stakes 1200m (OP)
                 </option>
                 <option value="new_year_stakes">
                     New Year Stakes 1600m (OP)
                 </option>
-                <option value="nikkei_shinshun_hai">
-                    Nikkei Shinshun Hai 2400m (G2)
-                </option>
                 <option value="pollux_stakes">
-                    Pollux Stakes 1800m (OP)
+                    Pollux Stakes 1800m Dirt (OP)
                 </option>
-                <option value="yodo_tankyori_stakes">
-                    Yodo Tankyori Stakes 1200m (OP)
+                <option value="manyo_stakes">
+                    Manyo Stakes 3000m (OP)
                 </option>
             </select>
         </div>
@@ -1023,23 +1020,23 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="tokai_stakes">
+                    Tokai Stakes 1800m Dirt (G2)
+                </option>
                 <option value="american_jcc">
                     American JCC 2200m (G2)
                 </option>
                 <option value="negishi_stakes">
-                    Negishi Stakes 1400m (G3)
-                </option>
-                <option value="shirafuji_stakes">
-                    Shirafuji Stakes 2000m (OP)
+                    Negishi Stakes 1400m Dirt (G3)
                 </option>
                 <option value="silk_road_stakes">
                     Silk Road Stakes 1200m (G3)
                 </option>
                 <option value="subaru_stakes">
-                    Subaru Stakes 1400m (OP)
+                    Subaru Stakes 1400m Dirt (OP)
                 </option>
-                <option value="tokai_stakes">
-                    Tokai Stakes 1800m (G2)
+                <option value="shirafuji_stakes">
+                    Shirafuji Stakes 2000m (OP)
                 </option>
             </select>
         </div>
@@ -1049,23 +1046,23 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="aldebaran_stakes">
-                    Aldebaran Stakes 1900m (OP)
-                </option>
                 <option value="kyoto_kinen">
                     Kyoto Kinen 2200m (G2)
-                </option>
-                <option value="rakuyo_stakes">
-                    Rakuyo Stakes 1600m (OP)
                 </option>
                 <option value="tokyo_shimbun_hai">
                     Tokyo Shimbun Hai 1600m (G3)
                 </option>
                 <option value="valentine_stakes">
-                    Valentine Stakes 1400m (OP)
+                    Valentine Stakes 1400m Dirt (OP)
                 </option>
                 <option value="yamato_stakes">
-                    Yamato Stakes 1200m (OP)
+                    Yamato Stakes 1200m Dirt (OP)
+                </option>
+                <option value="rakuyo_stakes">
+                    Rakuyo Stakes 1600m (OP)
+                </option>
+                <option value="aldebaran_stakes">
+                    Aldebaran Stakes 1900m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -1075,29 +1072,29 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="diamond_stakes">
-                    Diamond Stakes 3400m (G3)
-                </option>
                 <option value="february_stakes">
-                    February Stakes 1600m (G1)
-                </option>
-                <option value="hankyu_hai">
-                    Hankyu Hai 1400m (G3)
-                </option>
-                <option value="kitakyushu_tankyori_stakes">
-                    Kitakyushu Tankyori Stakes 1200m (OP)
-                </option>
-                <option value="kokura_daishoten">
-                    Kokura Daishoten 1800m (G3)
-                </option>
-                <option value="kyoto_umamusume_stakes">
-                    Kyoto Umamusume Stakes 1400m (G3)
+                    February Stakes 1600m Dirt (G1)
                 </option>
                 <option value="nakayama_kinen">
                     Nakayama Kinen 1800m (G2)
                 </option>
+                <option value="hankyu_hai">
+                    Hankyu Hai 1400m (G3)
+                </option>
+                <option value="kyoto_umamusume_stakes">
+                    Kyoto Umamusume Stakes 1400m (G3)
+                </option>
+                <option value="kokura_daishoten">
+                    Kokura Daishoten 1800m (G3)
+                </option>
+                <option value="diamond_stakes">
+                    Diamond Stakes 3400m (G3)
+                </option>
+                <option value="kitakyushu_tankyori_stakes">
+                    Kitakyushu Tankyori Stakes 1200m (OP)
+                </option>
                 <option value="sobu_stakes">
-                    Sobu Stakes 1800m (OP)
+                    Sobu Stakes 1800m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -1110,23 +1107,23 @@
                 <option value="kinko_sho">
                     Kinko Sho 2000m (G2)
                 </option>
-                <option value="kochi_stakes">
-                    Kochi Stakes 1600m (OP)
+                <option value="ocean_stakes">
+                    Ocean Stakes 1200m (G3)
                 </option>
                 <option value="nakayama_umamusume_stakes">
                     Nakayama Umamusume Stakes 1800m (G3)
                 </option>
-                <option value="nigawa_stakes">
-                    Nigawa Stakes 2000m (OP)
+                <option value="polaris_stakes">
+                    Polaris Stakes 1400m Dirt (OP)
                 </option>
-                <option value="ocean_stakes">
-                    Ocean Stakes 1200m (G3)
+                <option value="kochi_stakes">
+                    Kochi Stakes 1600m (OP)
                 </option>
                 <option value="osakajo_stakes">
                     Osakajo Stakes 1800m (OP)
                 </option>
-                <option value="polaris_stakes">
-                    Polaris Stakes 1400m (OP)
+                <option value="nigawa_stakes">
+                    Nigawa Stakes 2000m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -1136,26 +1133,26 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="chiba_stakes">
-                    Chiba Stakes 1200m (OP)
-                </option>
-                <option value="hanshin_daishoten">
-                    Hanshin Daishoten 3000m (G2)
-                </option>
-                <option value="march_stakes">
-                    March Stakes 1800m (G3)
-                </option>
-                <option value="nikkei_sho">
-                    Nikkei Sho 2500m (G2)
+                <option value="takamatsunomiya_kinen">
+                    Takamatsunomiya Kinen 1200m (G1)
                 </option>
                 <option value="osaka_hai">
                     Osaka Hai 2000m (G1)
                 </option>
+                <option value="hanshin_daishoten">
+                    Hanshin Daishoten 3000m (G2)
+                </option>
+                <option value="nikkei_sho">
+                    Nikkei Sho 2500m (G2)
+                </option>
+                <option value="march_stakes">
+                    March Stakes 1800m Dirt (G3)
+                </option>
+                <option value="chiba_stakes">
+                    Chiba Stakes 1200m Dirt (OP)
+                </option>
                 <option value="rokko_stakes">
                     Rokko Stakes 1600m (OP)
-                </option>
-                <option value="takamatsunomiya_kinen">
-                    Takamatsunomiya Kinen 1200m (G1)
                 </option>
             </select>
         </div>
@@ -1165,29 +1162,29 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="antares_stakes">
-                    Antares Stakes 1800m (G3)
-                </option>
-                <option value="azumakofuji_stakes">
-                    Azumakofuji Stakes 1700m (OP)
-                </option>
-                <option value="coral_stakes">
-                    Coral Stakes 1400m (OP)
-                </option>
-                <option value="fukushima_mimpo_hai">
-                    Fukushima Mimpo Hai 2000m (OP)
-                </option>
                 <option value="hanshin_umamusume_stakes">
                     Hanshin Umamusume Stakes 1600m (G2)
                 </option>
-                <option value="keiyo_stakes">
-                    Keiyo Stakes 1200m (OP)
+                <option value="antares_stakes">
+                    Antares Stakes 1800m Dirt (G3)
                 </option>
                 <option value="lord_derby_challenge_trophy">
                     Lord Derby Challenge Trophy 1600m (G3)
                 </option>
+                <option value="coral_stakes">
+                    Coral Stakes 1400m Dirt (OP)
+                </option>
+                <option value="keiyo_stakes">
+                    Keiyo Stakes 1200m Dirt (OP)
+                </option>
                 <option value="shunrai_stakes">
                     Shunrai Stakes 1200m (OP)
+                </option>
+                <option value="azumakofuji_stakes">
+                    Azumakofuji Stakes 1700m Dirt (OP)
+                </option>
+                <option value="fukushima_mimpo_hai">
+                    Fukushima Mimpo Hai 2000m (OP)
                 </option>
             </select>
         </div>
@@ -1197,20 +1194,20 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="fukushima_umamusume_stakes">
-                    Fukushima Umamusume Stakes 1800m (G3)
+                <option value="tenno_sho_(spring)">
+                    Tenno Sho (Spring) 3200m (G1)
                 </option>
                 <option value="milers_cup">
                     Milers Cup 1600m (G2)
                 </option>
-                <option value="oasis_stakes">
-                    Oasis Stakes 1600m (OP)
-                </option>
-                <option value="tenno_sho_(spring)">
-                    Tenno Sho (Spring) 3200m (G1)
+                <option value="fukushima_umamusume_stakes">
+                    Fukushima Umamusume Stakes 1800m (G3)
                 </option>
                 <option value="tennozan_stakes">
-                    Tennozan Stakes 1200m (OP)
+                    Tennozan Stakes 1200m Dirt (OP)
+                </option>
+                <option value="oasis_stakes">
+                    Oasis Stakes 1600m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -1220,32 +1217,32 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="brilliant_stakes">
-                    Brilliant Stakes 2100m (OP)
+                <option value="victoria_mile">
+                    Victoria Mile 1600m (G1)
                 </option>
                 <option value="keio_hai_spring_cup">
                     Keio Hai Spring Cup 1400m (G2)
                 </option>
+                <option value="niigata_daishoten">
+                    Niigata Daishoten 2000m (G3)
+                </option>
                 <option value="kurama_stakes">
                     Kurama Stakes 1200m (OP)
                 </option>
-                <option value="metropolitan_stakes">
-                    Metropolitan Stakes 2400m (OP)
+                <option value="ritto_stakes">
+                    Ritto Stakes 1400m Dirt (OP)
                 </option>
                 <option value="miyakooji_stakes">
                     Miyakooji Stakes 1800m (OP)
                 </option>
-                <option value="niigata_daishoten">
-                    Niigata Daishoten 2000m (G3)
-                </option>
-                <option value="ritto_stakes">
-                    Ritto Stakes 1400m (OP)
-                </option>
                 <option value="tanigawadake_stakes">
                     Tanigawadake Stakes 1600m (OP)
                 </option>
-                <option value="victoria_mile">
-                    Victoria Mile 1600m (G1)
+                <option value="brilliant_stakes">
+                    Brilliant Stakes 2100m Dirt (OP)
+                </option>
+                <option value="metropolitan_stakes">
+                    Metropolitan Stakes 2400m (OP)
                 </option>
             </select>
         </div>
@@ -1255,23 +1252,23 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="azuchijo_stakes">
-                    Azuchijo Stakes 1400m (OP)
+                <option value="meguro_kinen">
+                    Meguro Kinen 2500m (G2)
                 </option>
                 <option value="heian_stakes">
-                    Heian Stakes 1900m (G3)
+                    Heian Stakes 1900m Dirt (G3)
+                </option>
+                <option value="azuchijo_stakes">
+                    Azuchijo Stakes 1400m (OP)
                 </option>
                 <option value="idaten_stakes">
                     Idaten Stakes 1000m (OP)
                 </option>
                 <option value="keyaki_stakes">
-                    Keyaki Stakes 1400m (OP)
+                    Keyaki Stakes 1400m Dirt (OP)
                 </option>
                 <option value="may_stakes">
                     May Stakes 1800m (OP)
-                </option>
-                <option value="meguro_kinen">
-                    Meguro Kinen 2500m (G2)
                 </option>
             </select>
         </div>
@@ -1280,6 +1277,9 @@
             <select>
                 <option value="none">
                     ---
+                </option>
+                <option value="yasuda_kinen">
+                    Yasuda Kinen 1600m (G1)
                 </option>
                 <option value="epsom_cup">
                     Epsom Cup 1800m (G3)
@@ -1290,14 +1290,11 @@
                 <option value="naruo_kinen">
                     Naruo Kinen 2000m (G3)
                 </option>
-                <option value="sleipnir_stakes">
-                    Sleipnir Stakes 2100m (OP)
-                </option>
                 <option value="tempozan_stakes">
-                    Tempozan Stakes 1400m (OP)
+                    Tempozan Stakes 1400m Dirt (OP)
                 </option>
-                <option value="yasuda_kinen">
-                    Yasuda Kinen 1600m (G1)
+                <option value="sleipnir_stakes">
+                    Sleipnir Stakes 2100m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -1307,26 +1304,26 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="akhalteke_stakes">
-                    Akhalteke Stakes 1600m (OP)
-                </option>
-                <option value="hakodate_sprint_stakes">
-                    Hakodate Sprint Stakes 1200m (G3)
-                </option>
-                <option value="onuma_stakes">
-                    Onuma Stakes 1700m (OP)
-                </option>
-                <option value="paradise_stakes">
-                    Paradise Stakes 1400m (OP)
-                </option>
-                <option value="sannomiya_stakes">
-                    Sannomiya Stakes 1800m (OP)
-                </option>
                 <option value="takarazuka_kinen">
                     Takarazuka Kinen 2200m (G1)
                 </option>
                 <option value="teio_sho">
-                    Teio Sho 2000m (G1)
+                    Teio Sho 2000m Dirt (G1)
+                </option>
+                <option value="hakodate_sprint_stakes">
+                    Hakodate Sprint Stakes 1200m (G3)
+                </option>
+                <option value="paradise_stakes">
+                    Paradise Stakes 1400m (OP)
+                </option>
+                <option value="akhalteke_stakes">
+                    Akhalteke Stakes 1600m Dirt (OP)
+                </option>
+                <option value="onuma_stakes">
+                    Onuma Stakes 1700m Dirt (OP)
+                </option>
+                <option value="sannomiya_stakes">
+                    Sannomiya Stakes 1800m Dirt (OP)
                 </option>
                 <option value="yonago_stakes">
                     Yonago Stakes 1600m (OP)
@@ -1342,20 +1339,20 @@
                 <option value="cbc_sho">
                     CBC Sho 1200m (G3)
                 </option>
+                <option value="procyon_stakes">
+                    Procyon Stakes 1400m Dirt (G3)
+                </option>
                 <option value="hakodate_kinen">
                     Hakodate Kinen 2000m (G3)
                 </option>
-                <option value="marine_stakes">
-                    Marine Stakes 1700m (OP)
-                </option>
-                <option value="meitetsu_hai">
-                    Meitetsu Hai 1800m (OP)
-                </option>
-                <option value="procyon_stakes">
-                    Procyon Stakes 1400m (G3)
-                </option>
                 <option value="tanabata_sho">
                     Tanabata Sho 2000m (G3)
+                </option>
+                <option value="marine_stakes">
+                    Marine Stakes 1700m Dirt (OP)
+                </option>
+                <option value="meitetsu_hai">
+                    Meitetsu Hai 1800m Dirt (OP)
                 </option>
                 <option value="tomoe_sho">
                     Tomoe Sho 1800m (OP)
@@ -1368,17 +1365,17 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="chukyo_kinen">
-                    Chukyo Kinen 1600m (G3)
-                </option>
-                <option value="fukushima_tv_open">
-                    Fukushima TV Open 1200m (OP)
-                </option>
                 <option value="ibis_summer_dash">
                     Ibis Summer Dash 1000m (G3)
                 </option>
+                <option value="chukyo_kinen">
+                    Chukyo Kinen 1600m (G3)
+                </option>
                 <option value="queen_stakes">
                     Queen Stakes 1800m (G3)
+                </option>
+                <option value="fukushima_tv_open">
+                    Fukushima TV Open 1200m (OP)
                 </option>
             </select>
         </div>
@@ -1388,26 +1385,26 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="aso_stakes">
-                    Aso Stakes 1700m (OP)
-                </option>
                 <option value="elm_stakes">
-                    Elm Stakes 1700m (G3)
-                </option>
-                <option value="kanetsu_stakes">
-                    Kanetsu Stakes 1800m (OP)
-                </option>
-                <option value="kokura_kinen">
-                    Kokura Kinen 2000m (G3)
-                </option>
-                <option value="sapporo_nikkei_open">
-                    Sapporo Nikkei Open 2600m (OP)
+                    Elm Stakes 1700m Dirt (G3)
                 </option>
                 <option value="sekiya_kinen">
                     Sekiya Kinen 1600m (G3)
                 </option>
+                <option value="kokura_kinen">
+                    Kokura Kinen 2000m (G3)
+                </option>
                 <option value="uhb_sho">
                     UHB Sho 1200m (OP)
+                </option>
+                <option value="aso_stakes">
+                    Aso Stakes 1700m Dirt (OP)
+                </option>
+                <option value="kanetsu_stakes">
+                    Kanetsu Stakes 1800m (OP)
+                </option>
+                <option value="sapporo_nikkei_open">
+                    Sapporo Nikkei Open 2600m (OP)
                 </option>
             </select>
         </div>
@@ -1417,8 +1414,8 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="bsn_sho">
-                    BSN Sho 1800m (OP)
+                <option value="sapporo_kinen">
+                    Sapporo Kinen 2000m (G2)
                 </option>
                 <option value="keeneland_cup">
                     Keeneland Cup 1200m (G3)
@@ -1426,17 +1423,17 @@
                 <option value="kitakyushu_kinen">
                     Kitakyushu Kinen 1200m (G3)
                 </option>
-                <option value="kokura_nikkei_open">
-                    Kokura Nikkei Open 1800m (OP)
-                </option>
                 <option value="nst_sho">
-                    NST Sho 1200m (OP)
-                </option>
-                <option value="sapporo_kinen">
-                    Sapporo Kinen 2000m (G2)
+                    NST Sho 1200m Dirt (OP)
                 </option>
                 <option value="toki_stakes">
                     Toki Stakes 1400m (OP)
+                </option>
+                <option value="bsn_sho">
+                    BSN Sho 1800m Dirt (OP)
+                </option>
+                <option value="kokura_nikkei_open">
+                    Kokura Nikkei Open 1800m (OP)
                 </option>
             </select>
         </div>
@@ -1449,17 +1446,17 @@
                 <option value="centaur_stakes">
                     Centaur Stakes 1200m (G2)
                 </option>
-                <option value="enif_stakes">
-                    Enif Stakes 1400m (OP)
-                </option>
                 <option value="keisei_hai_autumn_handicap">
                     Keisei Hai Autumn Handicap 1600m (G3)
                 </option>
                 <option value="niigata_kinen">
                     Niigata Kinen 2000m (G3)
                 </option>
+                <option value="enif_stakes">
+                    Enif Stakes 1400m Dirt (OP)
+                </option>
                 <option value="radio_nippon_sho">
-                    Radio Nippon Sho 1800m (OP)
+                    Radio Nippon Sho 1800m Dirt (OP)
                 </option>
                 <option value="tancho_stakes">
                     Tancho Stakes 2600m (OP)
@@ -1472,20 +1469,20 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="sprinters_stakes">
+                    Sprinters Stakes 1200m (G1)
+                </option>
                 <option value="all_comers">
                     All Comers 2200m (G2)
                 </option>
+                <option value="sirius_stakes">
+                    Sirius Stakes 2000m Dirt (G3)
+                </option>
                 <option value="nagatsuki_stakes">
-                    Nagatsuki Stakes 1200m (OP)
+                    Nagatsuki Stakes 1200m Dirt (OP)
                 </option>
                 <option value="port_island_stakes">
                     Port Island Stakes 1600m (OP)
-                </option>
-                <option value="sirius_stakes">
-                    Sirius Stakes 2000m (G3)
-                </option>
-                <option value="sprinters_stakes">
-                    Sprinters Stakes 1200m (G1)
                 </option>
             </select>
         </div>
@@ -1498,17 +1495,14 @@
                 <option value="fuchu_umamusume_stakes">
                     Fuchu Umamusume Stakes 1800m (G2)
                 </option>
-                <option value="green_channel_cup">
-                    Green Channel Cup 1400m (OP)
+                <option value="mainichi_okan">
+                    Mainichi Okan 1800m (G2)
                 </option>
                 <option value="kyoto_daishoten">
                     Kyoto Daishoten 2400m (G2)
                 </option>
-                <option value="mainichi_okan">
-                    Mainichi Okan 1800m (G2)
-                </option>
-                <option value="october_stakes">
-                    October Stakes 2000m (OP)
+                <option value="green_channel_cup">
+                    Green Channel Cup 1400m Dirt (OP)
                 </option>
                 <option value="opal_stakes">
                     Opal Stakes 1200m (OP)
@@ -1517,7 +1511,10 @@
                     Shinetsu Stakes 1400m (OP)
                 </option>
                 <option value="uzumasa_stakes">
-                    Uzumasa Stakes 1800m (OP)
+                    Uzumasa Stakes 1800m Dirt (OP)
+                </option>
+                <option value="october_stakes">
+                    October Stakes 2000m (OP)
                 </option>
             </select>
         </div>
@@ -1527,11 +1524,11 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="brazil_cup">
-                    Brazil Cup 2100m (OP)
+                <option value="tenno_sho_(autumn)">
+                    Tenno Sho (Autumn) 2000m (G1)
                 </option>
-                <option value="cassiopeia_stakes">
-                    Cassiopeia Stakes 1800m (OP)
+                <option value="swan_stakes">
+                    Swan Stakes 1400m (G2)
                 </option>
                 <option value="fuji_stakes">
                     Fuji Stakes 1600m (G2)
@@ -1540,13 +1537,13 @@
                     Lumiere Autumn Dash 1000m (OP)
                 </option>
                 <option value="muromachi_stakes">
-                    Muromachi Stakes 1200m (OP)
+                    Muromachi Stakes 1200m Dirt (OP)
                 </option>
-                <option value="swan_stakes">
-                    Swan Stakes 1400m (G2)
+                <option value="cassiopeia_stakes">
+                    Cassiopeia Stakes 1800m (OP)
                 </option>
-                <option value="tenno_sho_(autumn)">
-                    Tenno Sho (Autumn) 2000m (G1)
+                <option value="brazil_cup">
+                    Brazil Cup 2100m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -1556,32 +1553,32 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="jbc_sprint">
+                    JBC Sprint Varies Dirt (G1)
+                </option>
+                <option value="jbc_ladies’_classic">
+                    JBC Ladies’ Classic Varies Dirt (G1)
+                </option>
+                <option value="queen_elizabeth_ii_cup">
+                    Queen Elizabeth II Cup 2200m (G1)
+                </option>
+                <option value="jbc_classic">
+                    JBC Classic Varies Dirt (G1)
+                </option>
                 <option value="copa_republica_argentina">
                     Copa Republica Argentina 2500m (G2)
+                </option>
+                <option value="miyako_stakes">
+                    Miyako Stakes 1800m Dirt (G3)
+                </option>
+                <option value="musashino_stakes">
+                    Musashino Stakes 1600m Dirt (G3)
                 </option>
                 <option value="fukushima_kinen">
                     Fukushima Kinen 2000m (G3)
                 </option>
-                <option value="jbc_classic">
-                    JBC Classic Varies (G1)
-                </option>
-                <option value="jbc_ladies’_classic">
-                    JBC Ladies’ Classic Varies (G1)
-                </option>
-                <option value="jbc_sprint">
-                    JBC Sprint Varies (G1)
-                </option>
-                <option value="miyako_stakes">
-                    Miyako Stakes 1800m (G3)
-                </option>
-                <option value="musashino_stakes">
-                    Musashino Stakes 1600m (G3)
-                </option>
                 <option value="oro_cup">
                     Oro Cup 1400m (OP)
-                </option>
-                <option value="queen_elizabeth_ii_cup">
-                    Queen Elizabeth II Cup 2200m (G1)
                 </option>
             </select>
         </div>
@@ -1591,17 +1588,8 @@
                 <option value="none">
                     ---
                 </option>
-                <option value="andromeda_stakes">
-                    Andromeda Stakes 2000m (OP)
-                </option>
-                <option value="autumn_leaf_stakes">
-                    Autumn Leaf Stakes 1200m (OP)
-                </option>
-                <option value="capital_stakes">
-                    Capital Stakes 1600m (OP)
-                </option>
-                <option value="fukushima_minyu_cup">
-                    Fukushima Minyu Cup 1700m (OP)
+                <option value="mile_championship">
+                    Mile Championship 1600m (G1)
                 </option>
                 <option value="japan_cup">
                     Japan Cup 2400m (G1)
@@ -1609,11 +1597,20 @@
                 <option value="keihan_hai">
                     Keihan Hai 1200m (G3)
                 </option>
-                <option value="mile_championship">
-                    Mile Championship 1600m (G1)
+                <option value="autumn_leaf_stakes">
+                    Autumn Leaf Stakes 1200m Dirt (OP)
                 </option>
                 <option value="shimotsuki_stakes">
-                    Shimotsuki Stakes 1400m (OP)
+                    Shimotsuki Stakes 1400m Dirt (OP)
+                </option>
+                <option value="capital_stakes">
+                    Capital Stakes 1600m (OP)
+                </option>
+                <option value="fukushima_minyu_cup">
+                    Fukushima Minyu Cup 1700m Dirt (OP)
+                </option>
+                <option value="andromeda_stakes">
+                    Andromeda Stakes 2000m (OP)
                 </option>
             </select>
         </div>
@@ -1623,38 +1620,38 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="champions_cup">
+                    Champions Cup 1800m Dirt (G1)
+                </option>
+                <option value="stayers_stakes">
+                    Stayers Stakes 3600m (G2)
+                </option>
                 <option value="capella_stakes">
-                    Capella Stakes 1200m (G3)
+                    Capella Stakes 1200m Dirt (G3)
+                </option>
+                <option value="turquoise_stakes">
+                    Turquoise Stakes 1600m (G3)
                 </option>
                 <option value="challenge_cup">
                     Challenge Cup 2000m (G3)
                 </option>
-                <option value="champions_cup">
-                    Champions Cup 1800m (G1)
-                </option>
                 <option value="chunichi_shimbun_hai">
                     Chunichi Shimbun Hai 2000m (G3)
                 </option>
-                <option value="december_stakes">
-                    December Stakes 1800m (OP)
-                </option>
                 <option value="lapis_lazuli_stakes">
                     Lapis Lazuli Stakes 1200m (OP)
+                </option>
+                <option value="tanzanite_stakes">
+                    Tanzanite Stakes 1200m (OP)
+                </option>
+                <option value="december_stakes">
+                    December Stakes 1800m (OP)
                 </option>
                 <option value="rigel_stakes">
                     Rigel Stakes 1600m (OP)
                 </option>
                 <option value="shiwasu_stakes">
-                    Shiwasu Stakes 1800m (OP)
-                </option>
-                <option value="stayers_stakes">
-                    Stayers Stakes 3600m (G2)
-                </option>
-                <option value="tanzanite_stakes">
-                    Tanzanite Stakes 1200m (OP)
-                </option>
-                <option value="turquoise_stakes">
-                    Turquoise Stakes 1600m (G3)
+                    Shiwasu Stakes 1800m Dirt (OP)
                 </option>
             </select>
         </div>
@@ -1664,44 +1661,44 @@
                 <option value="none">
                     ---
                 </option>
+                <option value="tokyo_daishoten">
+                    Tokyo Daishoten 2000m Dirt (G1)
+                </option>
                 <option value="arima_kinen">
                     Arima Kinen 2500m (G1)
-                </option>
-                <option value="betelgeuse_stakes">
-                    Betelgeuse Stakes 1800m (OP)
-                </option>
-                <option value="galaxy_stakes">
-                    Galaxy Stakes 1400m (OP)
                 </option>
                 <option value="hanshin_cup">
                     Hanshin Cup 1400m (G2)
                 </option>
-                <option value="tokyo_daishoten">
-                    Tokyo Daishoten 2000m (G1)
+                <option value="galaxy_stakes">
+                    Galaxy Stakes 1400m Dirt (OP)
+                </option>
+                <option value="betelgeuse_stakes">
+                    Betelgeuse Stakes 1800m Dirt (OP)
                 </option>
             </select>
         </div>
         <p style="color: grey;">Race list taken from <a href="https://gametora.com/umamusume/races" target="_blank" rel="noopener noreferrer">Gametora</a>. Epithet data taken from <a href="https://uma.guide/guides/trackblazer#epithets" target="_blank" rel="noopener noreferrer">uma.guide</a>. If you encounter issues or would like to give feedback, please send a DM to @ironblademusic on Discord with details.</p>
-        <p style="color: grey;">Disclaimer: the JavaScript used to make this page work was assisted by AI. I used AI because I have never programmed in JavaScript in my life and this project took long enough as is.</p>
-        <!-- script to generate race list -->
+        <p style="color: grey;">Disclaimer: the JavaScript used to make this page work was assisted by AI. I used AI because I have never programmed in JavaScript in my life and this project is big enough as is.</p>
         <script>
-                function checkEpithets() {
+            // check what epithets the current agenda gives
+            function checkEpithets() {
                 // get races
                 let jr_races = document.getElementById("junior_races").innerHTML;
-                let jr_races_list = jr_races.toString().replace(/( \([A-Za-z]*[^A-Za-z ]+[A-Za-z]*\))/g, "").replace(/ \d+m/g, "").replaceAll(" (OP)", "").split("<br>");
+                let jr_races_list = jr_races.toString().replace(/( \([A-Za-z]*[^A-Za-z ]+[A-Za-z]*\))/g, "").replace(/ \d+m/g, "").replaceAll(" Dirt", "").replaceAll(" (OP)", "").split("<br>");
                 let cl_races = document.getElementById("classic_races").innerHTML;
-                let cl_races_list = cl_races.toString().replace(/( \([A-Za-z]*[^A-Za-z ]+[A-Za-z]*\))/g, "").replace(/ \d+m/g, "").replaceAll(" (OP)", "").split("<br>");
+                let cl_races_list = cl_races.toString().replace(/( \([A-Za-z]*[^A-Za-z ]+[A-Za-z]*\))/g, "").replace(/ \d+m/g, "").replaceAll(" Dirt", "").replaceAll(" (OP)", "").split("<br>");
                 let sr_races = document.getElementById("senior_races").innerHTML;
-                let sr_races_list = sr_races.toString().replace(/( \([A-Za-z]*[^A-Za-z ]+[A-Za-z]*\))/g, "").replace(/ \d+m/g, "").replaceAll(" (OP)", "").split("<br>");
+                let sr_races_list = sr_races.toString().replace(/( \([A-Za-z]*[^A-Za-z ]+[A-Za-z]*\))/g, "").replace(/ \d+m/g, "").replaceAll(" Dirt", "").replaceAll(" (OP)", "").split("<br>");
                 let all_races_list = [jr_races_list, cl_races_list, sr_races_list].filter(list => !(list.length === 1 && list[0] === "")).flat();
                 // testing
                 // console.log(jr_races);
                 // console.log(jr_races_list);
                 // console.log(cl_races);
-                console.log(cl_races_list);
+                // console.log(cl_races_list);
                 // console.log(sr_races);
-                console.log(sr_races_list);
-                console.log(all_races_list);
+                // console.log(sr_races_list);
+                // console.log(all_races_list);
                 // jr_races_list.forEach(item => {
                 //     let result = data.find(row => row.name === item && row.year === "Junior C.");
                 //     console.log(result?.distance);
@@ -1715,11 +1712,10 @@
                 //     console.log(result?.distance);
                 // });
 
-                // epithet checking
-                // tiara route
-
                 let stats_gained = 0;
 
+                // epithet checking
+                // tiara route
                 lady = ["Oka Sho", "Japanese Oaks", "Shuka Sho"].every(element => cl_races_list.includes(element))
                 if (lady) {
                     document.getElementById("lady").innerHTML = "Lady (+20)<div class=\"indent\">Win the Oka Sho, Japanese Oaks, and Shuka Sho.</div>";
@@ -1773,7 +1769,7 @@
                     stats_gained += 30;
                 } else {document.getElementById("sprint_speedster").innerHTML = "";}
 
-                // spring/autumn route
+                // spring & autumn route
                 spring = ["Osaka Hai", "Tenno Sho (Spring)", "Takarazuka Kinen"].every(element => all_races_list.includes(element));
                 fall = ["Tenno Sho (Autumn)", "Japan Cup", "Arima Kinen"].every(element => all_races_list.includes(element));
                 if (spring) {
@@ -1874,16 +1870,19 @@
                 let uma_list = [];
                 let globetrotter = 0;
                 let globetrotter_list = [];
-                // console.log("race list:")
-                // console.log(all_races_list)
+
+                // other data
+                var g1 = 0;
+                var g2 = 0;
+                var g3 = 0;
+
+                // loop through all races and check which secondary epithets they are eligible for
                 all_races_list.forEach(item => {
                     let result = data.find(row => row.name === item);
-                    // console.log("result: " + result)
                     if (result?.grade !== "Pre-OP") {
-                        // console.log("increment")
                         op_better += 1;
                     }
-                    if (Number(result?.distance_m.replace(" m", "")) % 400 === 0) {
+                    if (Number(result?.distance_m.replace("m", "")) % 400 === 0) {
                         std_dst += 1;
                     } else {
                         non_std_dst += 1;
@@ -1917,11 +1916,22 @@
                         uma += 1;
                         uma_list.push(item);
                     }
-                    if (["Saudi Arabia Royal Cup", "New Zealand Trophy", "Brazil Cup", "Japan Cup", "American JCC", "Copa Republica Argentina"].includes(item)) {
+                    if (["Saudi Arabia Royal Cup", "New Zealand Trophy", "Brazil Cup", "Japan Cup", "American JCC", "Copa Republica Argentina", "Japan Dirt Derby"].includes(item)) {
                         globetrotter += 1;
                         globetrotter_list.push(item);
                     }
+                    if (result?.grade == "G1") {
+                        g1 += 1;
+                    }
+                    if (result?.grade == "G2") {
+                        g2 += 1;
+                    }
+                    if (result?.grade == "G3") {
+                        g3 += 1;
+                    }
                 });
+
+                // update secondary epithets
                 document.getElementById("pro_racer").innerHTML = `Pro Racer (+10)<br><div class="indent">Win 10 OP or Higher Races. (${op_better}/10)<div>`;
                 if (op_better >= 10) {stats_gained += 10; document.getElementById("pro_racer").classList.add("bold");} else {document.getElementById("pro_racer").classList.remove("bold");}
 
@@ -1999,9 +2009,12 @@
                     race_list += "</ul></details></div>";
                     document.getElementById("globe-trotter").innerHTML = "Globe-Trotter (+10)<br>" + race_list;}
                 if (globetrotter >= 3) {stats_gained += 10; document.getElementById("globe-trotter").classList.add("bold");} else {document.getElementById("globe-trotter").classList.remove("bold");}
-
-                document.getElementById("dirt_races").innerHTML = `Dirt Races: ${dirt_races}<br>`
-                document.getElementById("dirt_g1").innerHTML = `Dirt G1s: ${dirt_g1}`
+                
+                // update race information
+                document.getElementById("race_info").innerHTML = `Total Races: ${all_races_list.length}<div class="indent"><ul><li>G1: ${g1}</li><li>G2: ${g2}</li><li>G3: ${g3}</li><li>Dirt: ${dirt_races}</li><li>Dirt G1: ${dirt_g1}</li></ul></div>`;
+                document.getElementById("jr_ct").innerText = `Junior Year (${jr_races_list[0] !== "" ? jr_races_list.length : 0})`;
+                document.getElementById("cl_ct").innerText = `Classic Year (${cl_races_list[0] !== "" ? cl_races_list.length : 0})`;
+                document.getElementById("sr_ct").innerText = `Senior Year (${sr_races_list[0] !== "" ? sr_races_list.length : 0})`;
 
                 // update total stats
                 document.getElementById("total_stats").innerHTML = "Total stats gained: +" + stats_gained + "<br>";
@@ -2093,7 +2106,7 @@
                 input.addEventListener("change", function() {
                     const file = input.files[0];
 
-                    if (!file) return;
+                    if (!file) {alert("No file was found"); return;}
 
                     const reader = new FileReader();
                     reader.readAsText(file);
@@ -2101,7 +2114,7 @@
                         try {
                             const parsed = JSON.parse(reader.result);
 
-                            if (!Array.isArray(parsed) || parsed.length === 58) {
+                            if (!Array.isArray(parsed) || parsed.length !== 59) {
                                 alert("Invalid JSON file. Please upload a valid file.");
                                 return;
                             }

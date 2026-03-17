@@ -7,15 +7,22 @@ To-do list
     - color code dirt and turf races
     - color code races based on grade?
     - new fonts
-- add dirt to names of dirt races
-- sort list of races by grade
-- add information about whole agenda (no of g3,2,1, etc)
 
 maybe at some point but probably not needed for purpose of the tool
 - make it look like the in-game agenda creator
 - multiple agendas saved in browser
 
 Changelog:
+
+3/17
+- Changed order of dropdowns to display in grade order (G1, G2, G3, OP, Pre-OP)
+- Added "Dirt" after distance to dirt races
+- Added "Agenda Info" section
+- Now lists number of races per year in "Races" section
+- Changed "Download Agenda" to "Export Agenda"
+- Removed redundant elements in backend
+- Removed unnecessary column in race_list.csv
+- Removed debut and ex races from race_list.csv as they were not needed
 
 3/16:
 - updated readme.md to include link to site

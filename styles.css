@@ -16,18 +16,16 @@ aside {
     padding-top: 1em;
 }
 h3 {
-    margin-top: 0em;
+    margin-bottom: 0em;
 }
 .selector {
-    margin: 0.5em;
+    margin: 0.25em;
     font-size: 12;
 }
 aside p {
+    margin-top: 0.5em;
     margin-bottom: 0.5em;
     font-weight: bold;
-}
-#epithets {
-    white-space-collapse: collapse;
 }
 .racelist {
     padding: 0px;
