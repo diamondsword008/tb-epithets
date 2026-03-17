@@ -1718,17 +1718,17 @@
                 // tiara route
                 lady = ["Oka Sho", "Japanese Oaks", "Shuka Sho"].every(element => cl_races_list.includes(element))
                 if (lady) {
-                    document.getElementById("lady").innerHTML = "Lady (+20)<div class=\"indent\">Win the Oka Sho, Japanese Oaks, and Shuka Sho.</div>";
+                    document.getElementById("lady").innerHTML = "Lady (+10 to 2 random stats)<div class=\"indent\">Win the Oka Sho, Japanese Oaks, and Shuka Sho.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("lady").innerHTML = "";}
 
                 if (lady && cl_races_list.includes("Queen Elizabeth II Cup")) {
-                    document.getElementById("heroine").innerHTML = "Heroine (+20)<div class=\"indent\">Obtain Lady and win the Queen Elizabeth II Cup (Classic).</div>";
+                    document.getElementById("heroine").innerHTML = "Heroine (+10 to 2 random stats)<div class=\"indent\">Obtain Lady and win the Queen Elizabeth II Cup (Classic).</div>";
                     stats_gained += 20;
                 } else {document.getElementById("heroine").innerHTML = "";}
 
                 if (lady && ["Victoria Mile", "Hanshin Juvenile Fillies"].every(element => all_races_list.includes(element)) && cl_races_list.includes("Queen Elizabeth II Cup") && sr_races_list.includes("Queen Elizabeth II Cup")) {
-                    document.getElementById("goddess").innerHTML = "Goddess (+30)<div class=\"indent\">Obtain Lady and win the Victoria Mile, Hanshin Juvenile Fillies, and both Queen Elizabeth II Cups.</div>";
+                    document.getElementById("goddess").innerHTML = "Goddess (+15 to 2 random stats)<div class=\"indent\">Obtain Lady and win the Victoria Mile, Hanshin Juvenile Fillies, and both Queen Elizabeth II Cups.</div>";
                     stats_gained += 30;
                 } else {document.getElementById("goddess").innerHTML = "";}
 
@@ -1739,33 +1739,33 @@
                 // classic route
                 stunning = ["Satsuki Sho", "Tokyo Yushun (Japanese Derby)", "Kikuka Sho"].every(element => cl_races_list.includes(element))
                 if (stunning) {
-                    document.getElementById("stunning").innerHTML = "Stunning (+20)<div class=\"indent\">Win the Satsuki Sho, Tokyo Yushun (Japanese Derby), and Kikuka Sho.</div>";
+                    document.getElementById("stunning").innerHTML = "Stunning (+10 to 2 random stats)<div class=\"indent\">Win the Satsuki Sho, Tokyo Yushun (Japanese Derby), and Kikuka Sho.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("stunning").innerHTML = "";}
 
                 if (stunning && (all_races_list.includes("Japan Cup") || cl_races_list.includes("Arima Kinen"))) {
-                    document.getElementById("incredible").innerHTML = "Incredible (+30)<div class=\"indent\">Obtain Stunning and win either the Japan Cup or Arima Kinen (Classic).</div>";
+                    document.getElementById("incredible").innerHTML = "Incredible (+15 to 2 random stats)<div class=\"indent\">Obtain Stunning and win either the Japan Cup or Arima Kinen (Classic).</div>";
                     stats_gained += 30;
                 } else {document.getElementById("incredible").innerHTML = "";}
 
                 if (stunning && ["Tenno Sho (Spring)", "Takarazuka Kinen", "Japan Cup", "Tenno Sho (Autumn)", "Osaka Hai", "Arima Kinen"].filter(element => all_races_list.includes(element)).length >= 2) {
-                    document.getElementById("phenomenal").innerHTML = "Phenomenal (+30)<div class=\"indent\">Obtain Stunning and win 2 of the following: Tenno Sho (Spring), Takarazuka Kinen, Japan Cup, Tenno Sho (Autumn), Osaka Hai, or Arima Kinen.</div>";
+                    document.getElementById("phenomenal").innerHTML = "Phenomenal (+15 to 2 random stats)<div class=\"indent\">Obtain Stunning and win 2 of the following: Tenno Sho (Spring), Takarazuka Kinen, Japan Cup, Tenno Sho (Autumn), Osaka Hai, or Arima Kinen.</div>";
                     stats_gained += 30;
                 } else {document.getElementById("phenomenal").innerHTML = "";}
 
                 // sprint/mile route
                 if (["NHK Mile Cup", "Yasuda Kinen", "Mile Championship"].every(element => all_races_list.includes(element))) {
-                    document.getElementById("breakneck_miler").innerHTML = "Breakneck Miler (+30)<div class=\"indent\">Win the NHK Mile Cup, Yasuda Kinen, and Mile Championship.</div>";
+                    document.getElementById("breakneck_miler").innerHTML = "Breakneck Miler (+15 to 2 random stats)<div class=\"indent\">Win the NHK Mile Cup, Yasuda Kinen, and Mile Championship.</div>";
                     stats_gained += 30;
                 } else {document.getElementById("breakneck_miler").innerHTML = "";}
 
                 if (["Takamatsunomiya Kinen", "Sprinters Stakes"].every(item => all_races_list.includes(item))) {
-                    document.getElementById("sprint_go-getter").innerHTML = "Sprint Go-Getter (+30)<div class=\"indent\">Win the Takamatsunomiya Kinen and Sprinters Stakes.</div>";
+                    document.getElementById("sprint_go-getter").innerHTML = "Sprint Go-Getter (+15 to 2 random stats)<div class=\"indent\">Win the Takamatsunomiya Kinen and Sprinters Stakes.</div>";
                     stats_gained += 30;
                 } else {document.getElementById("sprint_go-getter").innerHTML = "";}
 
                 if (["Takamatsunomiya Kinen", "Sprinters Stakes", "Yasuda Kinen", "Mile Championship"].every(item => all_races_list.includes(item))) {
-                    document.getElementById("sprint_speedster").innerHTML = "Sprint Speedster (+30)<div class=\"indent\">Win the Takamatsunomiya Kinen, Sprinters Stakes, Yasuda Kinen, and Mile Championship.</div>";
+                    document.getElementById("sprint_speedster").innerHTML = "Sprint Speedster (+15 to 2 random stats)<div class=\"indent\">Win the Takamatsunomiya Kinen, Sprinters Stakes, Yasuda Kinen, and Mile Championship.</div>";
                     stats_gained += 30;
                 } else {document.getElementById("sprint_speedster").innerHTML = "";}
 
@@ -1773,17 +1773,17 @@
                 spring = ["Osaka Hai", "Tenno Sho (Spring)", "Takarazuka Kinen"].every(element => all_races_list.includes(element));
                 fall = ["Tenno Sho (Autumn)", "Japan Cup", "Arima Kinen"].every(element => all_races_list.includes(element));
                 if (spring) {
-                    document.getElementById("spring_champion").innerHTML = "Spring Champion (+20)<div class=\"indent\">Win the Osaka Hai, Tenno Sho (Spring), and Takarazuka Kinen.</div>";
+                    document.getElementById("spring_champion").innerHTML = "Spring Champion (+10 to 2 random stats)<div class=\"indent\">Win the Osaka Hai, Tenno Sho (Spring), and Takarazuka Kinen.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("spring_champion").innerHTML = "";}
 
                 if (fall) {
-                    document.getElementById("fall_champion").innerHTML = "Fall Champion (+20)<div class=\"indent\">Win the Tenno Sho (Autumn), Japan Cup, and Arima Kinen.</div>";
+                    document.getElementById("fall_champion").innerHTML = "Fall Champion (+10 to 2 random stats)<div class=\"indent\">Win the Tenno Sho (Autumn), Japan Cup, and Arima Kinen.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("fall_champion").innerHTML = "";}
 
                 if (["Tenno Sho (Spring)", "Tenno Sho (Autumn)"].every(item => all_races_list.includes(item))) {
-                    document.getElementById("shield_bearer").innerHTML = "Shield Bearer (+20)<div class=\"indent\">Win the Tenno Sho (Spring) and Tenno Sho (Fall).</div>";
+                    document.getElementById("shield_bearer").innerHTML = "Shield Bearer (+10 to 2 random stats)<div class=\"indent\">Win the Tenno Sho (Spring) and Tenno Sho (Fall).</div>";
                     stats_gained += 20;
                 } else {document.getElementById("shield_bearer").innerHTML = "";}
 
@@ -1804,32 +1804,32 @@
                     }
                 });
                 if (dirt_races >= 5) {
-                    document.getElementById("dirty_work").innerHTML = "Dirty Work (+10)<div class=\"indent\">Win 5 Dirt Races.</div>";
+                    document.getElementById("dirty_work").innerHTML = "Dirty Work (+5 to 2 random stats)<div class=\"indent\">Win 5 Dirt Races.</div>";
                     stats_gained += 10;
                 } else {document.getElementById("dirty_work").innerHTML = "";}
 
                 if (dirt_races >= 10) {
-                    document.getElementById("playing_dirty").innerHTML = "Playing Dirty (+20)<div class=\"indent\">Win 10 Dirt Races.</div>";
+                    document.getElementById("playing_dirty").innerHTML = "Playing Dirty (+10 to 2 random stats)<div class=\"indent\">Win 10 Dirt Races.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("playing_dirty").innerHTML = "";}
 
                 if (dirt_races >= 15) {
-                    document.getElementById("eat_my_dust").innerHTML = "Eat My Dust (+20)<div class=\"indent\">Win 15 Dirt Races.</div>";
+                    document.getElementById("eat_my_dust").innerHTML = "Eat My Dust (+10 to 2 random stats)<div class=\"indent\">Win 15 Dirt Races.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("eat_my_dust").innerHTML = "";}
 
                 if (dirt_g1 >= 3) {
-                    document.getElementById("dirt_g1_achiever").innerHTML = "Dirt G1 Achiever (+20)<div class=\"indent\">Win 3 Dirt G1 Races.</div>";
+                    document.getElementById("dirt_g1_achiever").innerHTML = "Dirt G1 Achiever (+10 to 2 random stats)<div class=\"indent\">Win 3 Dirt G1 Races.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("dirt_g1_achiever").innerHTML = "";}
 
                 if (dirt_g1 >= 4) {
-                    document.getElementById("dirt_g1_star").innerHTML = "Dirt G1 Star (+20)<div class=\"indent\">Win 4 Dirt G1 Races.</div>";
+                    document.getElementById("dirt_g1_star").innerHTML = "Dirt G1 Star (+10 to 2 random stats)<div class=\"indent\">Win 4 Dirt G1 Races.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("dirt_g1_star").innerHTML = "";}
 
                 if (dirt_g1 >= 5) {
-                    document.getElementById("dirt_g1_powerhouse").innerHTML = "Dirt G1 Powerhouse (+20)<div class=\"indent\">Win 5 Dirt G1 Races.</div>";
+                    document.getElementById("dirt_g1_powerhouse").innerHTML = "Dirt G1 Powerhouse (+10 to 2 random stats)<div class=\"indent\">Win 5 Dirt G1 Races.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("dirt_g1_powerhouse").innerHTML = "";}
 
@@ -1838,12 +1838,12 @@
                 } else {document.getElementById("dirt_g1_dominator").innerHTML = "";}
 
                 if (cl_races_list.includes("JBC Sprint") && sr_races_list.includes("JBC Sprint")) {
-                    document.getElementById("dirt_sprinter").innerHTML = "Dirt Sprinter (+20)<div class=\"indent\">Win both JBC Sprints.</div>";
+                    document.getElementById("dirt_sprinter").innerHTML = "Dirt Sprinter (+10 to 2 random stats)<div class=\"indent\">Win both JBC Sprints.</div>";
                     stats_gained += 20;
                 } else {document.getElementById("dirt_sprinter").innerHTML = "";}
 
                 if (["Unicorn Stakes", "Leopard Stakes", "Japan Dirt Derby"].every(item => all_races_list.includes(item))) {
-                    document.getElementById("kicking_up_dust").innerHTML = "Kicking Up Dust (+10)<div class=\"indent\">Win the Unicorn Stakes, Leopard Stakes, and Japan Dirt Derby.</div>";
+                    document.getElementById("kicking_up_dust").innerHTML = "Kicking Up Dust (+5 to 2 random stats)<div class=\"indent\">Win the Unicorn Stakes, Leopard Stakes, and Japan Dirt Derby.</div>";
                     stats_gained += 10;
                 } else {document.getElementById("kicking_up_dust").innerHTML = "";}
 
@@ -1932,10 +1932,10 @@
                 });
 
                 // update secondary epithets
-                document.getElementById("pro_racer").innerHTML = `Pro Racer (+10)<br><div class="indent">Win 10 OP or Higher Races. (${op_better}/10)<div>`;
+                document.getElementById("pro_racer").innerHTML = `Pro Racer (+5 to 2 random stats)<br><div class="indent">Win 10 OP or Higher Races. (${op_better}/10)<div>`;
                 if (op_better >= 10) {stats_gained += 10; document.getElementById("pro_racer").classList.add("bold");} else {document.getElementById("pro_racer").classList.remove("bold");}
 
-                document.getElementById("std_dst").innerHTML = `Standard Distance Leader (+20)<br><div class="indent">Win 10 Standard Distance Races. (${std_dst}/10)</div>`;
+                document.getElementById("std_dst").innerHTML = `Standard Distance Leader (+10 to 2 random stats)<br><div class="indent">Win 10 Standard Distance Races. (${std_dst}/10)</div>`;
                 if (std_dst >= 10) {stats_gained += 20; document.getElementById("std_dst").classList.add("bold");} else {document.getElementById("std_dst").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 10 Non-standard Distance Races. (${non_std_dst}/10)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1943,7 +1943,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("non_std_dst").innerHTML = "Non-Standard Distance Leader (+20)<br>" + race_list;}
+                    document.getElementById("non_std_dst").innerHTML = "Non-Standard Distance Leader (+10 to 2 random stats)<br>" + race_list;}
                 if (non_std_dst >= 10) {stats_gained += 20; document.getElementById("non_std_dst").classList.add("bold");} else {document.getElementById("non_std_dst").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 3 Races at Tokyo, Nakayama, or Ooi. (${kanto}/3)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1951,7 +1951,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("kanto").innerHTML = "Kanto Conquerer (+10)" + race_list;}
+                    document.getElementById("kanto").innerHTML = "Kanto Conquerer (+5 to 2 random stats)" + race_list;}
                 if (kanto >= 3) {stats_gained += 10; document.getElementById("kanto").classList.add("bold");} else {document.getElementById("kanto").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 3 Races at Chukyo, Hanshin, or Kyoto. (${kansai}/3)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1959,7 +1959,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("kansai").innerHTML = "West Japan Whiz (+10)<br>" + race_list;}
+                    document.getElementById("kansai").innerHTML = "West Japan Whiz (+5 to 2 random stats)<br>" + race_list;}
                 if (kansai >= 3) {stats_gained += 10; document.getElementById("kansai").classList.add("bold");} else {document.getElementById("kansai").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 3 Races at Sapporo or Hakodate. (${hokkaido}/3)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1967,7 +1967,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("hokkaido").innerHTML = "Hokkaido Hotshot (+10)<br>" + race_list;}
+                    document.getElementById("hokkaido").innerHTML = "Hokkaido Hotshot (+5 to 2 random stats)<br>" + race_list;}
                 if (hokkaido >= 3) {stats_gained += 10; document.getElementById("hokkaido").classList.add("bold");} else {document.getElementById("hokkaido").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 3 Races at Fukushima or Niigata. (${tohoku}/3)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1975,7 +1975,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("tohoku").innerHTML = "Tohoku Top Dog (+10)<br>" + race_list;}
+                    document.getElementById("tohoku").innerHTML = "Tohoku Top Dog (+5 to 2 random stats)<br>" + race_list;}
                 if (tohoku >= 3) {stats_gained += 10; document.getElementById("tohoku").classList.add("bold");} else {document.getElementById("tohoku").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 2 Races at Kokura. (${kokura}/2)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1983,7 +1983,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("kokura").innerHTML = "Kokura Constable (+10)<br>" + race_list;}
+                    document.getElementById("kokura").innerHTML = "Kokura Constable (+5 to 2 random stats)<br>" + race_list;}
                 if (kokura >= 2) {stats_gained += 10; document.getElementById("kokura").classList.add("bold");} else {document.getElementById("kokura").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 3 Races with "Junior Stakes" in the name. (${junior}/3)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1991,7 +1991,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("junior_jewel").innerHTML = "Junior Jewel (+10)<br>" + race_list;}
+                    document.getElementById("junior_jewel").innerHTML = "Junior Jewel (+5 to 2 random stats)<br>" + race_list;}
                 if (junior >= 3) {stats_gained += 10; document.getElementById("junior_jewel").classList.add("bold");} else {document.getElementById("junior_jewel").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 3 Races with "Umamusume Stakes" in the name. (${uma}/3)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -1999,7 +1999,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("umatastic").innerHTML = "Umatastic (+10)<br>" + race_list;}
+                    document.getElementById("umatastic").innerHTML = "Umatastic (+5 to 2 random stats)<br>" + race_list;}
                 if (uma >= 3) {stats_gained += 10; document.getElementById("umatastic").classList.add("bold");} else {document.getElementById("umatastic").classList.remove("bold");}
 
                 {let race_list = `<div class="indent">Win 3 Races that have a country in the name. (${globetrotter}/3)<br><details><summary>Contributing Races:</summary><ul>`;
@@ -2007,7 +2007,7 @@
                         race_list += `<li>${item}</li>`
                     });
                     race_list += "</ul></details></div>";
-                    document.getElementById("globe-trotter").innerHTML = "Globe-Trotter (+10)<br>" + race_list;}
+                    document.getElementById("globe-trotter").innerHTML = "Globe-Trotter (+5 to 2 random stats)<br>" + race_list;}
                 if (globetrotter >= 3) {stats_gained += 10; document.getElementById("globe-trotter").classList.add("bold");} else {document.getElementById("globe-trotter").classList.remove("bold");}
                 
                 // update race information

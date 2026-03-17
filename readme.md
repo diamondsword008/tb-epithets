@@ -20,6 +20,7 @@ Changelog:
 - Added "Agenda Info" section
 - Now lists number of races per year in "Races" section
 - Changed "Download Agenda" to "Export Agenda"
+- Updated epithet decriptions from "+x" to "+y to 2 random stats"
 - Removed redundant elements in backend
 - Removed unnecessary column in race_list.csv
 - Removed debut and ex races from race_list.csv as they were not needed
