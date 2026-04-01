@@ -14,6 +14,9 @@ maybe at some point but probably not needed for purpose of the tool
 
 Changelog:
 
+4/1
+- Added the "Turf Tussler" epithet
+
 3/17
 - Changed order of dropdowns to display in grade order (G1, G2, G3, OP, Pre-OP)
 - Added "Dirt" after distance to dirt races
