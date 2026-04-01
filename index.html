@@ -53,6 +53,7 @@
             <span id="junior_jewel"></span>
             <span id="umatastic"></span>
             <span id="globe-trotter"></span>
+            <span id="turf_tussler"></span>
             <h3>Agenda Info</h3>
             <span id="race_info"></span>
             <h3>Races</h3>
@@ -1870,6 +1871,10 @@
                 let uma_list = [];
                 let globetrotter = 0;
                 let globetrotter_list = [];
+                let sprint = 0;
+                let mile = 0;
+                let medium = 0;
+                let long = 0;
 
                 // other data
                 var g1 = 0;
@@ -1928,6 +1933,18 @@
                     }
                     if (result?.grade == "G3") {
                         g3 += 1;
+                    }
+                    if (result?.distance == "Sprint") {
+                        sprint += 1;
+                    }
+                    if (result?.distance == "Mile") {
+                        mile += 1;
+                    }
+                    if (result?.distance == "Medium") {
+                        medium += 1;
+                    }
+                    if (result?.distance == "Long") {
+                        long += 1;
                     }
                 });
 
@@ -2009,6 +2026,9 @@
                     race_list += "</ul></details></div>";
                     document.getElementById("globe-trotter").innerHTML = "Globe-Trotter (+5 to 2 random stats)<br>" + race_list;}
                 if (globetrotter >= 3) {stats_gained += 10; document.getElementById("globe-trotter").classList.add("bold");} else {document.getElementById("globe-trotter").classList.remove("bold");}
+
+                document.getElementById("turf_tussler").innerHTML = `Turf Tussler (+5 to 2 random stats)<br><div class="indent">Win a Sprint, Mile, Medium, and Long race.<details><summary>Counts:</summary><ul><li>Sprint: ${sprint}</li><li>Mile: ${mile}</li><li>Medium: ${medium}</li><li>Long: ${long}</li></ul></details></div>`;
+                if (sprint >= 1 && mile >= 1 && medium >= 1 && long >= 1) {stats_gained += 10; document.getElementById("turf_tussler").classList.add("bold");} else {document.getElementById("turf_tussler").classList.remove("bold");}
                 
                 // update race information
                 document.getElementById("race_info").innerHTML = `Total Races: ${all_races_list.length}<div class="indent"><ul><li>G1: ${g1}</li><li>G2: ${g2}</li><li>G3: ${g3}</li><li>Dirt: ${dirt_races}</li><li>Dirt G1: ${dirt_g1}</li></ul></div>`;
@@ -2038,17 +2058,7 @@
                 targetDiv.innerHTML = selectedTexts.join("<br>");
             }
 
-            // Attach event listeners to all select elements
-            const allSelects = document.querySelectorAll(".selector select");
-            allSelects.forEach(select => {
-                select.addEventListener("change", () => {
-                    updateRaces("junior");
-                    updateRaces("classic");
-                    updateRaces("senior");
-                    checkEpithets();
-                    saveSelections();
-                });
-            });
+
 
             // Function to save all selections to localStorage
             function saveSelections() {
@@ -2132,10 +2142,21 @@
                 input.click();
             }
 
-            let data;
+            // Attach event listeners to all select elements
+            const allSelects = document.querySelectorAll(".selector select");
+            allSelects.forEach(select => {
+                select.addEventListener("change", () => {
+                    updateRaces("junior");
+                    updateRaces("classic");
+                    updateRaces("senior");
+                    checkEpithets();
+                    saveSelections();
+                });
+            });
 
             loadSelections()
 
+            let data;
             fetch("race_list.csv")
                 .then(res => {
                     if (!res.ok) throw new Error("Could not load race_list.csv");
